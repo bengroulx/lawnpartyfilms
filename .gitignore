@@ -1,17 +1,21 @@
 # System files
 # ------------
-
 Icon
 .DS_Store
 
+
 # Temporary files
 # ---------------
-
+/site/cache/*
 /thumbs/*
 !/thumbs/index.html
-
-/site/cache/*
 !/site/cache/index.html
+
+
+# Ignore CSS & Map File
+# ---------------
+*.map
+
 
 # -------------SECURITY-------------
 # NEVER publish these files via Git!
@@ -19,12 +23,10 @@ Icon
 
 # Kirby accounts
 # ---------------
-
 /site/accounts/*
 !/site/accounts/index.html
 
 # Avatars
 # ---------------
-
 /assets/avatars/*
 !/assets/avatars/index.html
