@@ -15,7 +15,7 @@ Icon
 # Ignore CSS & Map File
 # ---------------
 *.map
-
+/.sass-cache
 
 # -------------SECURITY-------------
 # NEVER publish these files via Git!
