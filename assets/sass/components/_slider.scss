@@ -1,3 +1,5 @@
+@import '../base/variables';
+
 .cd-slider__panel {
     position: absolute;
 
@@ -36,7 +38,7 @@
 .cd-slider__navigation {
     li {
         &:first-of-type {
-            left: 10px;
+            left: map-get($size-map, sm);
 
             a {
                 transform: rotate(180deg);
@@ -44,7 +46,7 @@
         }
 
         &:last-of-type {
-            right: 10px;
+            right: map-get($size-map, sm);
         }
 
         a {
@@ -79,6 +81,10 @@
             content: "";
 
             position: absolute;
+            top: -(map-get($size-map, md));
+            right: -(map-get($size-map, md));
+            bottom: -(map-get($size-map, md));
+            left: -(map-get($size-map, md));
 
             display: block;
         }

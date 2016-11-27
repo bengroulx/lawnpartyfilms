@@ -3,8 +3,9 @@
 @import 'base/general';
 @import 'base/typography';
 
-// TEMPLATES
-@import 'templates/nav';
+// COMPONENTS
+@import 'components/nav';
+@import 'components/contain';
 
 // UTILITIES
 @import 'utilities/appearances';
