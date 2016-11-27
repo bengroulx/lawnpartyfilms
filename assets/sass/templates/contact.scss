@@ -1,0 +1,11 @@
+@import '../base/variables';
+@import '../components/form';
+@import '../components/grid';
+
+.t-contact__form-container {
+    min-width: 20em;
+    
+    @include break(grande) {
+        min-width: 25em;
+    }
+}

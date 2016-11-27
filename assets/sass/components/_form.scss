@@ -1,0 +1,10 @@
+.c-form {
+
+}
+
+.c-form__row {
+
+    & + & {
+        padding-top: map-get($size-map, sm);
+    }
+}

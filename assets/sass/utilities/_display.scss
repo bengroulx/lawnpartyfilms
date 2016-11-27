@@ -1,0 +1,30 @@
+// Display
+// ============================================================================
+
+.u-block {
+    display: block;
+}
+
+.u-inline-block {
+    display: inline-block;
+}
+
+.u-clip {
+    overflow: hidden;
+}
+
+
+// Fluid Sizes
+// ---
+
+@each $dimensions-name, $dimensions-value in $dimensions-map {
+    .u-width-#{$dimensions-name} {
+        width: $dimensions-value;
+    }
+}
+
+@each $dimensions-name, $dimensions-value in $dimensions-map {
+    .u-height-#{$dimensions-name} {
+        height: $dimensions-value;
+    }
+}

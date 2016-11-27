@@ -1,0 +1,11 @@
+.c-footer__list {
+    margin-bottom: map-get($size-map, sm);
+
+    @include break(grande) {
+        float: left;
+
+        padding-right: map-get($size-map, md);
+
+        line-height: $line-height--base*1.5;
+    }
+}

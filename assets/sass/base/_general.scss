@@ -1,0 +1,188 @@
+// Global Generic / Reset Styles
+// ===
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+    overflow-y: scroll;
+
+    background: $white;
+
+    color: $black;
+    font-family: $font-family--base;
+    font-weight: $font-weight--base;
+    font-size: $font-size--base;
+    line-height: $line-height--base;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video,
+button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+    vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+main {
+    display: block;
+}
+
+img,
+svg,
+image {
+    max-width: 100%;
+}
+
+svg {
+    fill: currentColor;
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+hr {
+    clear: both;
+
+    height: 2px;
+    margin: 2em 0;
+    border: 0;
+
+    background: linear-gradient(45deg, rgba($white, 0), rgba($black, 0.25), rgba($white, 0));
+}
+
+iframe,
+input,
+select,
+button,
+textarea {
+    width: 100%;
+}
+
+input,
+select,
+button,
+textarea {
+    min-height: $tap-size;
+    padding: $configure--base-unit;
+    border: 0;
+
+    font-family: $font-family--base;
+    font-size: $font-size--base;
+}
+
+button,
+[type='button'] {
+    border-radius: 0;
+    background: $black;
+
+    color: $white;
+
+    cursor: pointer;
+
+    appearance: none;
+}
+
+[hidden] {
+    display: none !important;
+}

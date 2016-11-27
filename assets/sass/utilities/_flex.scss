@@ -1,0 +1,44 @@
+// Utilities: Flex
+// ============================================================================
+
+.u-flexbox {
+    display: flex;
+    flex-direction: row;
+}
+
+.u-flex-wrap {
+    flex-wrap: wrap;
+}
+
+
+// Flex Layout
+// ---
+
+.u-align-middle {
+    align-items: center;
+}
+
+.u-justify-middle {
+    justify-content: center;
+}
+
+// Flexbox Children
+// ---
+
+.u-flex,
+.u-flex-expand,
+.u-flex-shrink {
+    display: block;
+}
+
+.u-flex {
+    flex: 1 1 auto;
+}
+
+.u-flex-expand {
+    flex: 1;
+}
+
+.u-flex-shrink {
+    flex: 0 1 auto;
+}

@@ -1,0 +1,30 @@
+// Utilities: Background
+// ============================================================================
+
+.u-bg-white {
+    background-color: $white;
+}
+
+.u-bg-grey {
+    background-color: $grey;
+}
+
+.u-bg-black {
+    background-color: $black;
+}
+
+.u-bg-gradient {
+    background: linear-gradient(to bottom, #e3e3e3, #e1dfe5);
+}
+
+
+// Background Attributes
+// ---
+
+.u-bg-cover {
+    background-size: cover;
+}
+
+.u-bg-center {
+    background-position: center center;
+}
