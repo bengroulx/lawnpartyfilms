@@ -37,7 +37,7 @@
 </section>
 
 <div hidden id="template-<?php echo $page->template() ?>">
-    <style><?php readfile('assets/css/contact.css'); ?></style>
+    <style><?php readfile('assets/css/templates/contact.css'); ?></style>
 </div>
 
 <?php snippet('footer') ?>

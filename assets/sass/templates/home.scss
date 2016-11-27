@@ -9,14 +9,6 @@
             color: $white;
         }
     }
-
-    @include break(grande) {
-        .c-nav {
-            img {
-                height: 10em;
-            }
-        }
-    }
 }
 
 .t-home__slider {

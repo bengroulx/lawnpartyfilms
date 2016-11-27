@@ -79,10 +79,6 @@
             content: "";
 
             position: absolute;
-            top: -map-get($size-map, md);
-            right: -map-get($size-map, md);
-            bottom: -map-get($size-map, md);
-            left: -map-get($size-map, md);
 
             display: block;
         }

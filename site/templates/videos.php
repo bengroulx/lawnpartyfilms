@@ -18,7 +18,7 @@
 </section>
 
 <div hidden id="template-<?php echo $page->template() ?>">
-    <style><?php readfile('assets/css/videos.css'); ?></style>
+    <style><?php readfile('assets/css/templates/videos.css'); ?></style>
     <script src="<?php echo url('assets/js/magnific.js') ?>"></script>
 </div>
 
