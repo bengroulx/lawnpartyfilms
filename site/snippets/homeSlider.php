@@ -13,7 +13,7 @@
                                 <path id="cd-changing-path-1" d="M1400,800H0c0,0,1-213,1-423S1,0,1,0h1398c0.6,0,1,0.4,1,1V800z"/>
                             </clipPath>
                         </defs>
-                        <image height="800px" width="1400px" clip-path="url(#cd-image-1)" xlink:href="assets/images/rolling-stone.jpg"></image>
+                        <image height="630px" width="1500px" clip-path="url(#cd-image-1)" xlink:href="assets/images/lpf-rolling-stone.jpg"></image>
                         <h2 class="cd-slider__title u-position u-top-halfway u-left-0 u-right-0 u-align-halfway-top u-white u-align-center u-uppercase u-width-full u-tracked-slightly u-regular u-thick-text-shadow">Rolling Stone</h2>
                     </svg>
                 </a>
@@ -28,10 +28,25 @@
                                 <path id="cd-changing-path-2" d="M1400,800H0c0,0,1-213,1-423S1,0,1,0h1398c0.6,0,1,0.4,1,1V800z"/>
                             </clipPath>
                         </defs>
-                        <image height="800px" width="1400px" clip-path="url(#cd-image-2)" xlink:href="assets/images/play.jpg"></image>
+                        <image height="630px" width="1500px" clip-path="url(#cd-image-2)" xlink:href="assets/images/lpf-play.jpg"></image>
                         <h2 class="cd-slider__title u-position u-top-halfway u-left-0 u-right-0 u-align-halfway-top u-white u-align-center u-uppercase u-width-full u-tracked-slightly u-regular u-thick-text-shadow">Coming Soon: Play</h2>
                     </svg>
                 </div>
+            </li>
+
+            <li class="cd-slider__panel u-top-0 u-left-0 u-width-full u-clip visible">
+                <a href="https://www.facebook.com/LawnPartyFilms/videos/" class="cd-slider__wrap u-height-0 u-block" target="_blank">
+                    <svg viewBox="0 0 1400 800" class="u-position u-top-0 u-left-0 u-width-full u-height-full">
+                        <title>Cuba</title>
+                        <defs>
+                            <clipPath id="cd-image-1">
+                                <path id="cd-changing-path-1" d="M1400,800H0c0,0,1-213,1-423S1,0,1,0h1398c0.6,0,1,0.4,1,1V800z"/>
+                            </clipPath>
+                        </defs>
+                        <image height="630px" width="1500px" clip-path="url(#cd-image-1)" xlink:href="assets/images/lpf-cuba.jpg"></image>
+                        <h2 class="cd-slider__title u-position u-top-halfway u-left-0 u-right-0 u-align-halfway-top u-white u-align-center u-uppercase u-width-full u-tracked-slightly u-regular u-thick-text-shadow">Cuba</h2>
+                    </svg>
+                </a>
             </li>
 
             <li class="cd-slider__panel u-top-0 u-left-0 u-width-full u-clip">
@@ -43,7 +58,7 @@
                                 <path id="cd-changing-path-3" d="M1400,800H0c0,0,1-213,1-423S1,0,1,0h1398c0.6,0,1,0.4,1,1V800z"/>
                             </clipPath>
                         </defs>
-                        <image height="800px" width="1400px" clip-path="url(#cd-image-3)" xlink:href="assets/images/you-sir.jpg"></image>
+                        <image height="630px" width="1500px" clip-path="url(#cd-image-3)" xlink:href="assets/images/lpf-you-sir.jpg"></image>
                         <h2 class="cd-slider__title u-position u-top-halfway u-left-0 u-right-0 u-align-halfway-top u-white u-align-center u-uppercase u-width-full u-tracked-slightly u-regular u-thick-text-shadow">You Sir</h2>
                     </svg>
                 </a>
@@ -58,7 +73,7 @@
                                 <path id="cd-changing-path-4" d="M1400,800H0c0,0,1-213,1-423S1,0,1,0h1398c0.6,0,1,0.4,1,1V800z"/>
                             </clipPath>
                         </defs>
-                        <image height="800px" width="1400px" clip-path="url(#cd-image-4)" xlink:href="assets/images/golden-goose.jpg"></image>
+                        <image height="630px" width="1500px" clip-path="url(#cd-image-4)" xlink:href="assets/images/lpf-golden-goose.jpg"></image>
                         <h2 class="cd-slider__title u-position u-top-halfway u-left-0 u-right-0 u-align-halfway-top u-white u-align-center u-uppercase u-width-full u-tracked-slightly u-regular u-thick-text-shadow">Golden Goose</h2>
                     </svg>
                 </a>
@@ -73,7 +88,7 @@
                                 <path id="cd-changing-path-5" d="M1400,800H0c0,0,1-213,1-423S1,0,1,0h1398c0.6,0,1,0.4,1,1V800z"/>
                             </clipPath>
                         </defs>
-                        <image height="800px" width="1400px" clip-path="url(#cd-image-5)" xlink:href="assets/images/caravan.jpg"></image>
+                        <image height="630px" width="1500px" clip-path="url(#cd-image-5)" xlink:href="assets/images/lpf-caravan.jpg"></image>
                         <h2 class="cd-slider__title u-position u-top-halfway u-left-0 u-right-0 u-align-halfway-top u-white u-align-center u-uppercase u-width-full u-tracked-slightly u-regular u-thick-text-shadow">Caravan</h2>
                     </svg>
                 </a>
@@ -88,7 +103,7 @@
                                 <path id="cd-changing-path-6" d="M1400,800H0c0,0,1-213,1-423S1,0,1,0h1398c0.6,0,1,0.4,1,1V800z"/>
                             </clipPath>
                         </defs>
-                        <image height="800px" width="1400px" clip-path="url(#cd-image-6)" xlink:href="assets/images/meltdown.jpg"></image>
+                        <image height="630px" width="1500px" clip-path="url(#cd-image-6)" xlink:href="assets/images/lpf-meltdown.jpg"></image>
                         <h2 class="cd-slider__title u-position u-top-halfway u-left-0 u-right-0 u-align-halfway-top u-white u-align-center u-uppercase u-width-full u-tracked-slightly u-regular u-thick-text-shadow">The Meltdown</h2>
                     </svg>
                 </a>
