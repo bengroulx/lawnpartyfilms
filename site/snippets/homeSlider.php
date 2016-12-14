@@ -6,7 +6,7 @@
 
             <li class="cd-slider__panel u-top-0 u-left-0 u-width-full u-clip visible">
                 <a href="https://vimeo.com/183422266" class="cd-slider__wrap u-height-0 u-block" target="_blank">
-                    <svg viewBox="0 0 1400 800" class="u-position u-top-0 u-left-0 u-width-full u-height-full">
+                    <svg viewBox="0 0 1500 630" class="u-position u-top-0 u-left-0 u-width-full u-height-full">
                         <title>Rolling Stone</title>
                         <defs>
                             <clipPath id="cd-image-1">
@@ -21,7 +21,7 @@
 
             <li class="cd-slider__panel u-top-0 u-left-0 u-width-full u-clip">
                 <div class="cd-slider__wrap u-height-0 u-block">
-                    <svg viewBox="0 0 1400 800" class="u-position u-top-0 u-left-0 u-width-full u-height-full">
+                    <svg viewBox="0 0 1500 630" class="u-position u-top-0 u-left-0 u-width-full u-height-full">
                         <title>Play</title>
                         <defs>
                             <clipPath id="cd-image-2">
@@ -36,14 +36,14 @@
 
             <li class="cd-slider__panel u-top-0 u-left-0 u-width-full u-clip visible">
                 <a href="https://www.facebook.com/LawnPartyFilms/videos/" class="cd-slider__wrap u-height-0 u-block" target="_blank">
-                    <svg viewBox="0 0 1400 800" class="u-position u-top-0 u-left-0 u-width-full u-height-full">
+                    <svg viewBox="0 0 1500 630" class="u-position u-top-0 u-left-0 u-width-full u-height-full">
                         <title>Cuba</title>
                         <defs>
-                            <clipPath id="cd-image-1">
-                                <path id="cd-changing-path-1" d="M1400,800H0c0,0,1-213,1-423S1,0,1,0h1398c0.6,0,1,0.4,1,1V800z"/>
+                            <clipPath id="cd-image-3">
+                                <path id="cd-changing-path-3" d="M1400,800H0c0,0,1-213,1-423S1,0,1,0h1398c0.6,0,1,0.4,1,1V800z"/>
                             </clipPath>
                         </defs>
-                        <image height="630px" width="1500px" clip-path="url(#cd-image-1)" xlink:href="assets/images/lpf-cuba.jpg"></image>
+                        <image height="630px" width="1500px" clip-path="url(#cd-image-3)" xlink:href="assets/images/lpf-cuba.jpg"></image>
                         <h2 class="cd-slider__title u-position u-top-halfway u-left-0 u-right-0 u-align-halfway-top u-white u-align-center u-uppercase u-width-full u-tracked-slightly u-regular u-thick-text-shadow">Cuba</h2>
                     </svg>
                 </a>
@@ -51,14 +51,14 @@
 
             <li class="cd-slider__panel u-top-0 u-left-0 u-width-full u-clip">
                 <a href="https://www.youtube.com/watch?v=O1uYFvoIz6M​" class="cd-slider__wrap u-height-0 u-block" target="_blank">
-                    <svg viewBox="0 0 1400 800" class="u-position u-top-0 u-left-0 u-width-full u-height-full">
+                    <svg viewBox="0 0 1500 630" class="u-position u-top-0 u-left-0 u-width-full u-height-full">
                         <title>You Sir</title>
                         <defs>
-                            <clipPath id="cd-image-3">
-                                <path id="cd-changing-path-3" d="M1400,800H0c0,0,1-213,1-423S1,0,1,0h1398c0.6,0,1,0.4,1,1V800z"/>
+                            <clipPath id="cd-image-4">
+                                <path id="cd-changing-path-4" d="M1400,800H0c0,0,1-213,1-423S1,0,1,0h1398c0.6,0,1,0.4,1,1V800z"/>
                             </clipPath>
                         </defs>
-                        <image height="630px" width="1500px" clip-path="url(#cd-image-3)" xlink:href="assets/images/lpf-you-sir.jpg"></image>
+                        <image height="630px" width="1500px" clip-path="url(#cd-image-4)" xlink:href="assets/images/lpf-you-sir.jpg"></image>
                         <h2 class="cd-slider__title u-position u-top-halfway u-left-0 u-right-0 u-align-halfway-top u-white u-align-center u-uppercase u-width-full u-tracked-slightly u-regular u-thick-text-shadow">You Sir</h2>
                     </svg>
                 </a>
@@ -66,14 +66,14 @@
 
             <li class="cd-slider__panel u-top-0 u-left-0 u-width-full u-clip">
                 <a href="https://vimeo.com/125821143​" class="cd-slider__wrap u-height-0 u-block" target="_blank">
-                    <svg viewBox="0 0 1400 800" class="u-position u-top-0 u-left-0 u-width-full u-height-full">
+                    <svg viewBox="0 0 1500 630" class="u-position u-top-0 u-left-0 u-width-full u-height-full">
                         <title>Golden Goose</title>
                         <defs>
-                            <clipPath id="cd-image-4">
-                                <path id="cd-changing-path-4" d="M1400,800H0c0,0,1-213,1-423S1,0,1,0h1398c0.6,0,1,0.4,1,1V800z"/>
+                            <clipPath id="cd-image-5">
+                                <path id="cd-changing-path-5" d="M1400,800H0c0,0,1-213,1-423S1,0,1,0h1398c0.6,0,1,0.4,1,1V800z"/>
                             </clipPath>
                         </defs>
-                        <image height="630px" width="1500px" clip-path="url(#cd-image-4)" xlink:href="assets/images/lpf-golden-goose.jpg"></image>
+                        <image height="630px" width="1500px" clip-path="url(#cd-image-5)" xlink:href="assets/images/lpf-golden-goose.jpg"></image>
                         <h2 class="cd-slider__title u-position u-top-halfway u-left-0 u-right-0 u-align-halfway-top u-white u-align-center u-uppercase u-width-full u-tracked-slightly u-regular u-thick-text-shadow">Golden Goose</h2>
                     </svg>
                 </a>
@@ -81,14 +81,14 @@
 
             <li class="cd-slider__panel u-top-0 u-left-0 u-width-full u-clip">
                 <a href="https://www.youtube.com/watch?v=s-Jn-6b8UGQ​" class="cd-slider__wrap u-height-0 u-block" target="_blank">
-                    <svg viewBox="0 0 1400 800" class="u-position u-top-0 u-left-0 u-width-full u-height-full">
+                    <svg viewBox="0 0 1500 630" class="u-position u-top-0 u-left-0 u-width-full u-height-full">
                         <title>Caravan</title>
                         <defs>
-                            <clipPath id="cd-image-5">
-                                <path id="cd-changing-path-5" d="M1400,800H0c0,0,1-213,1-423S1,0,1,0h1398c0.6,0,1,0.4,1,1V800z"/>
+                            <clipPath id="cd-image-6">
+                                <path id="cd-changing-path-6" d="M1400,800H0c0,0,1-213,1-423S1,0,1,0h1398c0.6,0,1,0.4,1,1V800z"/>
                             </clipPath>
                         </defs>
-                        <image height="630px" width="1500px" clip-path="url(#cd-image-5)" xlink:href="assets/images/lpf-caravan.jpg"></image>
+                        <image height="630px" width="1500px" clip-path="url(#cd-image-6)" xlink:href="assets/images/lpf-caravan.jpg"></image>
                         <h2 class="cd-slider__title u-position u-top-halfway u-left-0 u-right-0 u-align-halfway-top u-white u-align-center u-uppercase u-width-full u-tracked-slightly u-regular u-thick-text-shadow">Caravan</h2>
                     </svg>
                 </a>
@@ -96,14 +96,14 @@
 
             <li class="cd-slider__panel u-top-0 u-left-0 u-width-full u-clip">
                 <a href="https://vimeo.com/186370729" class="cd-slider__wrap u-height-0 u-block" target="_blank">
-                    <svg viewBox="0 0 1400 800" class="u-position u-top-0 u-left-0 u-width-full u-height-full">
+                    <svg viewBox="0 0 1500 630" class="u-position u-top-0 u-left-0 u-width-full u-height-full">
                         <title>The Meltdown</title>
                         <defs>
-                            <clipPath id="cd-image-6">
-                                <path id="cd-changing-path-6" d="M1400,800H0c0,0,1-213,1-423S1,0,1,0h1398c0.6,0,1,0.4,1,1V800z"/>
+                            <clipPath id="cd-image-7">
+                                <path id="cd-changing-path-7" d="M1400,800H0c0,0,1-213,1-423S1,0,1,0h1398c0.6,0,1,0.4,1,1V800z"/>
                             </clipPath>
                         </defs>
-                        <image height="630px" width="1500px" clip-path="url(#cd-image-6)" xlink:href="assets/images/lpf-meltdown.jpg"></image>
+                        <image height="630px" width="1500px" clip-path="url(#cd-image-7)" xlink:href="assets/images/lpf-meltdown.jpg"></image>
                         <h2 class="cd-slider__title u-position u-top-halfway u-left-0 u-right-0 u-align-halfway-top u-white u-align-center u-uppercase u-width-full u-tracked-slightly u-regular u-thick-text-shadow">The Meltdown</h2>
                     </svg>
                 </a>
