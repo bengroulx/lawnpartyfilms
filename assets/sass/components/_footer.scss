@@ -1,3 +1,7 @@
+.c-footer {
+    border-top: 1px solid $grey;
+}
+
 .c-footer__list {
     margin-bottom: map-get($size-map, sm);
 

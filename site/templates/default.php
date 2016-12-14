@@ -1,9 +1,10 @@
 <?php snippet('head') ?>
 
-<section class="main" role="main">
+<section class="c-section" role="main">
     <div class="c-contain">
         <?php echo $page->text()->kirbytext() ?>
     </div>
 </section>
+
 
 <?php snippet('footer') ?>
