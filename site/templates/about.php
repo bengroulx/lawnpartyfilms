@@ -7,14 +7,14 @@
 
 <section class="c-section t-about__bios">
     <div class="c-contain">
-        <div class="c-grid u-flexbox u-flex-wrap">
-            <div class="c-text-content u-flex-expand">
+        <div class="c-grid">
+            <div class="c-text-content">
                 <p><?php echo $page->creator1()->kirbytext() ?></p>
             </div>
-            <div class="c-text-content u-flex-expand">
+            <div class="c-text-content">
                 <p><?php echo $page->creator2()->kirbytext() ?></p>
             </div>
-            <div class="c-text-content u-flex-expand">
+            <div class="c-text-content">
                 <p><?php echo $page->creator3()->kirbytext() ?></p>
             </div>
         </div>
