@@ -1,0 +1,117 @@
+// Project-Wide Configurable Variables
+// ============================================================================
+
+// Everything is based off this define unit and ratio
+$configure--base-unit: 1rem;
+$configure--base-ratio: 1.125;
+
+// typefaces
+$font-family--base: "Futura LT", "Futura", "Trebuchet MS", -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", sans-serif;
+$font-weight--base: 300;
+$font-size--base: 1rem;
+$line-height--base: ($configure--base-ratio*1.4rem);
+
+// colours
+$grey: #999;
+$white: #fff;
+$black: #222;
+$green: #568023;
+
+// sizes
+$tap-size: 44px;
+$small-tap-size: 32px;
+
+// style attributes
+
+
+
+// transition options
+$transition-map: (
+    slow: all 0.25s ease-in-out,
+    fast: all 0.1s linear,
+);
+
+// size options
+$size-map: (
+    xs: $configure--base-unit/2,
+    sm: $configure--base-unit,
+    md: $configure--base-unit*3,
+    lg: $configure--base-unit*6,
+    xl: $configure--base-unit*12,
+);
+
+// tracking options
+$tracking-map: (
+    slight: 0.25em,
+    loose: 0.5em,
+);
+
+// dimensions options
+$dimensions-map: (
+    0: 0,
+    1of4: round(100%/4),
+    1of3: round(100%/3),
+    half: round(100%/2),
+    2of3: round(100%/1.5151),
+    3of4: round(100%/1.3333),
+    full: round(100%/1),
+);
+
+// Style options
+$appearances-map: (
+    circle: 100%,
+    half-transparent: 0.5,
+    fully-transparent: 0,
+    thick-shadow: 0 0 ($configure--base-unit/2) rgba($black, 0.75),
+    thin-shadow: 0 ($configure--base-unit/8) ($configure--base-unit/3) rgba($black, 0.5),
+);
+
+// Z-axis options
+$z-map: (
+    under: -1,
+    basic: 1,
+    stack: 10,
+    shade: 100,
+    modal: 1000,
+);
+
+// mixins
+@mixin break($point) {
+    @if $point == grande {
+        @media (min-width: 40em) {
+            @content;
+        }
+    }
+    @else if $point == venti {
+        @media (min-width: 55em) {
+            @content;
+        }
+    }
+    @else if $point == tetra {
+        @media (min-width: 80em) {
+            @content;
+        }
+    }
+    @else if $point == supersize {
+        @media (min-width: 100em) {
+            @content;
+        }
+    }
+}
+
+@mixin _clearfix {
+    zoom: 1;
+
+    &:after,
+    &:before {
+        content: '\0020';
+
+        display: block;
+        overflow: hidden;
+        height: 0;
+    }
+
+    &:after {
+        clear: both;
+    }
+}

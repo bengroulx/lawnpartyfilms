@@ -1,0 +1,8 @@
+.c-button {
+    @extend button;
+
+    display: block;
+
+    text-align: center;
+    text-transform: uppercase;
+}

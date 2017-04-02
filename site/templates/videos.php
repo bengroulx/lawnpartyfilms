@@ -1,5 +1,7 @@
 <?php snippet('head') ?>
 
+<?php snippet('header-custom') ?>
+
 <div class="u-text-clip">
     <?php echo $page->introduction()->kirbytext() ?>
 </div>

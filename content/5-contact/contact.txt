@@ -4,10 +4,6 @@ Title: Contact
 
 Text: 
 
-## How to connect
-
-We are currently accepting film work for the coming months. Please get in touch, and together we can make something beautiful.
-
 (link: https://facebook.com/LawnPartyFilms text: Facebook »)
 (link: https://twitter.com/devonmussett text: Twitter »)
 (link: https://instagram.com/lawnpartyfilms text: Instagram »)
@@ -15,7 +11,7 @@ We are currently accepting film work for the coming months. Please get in touch,
 
 ----
 
-H1: Contact Us
+H1: Start your creative process below.
 
 ----
 
@@ -27,4 +23,4 @@ Metadesc: x
 
 ----
 
-Headerimage: 
+Headerimage: 11068100-420903594742064-1035964616905545949-o.jpg

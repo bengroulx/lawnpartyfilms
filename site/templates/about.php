@@ -1,21 +1,24 @@
 <?php snippet('head') ?>
 
-<div class="u-text-clip">
-    <h2><?php echo $page->h2()->html() ?></h2>
-    <p><?php echo $page->brief()->html()?></p>
-</div>
+<?php snippet('header-custom') ?>
 
-<section class="c-section t-about__bios">
+<section class="c-section c--no-padding">
+    <div class="c-text-content u-align-center u-mono u-small-text u-grey" style="margin:auto;max-width:550px;">
+        <p><?php echo $page->brief()->html()?></p>
+    </div>
+</section>
+
+<section class="c-section">
     <div class="c-contain">
         <div class="c-grid">
-            <div class="c-text-content">
-                <p><?php echo $page->creator1()->kirbytext() ?></p>
+            <div class="c-text-content" style="padding:0 1rem;">
+                <?php echo $page->creator1()->kirbytext() ?>
             </div>
-            <div class="c-text-content">
-                <p><?php echo $page->creator2()->kirbytext() ?></p>
+            <div class="c-text-content" style="padding:0 1rem;">
+                <?php echo $page->creator2()->kirbytext() ?>
             </div>
-            <div class="c-text-content">
-                <p><?php echo $page->creator3()->kirbytext() ?></p>
+            <div class="c-text-content" style="padding:0 1rem;">
+                <?php echo $page->creator3()->kirbytext() ?>
             </div>
         </div>
     </div>

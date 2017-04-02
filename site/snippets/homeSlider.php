@@ -1,4 +1,4 @@
-<section class="c-section c--no-padding">
+<section class="c-section c--no-padding u-clip" style="margin-top:-1em;">
     <div class="u-context u-clip u-bg-black t-home__slider js-slider-wrapper">
 
         <ul class="cd-slider"

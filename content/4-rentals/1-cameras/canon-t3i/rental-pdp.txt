@@ -1,0 +1,25 @@
+Pagetitle-1: 
+
+----
+
+Title: CANON T3I
+
+----
+
+H1: 
+
+----
+
+Text: 
+
+----
+
+Pagetitle-2: 
+
+----
+
+Metatitle: 
+
+----
+
+Metadesc: 

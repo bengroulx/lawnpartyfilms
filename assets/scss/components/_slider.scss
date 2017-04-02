@@ -1,0 +1,94 @@
+.cd-slider__panel {
+    position: absolute;
+
+    opacity: 0;
+
+    &.visible {
+        position: relative;
+        z-index: 2;
+
+        opacity: 1;
+    }
+
+    &.is-animating {
+        z-index: 3;
+
+        opacity: 1;
+    }
+}
+
+.cd-slider__wrap {
+    padding-bottom: 42%; // 630px/1500px =
+}
+
+.cd-slider__title {
+    z-index: 10;
+
+    padding: map-get($size-map, lg) map-get($size-map, md);
+
+    opacity: 0;
+
+    .visible & {
+        animation: come-in 1s ease-in forwards;
+    }
+}
+
+.cd-slider__navigation {
+    li {
+        &:first-of-type {
+            left: map-get($size-map, sm);
+
+            a {
+                transform: rotate(180deg);
+            }
+        }
+
+        &:last-of-type {
+            right: map-get($size-map, sm);
+        }
+
+        a {
+            width: $tap-size;
+            height: $tap-size;
+
+            background-image: url('assets/images/icon-arrow.svg');
+            background-repeat: no-repeat;
+
+            transition: map-get($transition-map, fast);
+        }
+    }
+}
+
+.cd-slider__controls {
+    @include _clearfix;
+
+    bottom: map-get($size-map, sm);
+
+    .selected a {
+        background-color: $white;
+    }
+
+    a {
+        width: map-get($size-map, xs);
+        height: map-get($size-map, xs);
+        margin-right: map-get($size-map, xs);
+        margin-left: map-get($size-map, xs);
+        border: 1px solid $white;
+
+        &::after {
+            content: "";
+
+            position: absolute;
+            top: -(map-get($size-map, md));
+            right: -(map-get($size-map, md));
+            bottom: -(map-get($size-map, md));
+            left: -(map-get($size-map, md));
+
+            display: block;
+        }
+
+        .no-touch &:hover {
+            background-color: $white;
+        }
+    }
+}

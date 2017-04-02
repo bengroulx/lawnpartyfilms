@@ -1,0 +1,31 @@
+.c-text-content {
+    > *:not(:last-child) {
+        margin-bottom: map-get($size-map, sm);
+    }
+
+    a:not(.c-button) {
+        border-bottom: 1px solid currentColor;
+
+        transition: map-get($transition-map, fast);
+
+        &:hover,
+        &:focus {
+            border-bottom: 4px solid $green;
+
+            color: $green;
+        }
+    }
+
+    ol,
+    ul {
+        margin-left: 1rem;
+    }
+
+    ol {
+        list-style: lower-alpha;
+    }
+
+    ul {
+        list-style: disc;
+    }
+}

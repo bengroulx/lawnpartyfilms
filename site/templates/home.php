@@ -1,6 +1,6 @@
 <?php snippet('head') ?>
 
-<h1 class="u-text-clip"><?php echo $page->h1() ?></h1>
+<?php snippet('homeSlider') ?>
 
 <div hidden id="template-<?php echo $page->template() ?>">
     <style><?php readfile('assets/css/templates/home.css'); ?></style>

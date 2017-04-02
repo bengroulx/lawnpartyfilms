@@ -1,0 +1,54 @@
+.c-nav {
+    @include _clearfix;
+
+    z-index: 100;
+}
+
+.c-nav__logo {
+    width: auto;
+    height: 4em;
+    margin-top: 1em;
+
+    @include break(grande) {
+        float: left;
+    }
+}
+
+.c-nav__list {
+    @include _clearfix;
+
+    @include break(grande) {
+        float: right;
+    }
+}
+
+.c-nav__list-item {
+    @include break(grande) {
+        width: auto;
+        margin-left: 4vw;
+    }
+
+    &[id='navHome'] {
+        display: none;
+
+        @include break(grande) {
+            display: block;
+        }
+    }
+
+    a {
+        height: $tap-size;
+
+        box-shadow: inset 0 0 0 $green;
+
+        transition: map-get($transition-map, slow);
+
+        @include break(grande) {
+            height: $tap-size*2;
+
+            &:hover {
+                box-shadow: inset 0 4em 0 $green;
+            }
+        }
+    }
+}

@@ -2,11 +2,7 @@ Title: Error (404)
 
 ----
 
-Text: 
-
-This is a **404** page. You’re getting this page because the page that was *supposed* was here, actually doesn’t exist. Totally weird, right? Maybe you’d like to head over to the (link: writings text: articles and essays) section? Or you might want to go back to the (link: / text: home page)? If you aren’t finding what you are looking for, or if I can help you out with anything, let me know via Twitter (link: https://twitter.com/bengroulx text: @bengroulx) or email (email: ben@bengroulx.com text: ben@bengroulx.com).
-
-Or you could go listen to some music. In fact, that sounds a lot more fun.
+Text: This is a **404** page. You’re getting this page because the page that was *supposed* was here, actually doesn’t exist. Totally weird, right?
 
 ----
 
@@ -18,4 +14,4 @@ Metadesc: Oops! This is a 404 page. You’re getting this page because the page 
 
 ----
 
-H1: I’m really sorry about this…
+H1: Hmm, we can’t seem to find this page

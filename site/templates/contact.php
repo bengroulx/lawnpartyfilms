@@ -1,5 +1,7 @@
 <?php snippet('head') ?>
 
+<?php snippet('header-custom') ?>
+
 <section class="c-section u-bg-gradient">
     <div class="c-contain">
         <div class="c-grid u-flexbox u-flex-wrap">
@@ -8,6 +10,7 @@
                 <?php echo $page->text()->kirbytext() ?>
                 <div style="height:1rem;"></div>
             </div>
+
             <div class="u-flex t-contact__form-container">
                 <form class="c-form">
                     <div class="c-form__row">

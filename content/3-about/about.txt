@@ -10,15 +10,15 @@ Metadesc: Lawn Party Films is a full-service production company in Vancouver, BC
 
 ----
 
-H1: Meet The Team
+H1: A boutique production company.
 
 ----
 
-Brief: 
+Brief: Full-service production company in Vancouver. We focus on the creation of stimulating products through a shared passion for visual storytelling.
 
 ----
 
-Headerimage: 
+Headerimage: lawn-party-films-header.jpg
 
 ----
 

@@ -3,6 +3,7 @@
 <!--[if IE 7]> <html lang="en-ca" class="lt-ie9 lt-ie8"><![endif]-->
 <!--[if IE 8]> <html lang="en-ca" class="lt-ie9"><![endif]-->
 <!--[if gt IE 8]><!--><html lang="en-ca" class="no-js"><!--<![endif]-->
+
 <head>
     <meta charset="utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
@@ -20,7 +21,7 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script async src="<?php echo url('assets/js/jquery.mobile.custom.js') ?>"></script>
 
-    <style><?php readfile('assets/css/critical.css'); ?></style>
+    <?php snippet('scss') ?>
 
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-title" content="Lawn Party Films" />
@@ -48,6 +49,7 @@
     <meta name="twitter:description" content="<?php echo $page->metadesc()->html() ?>" />
 
 </head>
+
 <body class="t-<?php echo $page->template() ?>">
 
-<?php snippet('header') ?>
+    <?php snippet('menu') ?>

@@ -13,11 +13,14 @@
             <li><a class="" href="https://instagram.com/lawnpartyfilms">Instagram</a></li>
             <li><a class="" href="https://vimeo.com/user18727376">Vimeo</a></li>
         </ul>
-    </div>
+        <div class="u-float-end" style="padding-top:3rem;">
+            <p class="u-mono u-small-text u-grey">
+                Copyright © 2010 – 2017 Lawn Party Films. <br />
+                All rights reserved. (Unless otherwise stated.)
+            </p>
+        </div>
+</div>
 </footer>
-
-<!-- NON-CRITICAL STYLES -->
-<style><?php readfile("assets/css/screen.css"); ?></style>
 
 <!-- ANALYTICS -->
 <?php if (!isset($_SERVER['HTTP_USER_AGENT']) || stripos($_SERVER['HTTP_USER_AGENT'], 'Speed Insights') === false): ?>

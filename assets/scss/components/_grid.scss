@@ -1,0 +1,23 @@
+.c-grid {
+    margin: 0 -1em;
+
+    > * {
+        float: left;
+
+        width: 100%;
+        padding-right: 1rem;
+        padding-left: 1rem;
+
+        &:not(:last-child) {
+            margin-bottom: 1rem;
+        }
+
+        @include break(grande) {
+            width: 50%;
+        }
+
+        @include break(venti) {
+            width: 33.33%;
+        }
+    }
+}
