@@ -3,7 +3,7 @@
     <div class="c-contain">
         <ul class="c-footer__list c-text-content">
             <li><a class="" href="tel:1-604-813-0496">+1 (604) 813-0496</a></li>
-            <li><a class="" href="mailto:devonmussett@gmail.com">devonmussett@gmail.com</a></li>
+            <li><a class="" href="mailto:hello@lawnpartyfilms.com">hello@lawnpartyfilms.com</a></li>
         </ul>
         <ul class="c-footer__list c-text-content">
             <li><a class="" href="https://facebook.com/LawnPartyFilms">Facebook</a></li>

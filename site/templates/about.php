@@ -27,15 +27,15 @@
 <section class="c-section u-context">
     <div class="c-grid">
         <div class="">
-            <img src="http://localhost:8000/content/3-about/lawn-party-films--on-set.1.jpg"
+            <img src="/content/3-about/lawn-party-films--on-set.1.jpg"
             style="transform:translate(3rem,0) scale(1.2); border:1rem solid white; z-index:3;" class="u-context">
         </div>
         <div class="">
-            <img src="http://localhost:8000/content/3-about/lawn-party-films--on-set.2.jpg"
+            <img src="/content/3-about/lawn-party-films--on-set.2.jpg"
             style="transform:translate(0,-4rem) scale(1.2); border:1rem solid white; z-index:2;">
         </div>
         <div class="">
-            <img src="http://localhost:8000/content/3-about/lawn-party-films--on-set.3.png"
+            <img src="/content/3-about/lawn-party-films--on-set.3.png"
             style="transform:translate(-3rem,0) scale(1.2); border:1rem solid white; z-index:1;">
         </div>
     </div>
