@@ -1,25 +1,33 @@
-Pagetitle-1: 
+Title: Canon T3I
 
 ----
 
-Title: CANON T3I
-
-----
-
-H1: 
-
-----
-
-Text: 
-
-----
-
-Pagetitle-2: 
-
-----
-
-Metatitle: 
+Metatitle: Canon T3I | Camera Rentals
 
 ----
 
 Metadesc: 
+
+----
+
+Description: 
+
+----
+
+Specs: 
+
+----
+
+Image: 
+
+----
+
+Costprice: 
+
+----
+
+Costtime: 
+
+----
+
+Link: 

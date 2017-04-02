@@ -10,9 +10,7 @@ fields:
     title:
         label: Title
         type:  text
-    headerImage:
-        label: Header Image
-        type:  text
+
     pagetitle-2:
         label: Page Content
         type: headline
@@ -21,23 +19,18 @@ fields:
         type:  text
     brief:
         label: Brief Introductory Blurb
-        type:  textarea
+        type:  markdown
         size:  large
     creator1:
         label: Creator 1
-        type:  textarea
-        width: 1/2
+        type:  markdown
     creator2:
         label: Creator 2
-        type:  textarea
-        width: 1/2
+        type:  markdown
     creator3:
         label: Creator 3
-        type:  textarea
-        width: 1/2
-    services:
-        label: Services
-        type:  textarea
+        type:  markdown
+
     pagetitle-3:
         label: META Information
         type: headline
@@ -47,5 +40,6 @@ fields:
         icon:  header
     metadesc:
         label: META Description
-        type:  textarea
-        icon:  file-code-o
+        type: text
+        size: large
+        icon: file-code-o

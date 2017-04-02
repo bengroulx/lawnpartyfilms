@@ -23,14 +23,14 @@
                 <h3 class="u-regular u-uppercase u-small-text u-tracked-slightly">Specs:</h3>
                 <div class="c-text-content u-mono u-small-text ">
                     <?php echo $page->specs()->markdown() ?>
-                    <a href="">Official Website &Rarr;</a>
+                    <a href="">Official Website &rarr;</a>
                 </div>
                 <p class="u-bold">
                     <?php echo $page->text()->markdown() ?>
                     $<?php echo $page->costPrice()->raw() ?> / <?php echo $page->costTime()->raw() ?>
                 </p>
 
-                <button class="c-button js-cta-trigger" id="modal-trigger">Rent This</button>
+                <button class="c-button js-cta-trigger u-tracked-slightly" id="modal-trigger">Rent This Item</button>
             </div>
 
         </article>
@@ -48,7 +48,7 @@
             <div class="u-flexbox" style="line-height:1;">
 
                 <?php if($page->hasPrevVisible()): ?>
-                    <a class="u-block u-width-half" style="border:1px solid #ccc; padding:2rem; margin-right:1rem;" href="<?php echo $page->prevVisible()->url() ?>" >
+                    <a class="u-block u-width-half" style="border:1px solid #ccc; padding:1rem; margin-right:1rem;" href="<?php echo $page->prevVisible()->url() ?>" >
                         <h3 class="u-regular" style="margin-bottom:1rem;">
                             <?php echo $page->prevVisible()->title()->html() ?>
                         </h3>
@@ -65,7 +65,7 @@
                 <?php endif ?>
 
                 <?php if($page->hasNextVisible()): ?>
-                    <a class="u-block u-width-half" style="border:1px solid #ccc; padding:2rem;" href="<?php echo $page->nextVisible()->url() ?>">
+                    <a class="u-block u-width-half" style="border:1px solid #ccc; padding:1rem;" href="<?php echo $page->nextVisible()->url() ?>">
                         <h3 class="u-regular" style="margin-bottom:1rem;">
                             <?php echo $page->nextVisible()->title()->html() ?>
                         </h3>
@@ -92,7 +92,7 @@
     <span class="c-modal__close u-position u-bold">&times;</span>
     <div class="c-text-content c-contain">
         <p class="u-mono">
-            Thanks for your interest. Please <a href="tel:1-604-813-0496">call us</a> or <a href="/contact/">send a message</a> to book.
+            Thanks for your interest. Please <a href="tel:1-604-813-0496">call us</a> or <a href="/contact/">send a message</a> to book the <?php echo $page->title()->raw() ?>.
         </p>
     </div>
 </div>
