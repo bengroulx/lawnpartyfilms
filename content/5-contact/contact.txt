@@ -2,16 +2,7 @@ Title: Contact
 
 ----
 
-Text: 
-
-(link: https://facebook.com/LawnPartyFilms text: Facebook »)
-(link: https://twitter.com/devonmussett text: Twitter »)
-(link: https://instagram.com/lawnpartyfilms text: Instagram »)
-(link: https://vimeo.com/user18727376 text: Vimeo »)
-
-----
-
-H1: Start your creative process below.
+H1: Let’s start telling your story.
 
 ----
 
@@ -19,8 +10,4 @@ Metatitle: Contact
 
 ----
 
-Metadesc: x
-
-----
-
-Headerimage: 11068100-420903594742064-1035964616905545949-o.jpg
+Metadesc: 

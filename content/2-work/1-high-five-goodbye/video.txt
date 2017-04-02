@@ -2,8 +2,36 @@ Title: High Five Goodbye
 
 ----
 
-Artist: Short Film
+Artist: Bitchpop Productions / Lawn Party Films
 
 ----
 
 Videolink: https://www.youtube.com/watch?v=X7765DcYqnQ
+
+----
+
+Type: Short Film
+
+----
+
+Director: Devon Mussett, Athena Russell
+
+----
+
+Producer: Devon Mussett, Athena Russell
+
+----
+
+Cinematographer: Kevin Rigney
+
+----
+
+Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pellentesque imperdiet diam et mollis. Quisque a metus urna. Duis bibendum eros ac ex mollis, et finibus dui aliquet. Vestibulum condimentum diam sed ligula suscipit vulputate. Duis vitae tincidunt arcu, vel porttitor lectus.
+
+----
+
+Metatitle: High Five Goodbye | Short Film
+
+----
+
+Metadesc: 

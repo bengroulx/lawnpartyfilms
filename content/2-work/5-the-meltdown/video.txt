@@ -2,8 +2,36 @@ Title: The Meltdown
 
 ----
 
-Artist: Short Film
+Artist: Bitchpop Productions
 
 ----
 
 Videolink: https://vimeo.com/186370729
+
+----
+
+Director: Devon Mussett, Athena Russell
+
+----
+
+Producer: Devon Mussett, Athena Russell, Tiarra Sulyk
+
+----
+
+Cinematographer: Blake Davies
+
+----
+
+Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pellentesque imperdiet diam et mollis. Quisque a metus urna. Duis bibendum eros ac ex mollis, et finibus dui aliquet. Vestibulum condimentum diam sed ligula suscipit vulputate. Duis vitae tincidunt arcu, vel porttitor lectus.
+
+----
+
+Metatitle: The Meltdown | Short Film
+
+----
+
+Metadesc: 
+
+----
+
+Type: Short Film

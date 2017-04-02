@@ -6,10 +6,10 @@
     <div class="c-contain">
         <article class="c-grid">
 
-            <div style="">
+            <div>
                 <figure class="u-align-center" style="border:1px solid #ccc; padding:1rem; min-height:10em;">
                     <?php if($image = $page->image()): ?>
-                        <img class="u-inline-block" src="<?php echo $image->url() ?>" alt="">
+                        <img class="u-inline-block" src="<?php echo $image->url() ?>" alt="<?php echo $page->title()->raw() ?>">
                     <?php endif ?>
                 </figure>
             </div>

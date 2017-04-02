@@ -13,7 +13,7 @@
             <li><a class="" href="https://instagram.com/lawnpartyfilms">Instagram</a></li>
             <li><a class="" href="https://vimeo.com/user18727376">Vimeo</a></li>
         </ul>
-        <div class="u-float-end" style="padding-top:3rem;">
+        <div class="u-float-end" style="padding-top:2.5rem;">
             <p class="u-mono u-small-text u-grey">
                 Copyright © 2010 – 2017 Lawn Party Films. <br />
                 All rights reserved. (Unless otherwise stated.)
