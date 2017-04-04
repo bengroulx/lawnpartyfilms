@@ -5,13 +5,26 @@
 }
 
 .c-nav__logo {
-    width: auto;
+    display: block;
+    overflow: hidden;
+    width: 4em;
     height: 4em;
     margin-top: 1em;
+
+    background-image: url('../images/lawn-party-films.png');
+    background-position: center;
+    background-size: cover;
+
+    text-indent: -100%;
 
     @include break(grande) {
         float: left;
     }
+
+    &:hover {
+        background-image: url('../images/lawn-party-films--hover.gif');
+    }
+
 }
 
 .c-nav__list {

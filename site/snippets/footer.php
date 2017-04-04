@@ -16,7 +16,9 @@
         <div class="u-float-end" style="padding-top:2.5rem;">
             <p class="u-mono u-small-text u-grey">
                 Copyright © 2010 – 2017 Lawn Party Films. <br />
-                All rights reserved. (Unless otherwise stated.)
+                All rights reserved.
+                <a href="#" class="u-underline">Privacy</a>
+                <a href="#" class="u-underline">Credits</a>
             </p>
         </div>
 </div>
