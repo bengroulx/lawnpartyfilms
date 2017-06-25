@@ -1,0 +1,21 @@
+@import '/base/vars';
+@import '/components/slider';
+
+.t-home {
+    .c-nav a {
+        color: $black;
+
+        @include break(grande) {
+            color: $white;
+            text-shadow: 0 0.15rem 0.15rem rgba($black, 0.25);
+        }
+    }
+}
+
+.t-home__slider {
+    margin-top: 10em;
+
+    @include break(grande) {
+        margin-top: 0;
+    }
+}

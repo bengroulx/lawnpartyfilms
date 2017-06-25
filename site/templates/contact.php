@@ -5,7 +5,7 @@
 <section class="c-section u-bg-gradient">
     <div class="c-contain">
 
-        <form class="c-form">
+        <form class="c-form c-text-content">
             <div class="c-form__row">
                 <label class="u-block" for="_formName">Your name</label>
                 <input id="_formName" type="text" name="name" placeholder="e.g. Jane Smith" />
@@ -29,9 +29,5 @@
 
     </div>
 </section>
-
-<div hidden id="template-<?php echo $page->template() ?>">
-    <style><?php readfile('assets/css/templates/contact.css'); ?></style>
-</div>
 
 <?php snippet('footer') ?>

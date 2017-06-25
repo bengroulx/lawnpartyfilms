@@ -1,3 +1,5 @@
+@import '/animations/fade-in';
+
 .cd-slider__panel {
     position: absolute;
 
@@ -36,7 +38,7 @@
 .cd-slider__navigation {
     li {
         &:first-of-type {
-            left: map-get($size-map, sm);
+            left: 0;
 
             a {
                 transform: rotate(180deg);
@@ -44,17 +46,20 @@
         }
 
         &:last-of-type {
-            right: map-get($size-map, sm);
+            right: 0;
         }
 
         a {
-            width: $tap-size;
-            height: $tap-size;
 
-            background-image: url('assets/images/icon-arrow.svg');
-            background-repeat: no-repeat;
+            @include break(grande) {
+                width: $tap-size;
+                height: $tap-size;
 
-            transition: map-get($transition-map, fast);
+                background-image: url('../images/icon-arrow.svg');
+                background-repeat: no-repeat;
+
+                transition: map-get($transition-map, fast);
+            }
         }
     }
 }
@@ -62,7 +67,13 @@
 .cd-slider__controls {
     @include _clearfix;
 
-    bottom: map-get($size-map, sm);
+    bottom: (map-get($size-map, sm) / 2);
+
+    width: 100%;
+
+    @include break(grande) {
+        bottom: map-get($size-map, sm);
+    }
 
     .selected a {
         background-color: $white;

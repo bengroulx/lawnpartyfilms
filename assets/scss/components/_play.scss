@@ -1,0 +1,25 @@
+.c-play {
+    z-index: 100;
+
+    width: 5rem;
+    height: 5rem;
+    border: 0.5rem solid currentColor;
+
+    transition: map-get($transition-map, slow);
+
+    &::after {
+        content: '';
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+
+        width: 0;
+        height: 0;
+        border-top: solid transparent 1rem;
+        border-bottom: solid transparent 1rem;
+        border-left: solid currentColor 1.5rem;
+
+        transform: translate(-35%, -50%);
+    }
+}

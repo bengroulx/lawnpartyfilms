@@ -1,35 +1,29 @@
 .c-nav {
     @include _clearfix;
 
-    z-index: 100;
+    z-index: 999999;
+
+    transition: map-get($transition-map, slow);
 }
 
 .c-nav__logo {
-    display: block;
-    overflow: hidden;
-    width: 4em;
-    height: 4em;
-    margin-top: 1em;
-
-    background-image: url('../images/lawn-party-films.png');
-    background-position: center;
-    background-size: cover;
-
-    text-indent: -100%;
-
     @include break(grande) {
         float: left;
     }
 
+    width: 4rem;
+    height: 4rem;
+    margin-top: map-get($size-map, small);
+
+    background-image: url('../images/lawn-party-films.png');
+
     &:hover {
         background-image: url('../images/lawn-party-films--hover.gif');
     }
-
 }
 
 .c-nav__list {
     @include _clearfix;
-
     @include break(grande) {
         float: right;
     }
@@ -42,26 +36,26 @@
     }
 
     &[id='navHome'] {
-        display: none;
-
         @include break(grande) {
             display: block;
         }
+
+        display: none;
     }
 
     a {
+        @include break(grande) {
+            height: $tap-size*2;
+
+            &:hover {
+                box-shadow: inset 0 4rem 0 $green;
+            }
+        }
+
         height: $tap-size;
 
         box-shadow: inset 0 0 0 $green;
 
         transition: map-get($transition-map, slow);
-
-        @include break(grande) {
-            height: $tap-size*2;
-
-            &:hover {
-                box-shadow: inset 0 4em 0 $green;
-            }
-        }
     }
 }

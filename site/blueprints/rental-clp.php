@@ -2,7 +2,7 @@
 
 title: Rentals - Product Categories
 pages: true
-    template: rental-plp
+    template: rentalPLP
 files: true
 
 fields:

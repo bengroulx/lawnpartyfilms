@@ -3,8 +3,10 @@
 <?php snippet('header-custom') ?>
 
 <section class="c-section c--no-padding">
-    <div class="c-text-content u-align-center u-mono u-small-text u-grey" style="margin:auto;max-width:550px;">
-        <p><?php echo $page->brief()->markdown()?></p>
+    <div class="c-contain">
+        <div class="c-text-content u-align-center u-mono u-small-text u-grey" style="margin:auto; max-width:550px;">
+            <?php echo $page->brief()->markdown()?>
+        </div>
     </div>
 </section>
 
@@ -27,8 +29,8 @@
 <section class="c-section u-context">
     <div class="c-grid">
         <div class="">
-            <img src="/content/3-about/lawn-party-films--on-set.1.jpg"
-            style="transform:translate(3rem,0) scale(1.2); border:1rem solid white; z-index:3;" class="u-context">
+            <img src="/content/3-about/lawn-party-films--on-set.1.jpg" class="u-context"
+            style="transform:translate(3rem,0) scale(1.2); border:1rem solid white; z-index:3;">
         </div>
         <div class="">
             <img src="/content/3-about/lawn-party-films--on-set.2.jpg"

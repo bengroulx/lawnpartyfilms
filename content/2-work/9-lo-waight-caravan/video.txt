@@ -6,8 +6,32 @@ Artist: Lo Waight
 
 ----
 
-Videoimage: 
+Videolink: https://www.youtube.com/watch?v=s-Jn-6b8UGQ
 
 ----
 
-Videolink: https://www.youtube.com/watch?v=s-Jn-6b8UGQ
+Type: Music Video
+
+----
+
+Director: Devon Mussett
+
+----
+
+Producer: Devon Mussett
+
+----
+
+Cinematographer: Blake Davey
+
+----
+
+Description: 
+
+----
+
+Metatitle: 
+
+----
+
+Metadesc: 

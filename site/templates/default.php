@@ -3,7 +3,7 @@
 <?php snippet('header-title') ?>
 
 <section class="c-section" role="main">
-    <div class="c-contain">
+    <div class="c-contain c-text-content">
         <?php echo $page->text()->kirbytext() ?>
     </div>
 </section>

@@ -6,8 +6,32 @@ Artist: A-Ro The Naut
 
 ----
 
-Videoimage: 
+Videolink: https://www.youtube.com/watch?v=ruZ9YhlkdIk
 
 ----
 
-Videolink: https://www.youtube.com/watch?v=ruZ9YhlkdIk
+Type: Music Video
+
+----
+
+Director: Devon Mussett
+
+----
+
+Producer: Devon Mussett
+
+----
+
+Cinematographer: Alex Montano
+
+----
+
+Description: 
+
+----
+
+Metatitle: 
+
+----
+
+Metadesc: 

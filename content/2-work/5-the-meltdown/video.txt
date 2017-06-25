@@ -2,7 +2,7 @@ Title: The Meltdown
 
 ----
 
-Artist: Bitchpop Productions
+Artist: Short Film
 
 ----
 
@@ -18,11 +18,11 @@ Producer: Devon Mussett, Athena Russell, Tiarra Sulyk
 
 ----
 
-Cinematographer: Blake Davies
+Cinematographer: Blake Davey
 
 ----
 
-Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pellentesque imperdiet diam et mollis. Quisque a metus urna. Duis bibendum eros ac ex mollis, et finibus dui aliquet. Vestibulum condimentum diam sed ligula suscipit vulputate. Duis vitae tincidunt arcu, vel porttitor lectus.
+Description: 
 
 ----
 

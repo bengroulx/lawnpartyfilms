@@ -19,7 +19,7 @@
 
     <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script async src="<?php echo url('assets/js/jquery.mobile.custom.js') ?>"></script>
+    <script><?php readfile('assets/js/jquery.lazy.min.js'); ?></script>
 
     <?php snippet('scss') ?>
 
@@ -52,4 +52,7 @@
 
 <body class="t-<?php echo $page->template() ?>">
 
-    <?php snippet('menu') ?>
+    <!-- OPEN MAIN :: closed in footer.php -->
+    <main>
+        <div class="js-replace-content u-clip">
+            <?php snippet('menu') ?>

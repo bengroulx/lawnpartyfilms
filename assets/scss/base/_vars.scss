@@ -35,9 +35,9 @@ $transition-map: (
 $size-map: (
     xs: $configure--base-unit/2,
     sm: $configure--base-unit,
-    md: $configure--base-unit*3,
-    lg: $configure--base-unit*6,
-    xl: $configure--base-unit*12,
+    md: $configure--base-unit*2,
+    lg: $configure--base-unit*5,
+    xl: $configure--base-unit*10,
 );
 
 // tracking options

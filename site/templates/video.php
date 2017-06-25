@@ -8,11 +8,27 @@
 <section class="c-section c--no-padding" role="main">
     <div class="c-contain">
 
-        <figure class="c-ratio c--16x9 u-clip u-context u-bg-black">
-            <?php if($video = $page->videoLink()): ?>
-                <?php echo youtube($video, 1280, 720) ?>
-            <?php endif ?>
+        <?php if($video = $page->videoLink()): ?>
+        <a class="c-ratio c--16x9 u-gradient u-clip u-bg-grey u-bg-center u-bg-cover u-width-full js-lazy"
+        data-src="<?php echo $page->image()->url() ?>" href="<?php echo $video ?>">
+
+            <div class="u-position u-left-0 u-bottom-0 u-right-0" style="margin:1rem; z-index:10;">
+                <figcaption class="u-position u-bottom-0 u-left-0 u-mono u-regular u-small-text u-white" style="line-height:1;">
+                    Watch “<?php echo $page->title()->html() ?>”
+                </figcaption>
+                <div class="c-play u-context u-float-end u-white u-text-clip">
+                    Play This Video
+                </div>
+            </div>
+        </a>
+
+        <?php else: ?>
+
+        <figure class="c-ratio c--16x9 u-gradient u-clip u-bg-grey u-bg-center u-bg-cover u-width-full js-lazy"
+        data-src="<?php echo $page->image()->url() ?>">
         </figure>
+
+        <?php endif ?>
 
     </div>
 </section>
@@ -50,22 +66,28 @@
     </div>
 </section>
 
-<style>
-    .c-ratio.c--16x9 {
-        height: 0;
-        padding-bottom: 56.25%;
-    }
+<section class="c-section c--no-padding u-bg-gradient">
+    <div class="c-video-grid u-flexbox">
 
-    .c-ratio iframe {
-        position: absolute;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
+        <?php foreach($page->children() as $subpage): ?>
+            <a class="c-video-grid__item u-context u-clip u-bg-cover u-bg-center u-white u-align-center u-flexbox u-align-middle u-justify-middle" href="<?php echo $subpage->url() ?>" style="background-image: url('<?php if($image = $subpage->image()): ?><?php echo $image->url() ?><?php endif ?>');">
+                <div class="c-video-grid__text u-context u-z-stack u-block u-white u-uppercase u-tracked-slightly u-thick-text-shadow">
+                    <h3 class="u-regular">
+                        <?php echo $subpage->title()->html() ?>
+                    </h3>
+                    <h5 class="u-regular u-mono u-grey">
+                        <?php echo $subpage->artist()->html() ?>
+                    </h5>
+                </div>
+            </a>
+        <?php endforeach ?>
 
-        width: 100%;
-        height: 100%;
-    }
-</style>
+    </div>
+</section>
+
+<div hidden id="template-<?php echo $page->template() ?>">
+    <style><?php readfile('assets/css/templates/videos.css'); ?></style>
+    <script src="<?php echo url('assets/js/magnific.js') ?>"></script>
+</div>
 
 <?php snippet('footer') ?>

@@ -1,5 +1,5 @@
-<section class="c-section c--no-padding u-clip" style="margin-top:-1em;">
-    <div class="u-context u-clip u-bg-black t-home__slider js-slider-wrapper">
+<section class="c-section c--no-padding u-clip" style="margin-top:-1rem;">
+    <div class="u-context u-clip u-bg-grey t-home__slider js-slider-wrapper">
 
         <ul class="cd-slider"
         data-step1="M1402,800h-2c0,0,0-213,0-423s0-377,0-377h1c0.6,0,1,0.4,1,1V800z" data-step2="M1400,800H724c0,0-297-155-297-423C427,139,728,0,728,0h671c0.6,0,1,0.4,1,1V800z" data-step3="M1400,800H0c0,0,1-213,1-423S1,0,1,0h1398c0.6,0,1,0.4,1,1V800z" data-step4="M-2,800h2c0,0,0-213,0-423S0,0,0,0h-1c-0.6,0-1,0.4-1,1V800z" data-step5="M0,800h676c0,0,297-155,297-423C973,139,672,0,672,0L1,0C0.4,0,0,0.4,0,1L0,800z" data-step6="M0,800h1400c0,0-1-213-1-423s0-377,0-377L1,0C0.4,0,0,0.4,0,1L0,800z">
@@ -14,7 +14,10 @@
                             </clipPath>
                         </defs>
                         <image height="630px" width="1500px" clip-path="url(#cd-image-1)" xlink:href="assets/images/lpf-rolling-stone.jpg"></image>
-                        <h2 class="cd-slider__title u-position u-top-halfway u-left-0 u-right-0 u-align-halfway-top u-white u-align-center u-uppercase u-width-full u-tracked-slightly u-regular u-thick-text-shadow">Rolling Stone</h2>
+                        <div class="cd-slider__title u-position u-top-halfway u-left-0 u-right-0 u-align-halfway-top u-white u-align-center u-uppercase u-width-full u-tracked-slightly u-thick-text-shadow">
+                            <h2 class="u-regular" style="margin-bottom:1rem;">Rolling Stone</h2>
+                            <h3 class="u-regular u-mono u-small-text">&#9654; Watch Music Video</p>
+                        </div>
                     </svg>
                 </a>
             </li>
@@ -29,7 +32,10 @@
                             </clipPath>
                         </defs>
                         <image height="630px" width="1500px" clip-path="url(#cd-image-2)" xlink:href="assets/images/lpf-play.jpg"></image>
-                        <h2 class="cd-slider__title u-position u-top-halfway u-left-0 u-right-0 u-align-halfway-top u-white u-align-center u-uppercase u-width-full u-tracked-slightly u-regular u-thick-text-shadow">Coming Soon: Play</h2>
+                        <div class="cd-slider__title u-position u-top-halfway u-left-0 u-right-0 u-align-halfway-top u-white u-align-center u-uppercase u-width-full u-tracked-slightly u-thick-text-shadow">
+                            <h2 class="u-regular" style="margin-bottom:1rem;">Play</h2>
+                            <h3 class="u-regular u-mono u-small-text">Coming Soon</p>
+                        </div>
                     </svg>
                 </div>
             </li>
@@ -44,7 +50,10 @@
                             </clipPath>
                         </defs>
                         <image height="630px" width="1500px" clip-path="url(#cd-image-3)" xlink:href="assets/images/lpf-you-sir.jpg"></image>
-                        <h2 class="cd-slider__title u-position u-top-halfway u-left-0 u-right-0 u-align-halfway-top u-white u-align-center u-uppercase u-width-full u-tracked-slightly u-regular u-thick-text-shadow">You Sir</h2>
+                        <div class="cd-slider__title u-position u-top-halfway u-left-0 u-right-0 u-align-halfway-top u-white u-align-center u-uppercase u-width-full u-tracked-slightly u-thick-text-shadow">
+                            <h2 class="u-regular" style="margin-bottom:1rem;">You Sir</h2>
+                            <h3 class="u-regular u-mono u-small-text">&#9654; Watch Music Video</p>
+                        </div>
                     </svg>
                 </a>
             </li>
@@ -59,7 +68,10 @@
                             </clipPath>
                         </defs>
                         <image height="630px" width="1500px" clip-path="url(#cd-image-4)" xlink:href="assets/images/lpf-cuba.jpg"></image>
-                        <h2 class="cd-slider__title u-position u-top-halfway u-left-0 u-right-0 u-align-halfway-top u-white u-align-center u-uppercase u-width-full u-tracked-slightly u-regular u-thick-text-shadow">Cuba</h2>
+                        <div class="cd-slider__title u-position u-top-halfway u-left-0 u-right-0 u-align-halfway-top u-white u-align-center u-uppercase u-width-full u-tracked-slightly u-thick-text-shadow">
+                            <h2 class="u-regular" style="margin-bottom:1rem;">Cuba</h2>
+                            <h3 class="u-regular u-mono u-small-text">&#9654; Watch Film</p>
+                        </div>
                     </svg>
                 </a>
             </li>
@@ -74,7 +86,10 @@
                             </clipPath>
                         </defs>
                         <image height="630px" width="1500px" clip-path="url(#cd-image-5)" xlink:href="assets/images/lpf-caravan.jpg"></image>
-                        <h2 class="cd-slider__title u-position u-top-halfway u-left-0 u-right-0 u-align-halfway-top u-white u-align-center u-uppercase u-width-full u-tracked-slightly u-regular u-thick-text-shadow">Caravan</h2>
+                        <div class="cd-slider__title u-position u-top-halfway u-left-0 u-right-0 u-align-halfway-top u-white u-align-center u-uppercase u-width-full u-tracked-slightly u-thick-text-shadow">
+                            <h2 class="u-regular" style="margin-bottom:1rem;">Caravan</h2>
+                            <h3 class="u-regular u-mono u-small-text">&#9654; Watch Music Video</p>
+                        </div>
                     </svg>
                 </a>
             </li>
@@ -89,7 +104,10 @@
                             </clipPath>
                         </defs>
                         <image height="630px" width="1500px" clip-path="url(#cd-image-6)" xlink:href="assets/images/lpf-meltdown.jpg"></image>
-                        <h2 class="cd-slider__title u-position u-top-halfway u-left-0 u-right-0 u-align-halfway-top u-white u-align-center u-uppercase u-width-full u-tracked-slightly u-regular u-thick-text-shadow">The Meltdown</h2>
+                        <div class="cd-slider__title u-position u-top-halfway u-left-0 u-right-0 u-align-halfway-top u-white u-align-center u-uppercase u-width-full u-tracked-slightly u-thick-text-shadow">
+                            <h2 class="u-regular" style="margin-bottom:1rem;">Rolling Stone</h2>
+                            <h3 class="u-regular u-mono u-small-text">&#9654; Watch Film</p>
+                        </div>
                     </svg>
                 </a>
             </li>

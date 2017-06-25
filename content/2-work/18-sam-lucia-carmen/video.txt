@@ -6,8 +6,32 @@ Artist: Sam Lucia
 
 ----
 
-Videoimage: 
+Videolink: https://www.youtube.com/watch?v=C_4bByNYwc0
 
 ----
 
-Videolink: https://www.youtube.com/watch?v=C_4bByNYwc0
+Type: Music Video
+
+----
+
+Director: Devon Mussett
+
+----
+
+Producer: Devon Mussett
+
+----
+
+Cinematographer: Brock Newman
+
+----
+
+Description: 
+
+----
+
+Metatitle: 
+
+----
+
+Metadesc: 

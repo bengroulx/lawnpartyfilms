@@ -2,7 +2,7 @@ Title: High Five Goodbye
 
 ----
 
-Artist: Bitchpop Productions / Lawn Party Films
+Artist: Short Film
 
 ----
 
@@ -26,7 +26,7 @@ Cinematographer: Kevin Rigney
 
 ----
 
-Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent pellentesque imperdiet diam et mollis. Quisque a metus urna. Duis bibendum eros ac ex mollis, et finibus dui aliquet. Vestibulum condimentum diam sed ligula suscipit vulputate. Duis vitae tincidunt arcu, vel porttitor lectus.
+Description: 
 
 ----
 

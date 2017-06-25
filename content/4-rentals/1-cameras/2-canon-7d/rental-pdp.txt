@@ -18,12 +18,9 @@ Specs:
 
 * 18.0 Megapixel CMOS Sensor and Dual DIGIC 4 Image Processors for high image quality and speed.
 * ISO 100-6400 (expandable to 12,800) for shooting from bright to dim light.
-* 8.0 fps continuous shooting up to 126 Large/JPEGs with UDMA CF card and 15 RAW.
 * Advanced movie mode with manual exposure control and selectable frame rates: 1920 x 1080 (Full HD): 30p (29.97) / 24p (23.976) / 25p, 1280 x 720 (HD): 60p (59.94) / 50p, 640 x 480 (SD): 60p (59.94) / 50p.
-* Intelligent Viewfinder with 100% field of view, wide viewing angle of 29.4°, high magnification of 1.0, intelligent viewfinder with glass pentaprism and an overlaid LCD display in viewfinder supports various shooting styles.
-* New 19-point, all cross-type AF system equipped with dual diagonal cross-type sensors in centre at f/2.8 and f/5.6 and AF area selection modes to match various shooting situations.
-* iFCL Metering with 63 zone dual-layer metering sensor that utilizes AF and colour information for optimizing exposure and image quality.
-* Magnesium body with shutter durability up to 150,000 cycles and exclusive dust and weather resistance.
+* 2 Canon Batteries & Charger
+* 2  32Gb CF Memory Cards
 
 ----
 
@@ -31,7 +28,7 @@ Image:
 
 ----
 
-Costprice: 100
+Costprice: 175
 
 ----
 

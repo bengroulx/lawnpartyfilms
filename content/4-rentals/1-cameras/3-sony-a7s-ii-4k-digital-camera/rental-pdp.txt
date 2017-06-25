@@ -1,4 +1,4 @@
-Title: Sony a7S II  (4K Digital Camera)
+Title: Sony A7S II
 
 ----
 
@@ -14,7 +14,7 @@ Image:
 
 ----
 
-Costprice: 150
+Costprice: 200
 
 ----
 
@@ -33,12 +33,10 @@ Description: Making strides in the video arena, the a7S II Mirrorless Digital Ca
 Specs: 
 
 * 12.2MP Full-Frame Exmor CMOS Sensor
-* BIONZ X Image Processor
 * Internal UHD 4K30 & 1080p120 Recording
 * S-Log3 Gamma and Display Assist Function
 * 5-Axis SteadyShot INSIDE Stabilization
-* 0.5" 2.36m-Dot XGA OLED Tru-Finder EVF
-* 3.0" 1,228,800-Dot Tilting LCD Monitor
-* Up to 5 fps Shooting and ISO 409600
-* Fast Intelligent AF, 169 AF Points
 * Built-In Wi-Fi with NFC
+* 4 Sony Batteries & Charger
+* 2 64gb Memory Cards
+* Film City Camera Cage
