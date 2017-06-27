@@ -6,12 +6,20 @@
     <div class="c-contain">
         <article class="c-grid">
 
-            <div>
+            <div class="c-text-content">
                 <figure class="u-align-center" style="border:1px solid #ccc; padding:1rem; min-height:10em;">
                     <?php if($image = $page->image()): ?>
                         <img class="u-inline-block" src="<?php echo $image->url() ?>" alt="<?php echo $page->title()->raw() ?>">
                     <?php endif ?>
                 </figure>
+
+                <p class="u-bold">
+                    <?php echo $page->text()->markdown() ?>
+                    $<?php echo $page->costPrice()->raw() ?> / <?php echo $page->costTime()->raw() ?>
+                </p>
+
+                <button class="c-button js-cta-trigger u-tracked-slightly" id="modal-trigger">Rent This Item</button>
+
             </div>
 
             <div class="c-text-content">
@@ -25,12 +33,6 @@
                     <?php echo $page->specs()->markdown() ?>
                     <a href="">Official Website &rarr;</a>
                 </div>
-                <p class="u-bold">
-                    <?php echo $page->text()->markdown() ?>
-                    $<?php echo $page->costPrice()->raw() ?> / <?php echo $page->costTime()->raw() ?>
-                </p>
-
-                <button class="c-button js-cta-trigger u-tracked-slightly" id="modal-trigger">Rent This Item</button>
             </div>
 
         </article>

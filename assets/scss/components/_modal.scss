@@ -4,7 +4,7 @@
     right: 0;
     bottom: 0;
     left: 0;
-    z-index: 1000;
+    z-index: map-get($z-map, modal);
 
     display: none;
     overflow: auto;
@@ -13,7 +13,7 @@
     min-width: 100vw;
     min-height: 100vh;
 
-    background-color: rgba($black, 0.9);
+    background-color: rgba($black, 0.975);
 }
 
 .c-modal__content {

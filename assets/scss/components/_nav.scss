@@ -1,7 +1,7 @@
 .c-nav {
     @include _clearfix;
 
-    z-index: 999999;
+    z-index: map-get($z-map, modal);
 
     transition: map-get($transition-map, slow);
 }
@@ -15,7 +15,7 @@
     height: 4rem;
     margin-top: map-get($size-map, small);
 
-    background-image: url('../images/lawn-party-films.png');
+    background-image: url('../images/lawn-party-films.gif');
 
     &:hover {
         background-image: url('../images/lawn-party-films--hover.gif');

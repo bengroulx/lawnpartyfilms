@@ -1,12 +1,12 @@
-Title: Camera Accessories
+Title: Accessories
 
 ----
 
-H1: Camera Accessories
+H1: Accessories
 
 ----
 
-Text: 
+Text:
 
 ----
 
@@ -14,4 +14,4 @@ Metatitle: Camera & Equipment Rentals
 
 ----
 
-Metadesc: 
+Metadesc:

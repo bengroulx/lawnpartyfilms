@@ -23,7 +23,7 @@
                 <textarea id="_formMessage" rows="11" placeholder="e.g. We’d love to work with you…"></textarea>
             </div>
             <div class="c-form__row">
-                <input id="_formButton" type="button" name="Submit" value="Send Message" class="c-form__buttton  u-tracked-slightly u-uppercase" />
+                <input id="_formButton" type="button" name="Submit" value="Send Message" class="c-form__buttton u-tracked-slightly u-uppercase" style="max-width:320px;" />
             </div>
         </form>
 

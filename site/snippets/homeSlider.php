@@ -105,7 +105,7 @@
                         </defs>
                         <image height="630px" width="1500px" clip-path="url(#cd-image-6)" xlink:href="assets/images/lpf-meltdown.jpg"></image>
                         <div class="cd-slider__title u-position u-top-halfway u-left-0 u-right-0 u-align-halfway-top u-white u-align-center u-uppercase u-width-full u-tracked-slightly u-thick-text-shadow">
-                            <h2 class="u-regular" style="margin-bottom:1rem;">Rolling Stone</h2>
+                            <h2 class="u-regular" style="margin-bottom:1rem;">The Meltdown</h2>
                             <h3 class="u-regular u-mono u-small-text">&#9654; Watch Film</p>
                         </div>
                     </svg>

@@ -8,6 +8,7 @@
         <div class="c-text-content" style="line-height:1;">
             <?php foreach($page->children()->visible() as $subpage): ?>
                 <a class="u-block" style="border:1px solid #ccc; padding:2rem;" href="<?php echo $subpage->url() ?>">
+
                     <h3 class="u-regular" style="margin-bottom:1rem;">
                         <?php echo $subpage->title()->html() ?>
                     </h3>
@@ -29,17 +30,19 @@
     </div>
 </section>
 
-<section class="c-section">
-    <div class="c-contain">
+<section class="c-section c--large" style="padding-bottom:0;">
+    <div class="">
 
         <div class="c-grid">
             <?php $items = false;
                 if($root = $pages->findOpen()) { $items = $root->children()->visible(); }
                 if($items && $items->count() > 0): ?>
                 <?php foreach($items as $item): ?>
-                    <div class="" style="padding:1rem">
-                        <a class="t-rental-clp__category u-context u-clip u-bg-black u-bg-cover u-bg-center u-white u-align-center u-flexbox u-align-middle u-justify-middle" href="<?php echo $item->url() ?>" style="; background-image: url('<?php if($image = $item->image()): ?><?php echo $image->url() ?><?php endif ?>');">
-                            <h3 class="u-regular u-tracked-slightly u-context u-z-stack u-block u-white u-uppercase u-thick-text-shadow"><?php echo $item->title()->html() ?></h3>
+                    <div style="padding:0; margin:0;">
+                        <a class="t-rental-clp__category u-context u-clip u-bg-black u-bg-cover u-bg-center u-white u-align-center u-flexbox u-align-middle u-justify-middle" href="<?php echo $item->url() ?>" style="background-image: url('<?php if($image = $item->image()): ?><?php echo $image->url() ?><?php endif ?>');">
+                            <h3 class="u-regular u-tracked-slightly u-context u-z-stack u-block u-white u-uppercase u-thick-text-shadow">
+                                <?php echo $item->title()->html() ?>
+                            </h3>
                         </a>
                     </div>
                 <?php endforeach ?>
