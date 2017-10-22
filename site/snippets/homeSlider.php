@@ -5,15 +5,33 @@
         data-step1="M1402,800h-2c0,0,0-213,0-423s0-377,0-377h1c0.6,0,1,0.4,1,1V800z" data-step2="M1400,800H724c0,0-297-155-297-423C427,139,728,0,728,0h671c0.6,0,1,0.4,1,1V800z" data-step3="M1400,800H0c0,0,1-213,1-423S1,0,1,0h1398c0.6,0,1,0.4,1,1V800z" data-step4="M-2,800h2c0,0,0-213,0-423S0,0,0,0h-1c-0.6,0-1,0.4-1,1V800z" data-step5="M0,800h676c0,0,297-155,297-423C973,139,672,0,672,0L1,0C0.4,0,0,0.4,0,1L0,800z" data-step6="M0,800h1400c0,0-1-213-1-423s0-377,0-377L1,0C0.4,0,0,0.4,0,1L0,800z">
 
             <li class="cd-slider__panel u-top-0 u-left-0 u-width-full u-clip visible">
-                <a href="https://vimeo.com/183422266" class="cd-slider__wrap u-height-0 u-block" target="_blank">
+                <a href="https://www.youtube.com/watch?v=SRX2sEmE_Rs" class="cd-slider__wrap u-height-0 u-block" target="_blank">
                     <svg viewBox="0 0 1400 580" class="u-position u-top-0 u-left-0 u-width-full u-height-full">
-                        <title>Rolling Stone</title>
+                        <title>On Fire</title>
                         <defs>
                             <clipPath id="cd-image-1">
                                 <path id="cd-changing-path-1" d="M1400,800H0c0,0,1-213,1-423S1,0,1,0h1398c0.6,0,1,0.4,1,1V800z"/>
                             </clipPath>
                         </defs>
-                        <image height="630px" width="1500px" clip-path="url(#cd-image-1)" xlink:href="assets/images/lpf-rolling-stone.jpg"></image>
+                        <image height="630px" width="1500px" clip-path="url(#cd-image-1)" xlink:href="assets/images/lpf-on-fire.jpg"></image>
+                        <div class="cd-slider__title u-position u-top-halfway u-left-0 u-right-0 u-align-halfway-top u-white u-align-center u-uppercase u-width-full u-tracked-slightly u-thick-text-shadow">
+                            <h2 class="u-regular" style="margin-bottom:1rem;">On Fire</h2>
+                            <h3 class="u-regular u-mono u-small-text">&#9654; Watch Music Video</p>
+                        </div>
+                    </svg>
+                </a>
+            </li>
+
+            <li class="cd-slider__panel u-top-0 u-left-0 u-width-full u-clip">
+                <a href="https://vimeo.com/183422266" class="cd-slider__wrap u-height-0 u-block" target="_blank">
+                    <svg viewBox="0 0 1400 580" class="u-position u-top-0 u-left-0 u-width-full u-height-full">
+                        <title>Rolling Stone</title>
+                        <defs>
+                            <clipPath id="cd-image-2">
+                                <path id="cd-changing-path-2" d="M1400,800H0c0,0,1-213,1-423S1,0,1,0h1398c0.6,0,1,0.4,1,1V800z"/>
+                            </clipPath>
+                        </defs>
+                        <image height="630px" width="1500px" clip-path="url(#cd-image-2)" xlink:href="assets/images/lpf-rolling-stone.jpg"></image>
                         <div class="cd-slider__title u-position u-top-halfway u-left-0 u-right-0 u-align-halfway-top u-white u-align-center u-uppercase u-width-full u-tracked-slightly u-thick-text-shadow">
                             <h2 class="u-regular" style="margin-bottom:1rem;">Rolling Stone</h2>
                             <h3 class="u-regular u-mono u-small-text">&#9654; Watch Music Video</p>
@@ -27,35 +45,17 @@
                     <svg viewBox="0 0 1400 580" class="u-position u-top-0 u-left-0 u-width-full u-height-full">
                         <title>Play</title>
                         <defs>
-                            <clipPath id="cd-image-2">
-                                <path id="cd-changing-path-2" d="M1400,800H0c0,0,1-213,1-423S1,0,1,0h1398c0.6,0,1,0.4,1,1V800z"/>
-                            </clipPath>
-                        </defs>
-                        <image height="630px" width="1500px" clip-path="url(#cd-image-2)" xlink:href="assets/images/lpf-play.jpg"></image>
-                        <div class="cd-slider__title u-position u-top-halfway u-left-0 u-right-0 u-align-halfway-top u-white u-align-center u-uppercase u-width-full u-tracked-slightly u-thick-text-shadow">
-                            <h2 class="u-regular" style="margin-bottom:1rem;">Play</h2>
-                            <h3 class="u-regular u-mono u-small-text">Coming Soon</p>
-                        </div>
-                    </svg>
-                </div>
-            </li>
-
-            <li class="cd-slider__panel u-top-0 u-left-0 u-width-full u-clip">
-                <a href="https://www.youtube.com/watch?v=O1uYFvoIz6M​" class="cd-slider__wrap u-height-0 u-block" target="_blank">
-                    <svg viewBox="0 0 1400 580" class="u-position u-top-0 u-left-0 u-width-full u-height-full">
-                        <title>You Sir</title>
-                        <defs>
                             <clipPath id="cd-image-3">
                                 <path id="cd-changing-path-3" d="M1400,800H0c0,0,1-213,1-423S1,0,1,0h1398c0.6,0,1,0.4,1,1V800z"/>
                             </clipPath>
                         </defs>
-                        <image height="630px" width="1500px" clip-path="url(#cd-image-3)" xlink:href="assets/images/lpf-you-sir.jpg"></image>
+                        <image height="630px" width="1500px" clip-path="url(#cd-image-3)" xlink:href="assets/images/lpf-play.jpg"></image>
                         <div class="cd-slider__title u-position u-top-halfway u-left-0 u-right-0 u-align-halfway-top u-white u-align-center u-uppercase u-width-full u-tracked-slightly u-thick-text-shadow">
-                            <h2 class="u-regular" style="margin-bottom:1rem;">You Sir</h2>
-                            <h3 class="u-regular u-mono u-small-text">&#9654; Watch Music Video</p>
+                            <h2 class="u-regular" style="margin-bottom:1rem;">Play</h2>
+                            <h3 class="u-regular u-mono u-small-text">Music Video Coming Soon</p>
                         </div>
                     </svg>
-                </a>
+                </div>
             </li>
 
             <li class="cd-slider__panel u-top-0 u-left-0 u-width-full u-clip">
@@ -70,7 +70,7 @@
                         <image height="630px" width="1500px" clip-path="url(#cd-image-4)" xlink:href="assets/images/lpf-cuba.jpg"></image>
                         <div class="cd-slider__title u-position u-top-halfway u-left-0 u-right-0 u-align-halfway-top u-white u-align-center u-uppercase u-width-full u-tracked-slightly u-thick-text-shadow">
                             <h2 class="u-regular" style="margin-bottom:1rem;">Cuba</h2>
-                            <h3 class="u-regular u-mono u-small-text">&#9654; Watch Film</p>
+                            <h3 class="u-regular u-mono u-small-text">&#9654; Watch Short Film</p>
                         </div>
                     </svg>
                 </a>
@@ -106,7 +106,7 @@
                         <image height="630px" width="1500px" clip-path="url(#cd-image-6)" xlink:href="assets/images/lpf-meltdown.jpg"></image>
                         <div class="cd-slider__title u-position u-top-halfway u-left-0 u-right-0 u-align-halfway-top u-white u-align-center u-uppercase u-width-full u-tracked-slightly u-thick-text-shadow">
                             <h2 class="u-regular" style="margin-bottom:1rem;">The Meltdown</h2>
-                            <h3 class="u-regular u-mono u-small-text">&#9654; Watch Film</p>
+                            <h3 class="u-regular u-mono u-small-text">&#9654; Watch Short Film</p>
                         </div>
                     </svg>
                 </a>
