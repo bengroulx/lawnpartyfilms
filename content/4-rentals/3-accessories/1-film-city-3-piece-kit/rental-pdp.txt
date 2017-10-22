@@ -1,34 +1,29 @@
-Title: Sachtler FSB 4 Tripod
+Title: Cartoni Focus Tripod
 
 ----
 
-Description: The small professional fluid head FSB 4 makes working with set-ups up to 4 kg especially comfortable due to the established Sachtler damping, Speedbalance technology for rapid weight compensation and the Snap & Go side-loading mechanism. This enables set-ups to be mounted quickly and easily from the side of the tripod.
+Description: 
+
+The Focus HD fluid head is the ideal support for the latest HDV cameras weighing from 0 to 12 kg (0 to 26 lbs).
+
+Extremely compact and lightweight, the innovative Focus HD features a continuously variable fluid damping system on both pan and tilt movements and an unprecedented patented variable counterbalance which brings its range of use to cover all existing ENG and HDV cameras.
 
 ----
 
 Specs: 
 
-Weight: 4 kg
-Payload: 0 – 4 kg
-5 counterbalance steps + 0
-
-3 horizontal and vertical grades of drag, +0
-
-Tilt range: +90º to -70º
-
-Slide range: 120 mm
-Temperature range: -40º – 60ºc
-Camera fitting: Sideload S
-
-Head fitting: 75 mm
-
-Integrated flat base
-
-Pan bar type / number: 1, Type DV 75
-
-Level: Yes
-
-Adapter viewfinder extension: None
+Minimum Payload Capacity	0 kg
+Maximum Payload Capacity	12 kg 
+26 lbs
+Weight	2.0 kg 
+4.4 lbs
+Bowl Diameter	100 mm
+Fluid Drag	Continuous
+Counterbalance	Continuous
+Pan Range	360°
+Tilt Range	+/-90°
+Temperature Range	-40°/+60°
+Leveler: Yes
 
 ----
 
@@ -44,7 +39,7 @@ Costtime: Day
 
 ----
 
-Link: http://www.sachtler.com/products/fluid-heads/fsb-4/
+Link: https://www.cartoni.com/products/fluid-heads/fluid-heads-100-mm/h529-focus-hd/
 
 ----
 
