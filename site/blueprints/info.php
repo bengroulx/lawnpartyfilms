@@ -1,6 +1,6 @@
 <?php if(!defined('KIRBY')) exit ?>
 
-title: About
+title: Info
 pages: false
 
 fields:
