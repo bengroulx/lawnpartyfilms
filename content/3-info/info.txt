@@ -6,7 +6,7 @@ Metatitle: About
 
 ----
 
-Metadesc: Lawn Party Films is a full-service production company in Vancouver, BC.
+Metadesc: Devon Mussett is a filmmaker in Vancouver, BC.
 
 ----
 
@@ -14,11 +14,11 @@ H1: A boutique production company.
 
 ----
 
-Brief: Lawn Party Films is a full-service production company in Vancouver, Canada. We focus on the creation of stimulating products through a shared passion for visual storytelling.
+Brief: Devon Mussett is a filmmaker in Vancouver, BC. We focus on the creation of stimulating products through a shared passion for visual storytelling.
 
 ----
 
-Creator1: 
+Creator1:
 
 (image: devon.jpg)
 
@@ -31,7 +31,7 @@ Devon Mussett is a director and producer based out of Vancouver that founded the
 
 ----
 
-Creator2: 
+Creator2:
 
 (image: blake.jpg)
 
@@ -44,7 +44,7 @@ Born and raised in Vancouver, Blake is a working cinematographer and director wi
 
 ----
 
-Creator3: 
+Creator3:
 
 (image: david.jpg)
 
