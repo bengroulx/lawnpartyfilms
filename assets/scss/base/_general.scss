@@ -11,9 +11,9 @@ body {
     overflow: hidden;
     overflow-y: scroll;
 
-    background: $white;
+    background: $black;
 
-    color: $black;
+    color: $white;
     font-family: $font-family--base;
     font-weight: $font-weight--base;
     font-size: $font-size--base;
@@ -148,7 +148,7 @@ hr {
     margin: 2em 0;
     border: 0;
 
-    background: linear-gradient(45deg, rgba($white, 0), rgba($black, 0.25), rgba($white, 0));
+    background: linear-gradient(45deg, rgba($black, 0), rgba($white, 0.25), rgba($black, 0));
 }
 
 iframe,
@@ -174,9 +174,9 @@ textarea {
 button,
 [type='button'] {
     border-radius: 0;
-    background: $black;
+    background: $white;
 
-    color: $white;
+    color: $black;
 
     cursor: pointer;
 
