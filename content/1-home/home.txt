@@ -2,20 +2,36 @@ Title: Home
 
 ----
 
-Introduction:
+Artist:
 
 ----
 
-H1: We focus on the creation of stimulating products through a shared passion for visual storytelling.
+Videolink: 266025343?title=0&byline=0&autoplay=1&loop=1
 
 ----
 
-Metatitle: Music Video & Film Production | Vancouver Canada
+Type: Short Film
 
 ----
 
-Metadesc: Full-service production company in Vancouver. We focus on the creation of stimulating products through a shared passion for visual storytelling.
+Director: Devon Mussett
 
 ----
 
-Headerimage: lawn-party-films-music-video.jpg
+Producer: Devon Mussett
+
+----
+
+Cinematographer: Devon Mussett
+
+----
+
+Description:
+
+----
+
+Metatitle: Devon Mussett | Vancouver, BC
+
+----
+
+Metadesc: Devon Mussett is a filmmaker in Vancouver, BC.

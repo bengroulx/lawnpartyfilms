@@ -8,9 +8,9 @@
 <section class="c-section c--no-padding" role="main">
     <div class="c-contain">
 
-        <?php if($video = $page->videoLink()): ?>
-        <a class="c-ratio c--16x9 u-gradient u-clip u-bg-grey u-bg-center u-bg-cover u-width-full js-lazy"
-        data-src="<?php echo $page->image()->url() ?>" href="<?php echo $video ?>">
+        <?php if($video = $page->VideolinkA()): ?>
+        <div class="c-ratio c--16x9 u-gradient u-clip u-bg-grey u-bg-center u-bg-cover u-width-full js-lazy"
+          data-src="<?php echo $page->image()->url() ?>"><iframe src="https://www.youtube.com/embed/<?php echo $video ?>"></iframe>
 
             <div class="u-position u-left-0 u-bottom-0 u-right-0" style="margin:1rem; z-index:10;">
                 <figcaption class="u-position u-bottom-0 u-left-0 u-mono u-regular u-small-text u-white" style="line-height:1;">
@@ -20,7 +20,23 @@
                     Play This Video
                 </div>
             </div>
-        </a>
+
+</div>
+
+<?php elseif($video = $page->VideolinkB()): ?>
+<div class="c-ratio c--16x9 u-gradient u-clip u-bg-grey u-bg-center u-bg-cover u-width-full js-lazy"
+    data-src="<?php echo $page->image()->url() ?>"><iframe src="https://vimeo.com/<?php echo $video ?>"></iframe>
+
+      <div class="u-position u-left-0 u-bottom-0 u-right-0" style="margin:1rem; z-index:10;">
+          <figcaption class="u-position u-bottom-0 u-left-0 u-mono u-regular u-small-text u-white" style="line-height:1;">
+              Watch “<?php echo $page->title()->html() ?>”
+          </figcaption>
+          <div class="c-play u-context u-float-end u-white u-text-clip">
+              Play This Video
+          </div>
+      </div>
+
+  </div>
 
         <?php else: ?>
 
