@@ -1,0 +1,50 @@
+Title: Cartoni Focus Tripod
+
+----
+
+Description: 
+
+The Focus HD fluid head is the ideal support for the latest HDV cameras weighing from 0 to 12 kg (0 to 26 lbs).
+
+Extremely compact and lightweight, the innovative Focus HD features a continuously variable fluid damping system on both pan and tilt movements and an unprecedented patented variable counterbalance which brings its range of use to cover all existing ENG and HDV cameras.
+
+----
+
+Specs: 
+
+Minimum Payload Capacity	0 kg
+Maximum Payload Capacity	12 kg 
+26 lbs
+Weight	2.0 kg 
+4.4 lbs
+Bowl Diameter	100 mm
+Fluid Drag	Continuous
+Counterbalance	Continuous
+Pan Range	360°
+Tilt Range	+/-90°
+Temperature Range	-40°/+60°
+Leveler: Yes
+
+----
+
+Image: 
+
+----
+
+Costprice: 40
+
+----
+
+Costtime: Day
+
+----
+
+Link: https://www.cartoni.com/products/fluid-heads/fluid-heads-100-mm/h529-focus-hd/
+
+----
+
+Metatitle: 
+
+----
+
+Metadesc: 

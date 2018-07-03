@@ -11,7 +11,6 @@
 }
 
 .c-video-grid__item {
-
     flex: 1 1 auto;
     min-width: (100% / 2);
     max-width: (100% / 1);
@@ -22,11 +21,6 @@
     }
 
     @include break(venti) {
-        min-width: (100% / 3);
-        max-width: (100% / 3);
-    }
-
-    @include break(tetra) {
         min-width: (100% / 3);
         max-width: (100% / 3);
     }
@@ -53,7 +47,7 @@
 
     &:hover {
         &::before {
-            background: rgba($black, 0.40);
+            background: rgba($black, 0.75);
         }
 
         .c-video-grid__text {

@@ -20,11 +20,6 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script><?php readfile('assets/js/jquery.lazy.min.js'); ?></script>
-  
-
-    <link rel="stylesheet" type="text/css" href="assets/slick/slick.css"/>
-
-    <link rel="stylesheet" type="text/css" href="assets/slick/slick-theme.css"/>
 
     <?php snippet('scss') ?>
 

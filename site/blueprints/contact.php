@@ -1,7 +1,8 @@
 <?php if(!defined('KIRBY')) exit ?>
 
-title: Photo
+title: Contact
 pages: false
+files: true
 
 fields:
     pagetitle-1:
@@ -10,19 +11,11 @@ fields:
     title:
         label: Title
         type:  text
-    headerImage:
-        label: Header Image
-        type:  text
-    pagetitle-2:
-        label: Page Content
-        type: headline
     h1:
         label: Headline
         type:  text
-    introduction:
-        label: Demo Reel / Intro Video (use iframe)
-        type:  text
-    pagetitle-3:
+
+    pagetitle-2:
         label: META Information
         type: headline
     metatitle:

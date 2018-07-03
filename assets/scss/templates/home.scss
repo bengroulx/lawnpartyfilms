@@ -1,19 +1,19 @@
-@import '/components/video-grid';
+@import '../components/slider';
 
-.t-video {
-    .c-ratio.c--16x9 {
-        height: 0;
-        padding-bottom: 56.25%;
+.t-home {
+    .c-nav a {
+        color: $black;
+
+        @include break(grande) {
+            color: $white;
+        }
     }
+}
 
-    .c-ratio iframe {
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
+.t-home__slider {
+    margin-top: 10em;
 
-        width: 100%;
-        height: 100%;
+    @include break(grande) {
+        margin-top: 0;
     }
 }

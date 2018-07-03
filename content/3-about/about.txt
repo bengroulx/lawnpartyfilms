@@ -1,0 +1,56 @@
+Title: About
+
+----
+
+Metatitle: About
+
+----
+
+Metadesc: Lawn Party Films is a full-service production company in Vancouver, BC.
+
+----
+
+H1: A boutique production company.
+
+----
+
+Brief: Lawn Party Films is a full-service production company in Vancouver, Canada. We focus on the creation of stimulating products through a shared passion for visual storytelling.
+
+----
+
+Creator1: 
+
+(image: devon.jpg)
+
+#### Devon Mussett
+*Director/Producer*
+
+Devon Mussett is a director and producer based out of Vancouver that founded the company in 2013. After emerging from Capilano Universities Film program in 2013 he began Directing and producing music videos and commercials for rising local artists and entrepreneurs in his city. Devon is also the resident cinematographer at (link: http://bitchpopproductions.com/ text: Bitchpop Productions), a Vancouver-based female-driven production house.
+
+(link: https://instagram.com/lawnpartyfilms text: Devon Mussett »)
+
+----
+
+Creator2: 
+
+(image: blake.jpg)
+
+#### Blake Davey
+*Cinematographer/Director*
+
+Born and raised in Vancouver, Blake is a working cinematographer and director with a BFA in Film Production from the University of British Columbia (UBC). Blake has worked in the camera departments of projects that have been screened at VIFF and MWFF. Recently, Blake was awarded Best Cinematography, Audience Choice, and Best Film for his project Big Brother at the Persistence of Vision Film Festival hosted by UBC in 2015.
+
+(link: http://www.blakedavey.com/ text: Blake Davey »)
+
+----
+
+Creator3: 
+
+(image: david.jpg)
+
+#### David Goldberg
+*Cinematographer/Director*
+
+David Goldberg is a Cinematographer and Director currently Based in Vancouver. David has studied and made commercial and narrative content in New York and Copenhagen. David has worked with a variety of clients, including Universal Music, Island Def Jam Records. ATO Records, Weather Proof Clothing, and Thaddeus O’Niel Clothing.
+
+(link: http://www.simplemattersfilms.com/ text: David Goldberg »)

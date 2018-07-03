@@ -13,12 +13,10 @@ fields:
     artist:
         label: Artist / Created For
         type: text
-    VideolinkA:
+    videoLink:
         label: Link to Video
         type: text
-    VideolinkB:
-        label: Link to Video
-        type: text
+
     pagetitle-2:
         label: Who’s Included
         type: headline

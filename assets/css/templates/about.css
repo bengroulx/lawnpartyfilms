@@ -3,7 +3,6 @@
     opacity: 0; }
   to {
     opacity: 1; } }
-
 .c-grid {
   margin: 0 -1em; }
   .c-grid > * {
@@ -11,16 +10,6 @@
     width: 100%;
     padding-right: 1em;
     padding-left: 1em; }
-
-    .left-half {
-      background: #ff9e2c;
-      grid-column: 1;
-    }
-
-    .right-half {
-      background: #b6701e;
-      grid-column: 2;
-    }
     @media (min-width: 40em) {
       .c-grid > * {
         width: 50%; } }

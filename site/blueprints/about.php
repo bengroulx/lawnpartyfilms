@@ -1,6 +1,6 @@
 <?php if(!defined('KIRBY')) exit ?>
 
-title: Info
+title: About
 pages: false
 
 fields:
@@ -19,7 +19,7 @@ fields:
         type:  text
     brief:
         label: Brief Introductory Blurb
-        type:  text
+        type:  markdown
         size:  large
     creator1:
         label: Creator 1

@@ -30,7 +30,7 @@
         height: 100%;
 
         opacity: 0.5;
-        background: linear-gradient(to bottom, transparent, transparent, white);
+        background: linear-gradient(to bottom, transparent, transparent, black);
 
         transition: map-get($transition-map, slow);
 

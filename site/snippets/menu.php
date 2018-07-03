@@ -1,8 +1,8 @@
 <nav class="c-nav u-position u-top-0 u-left-0 u-right-0 u-width-full u-align-center">
     <div class="c-contain">
 
-        <a class="" href="/" style="margin-top:1rem;" data-type="page-transition">
-            DEVON MUSSETT Filmmaker
+        <a class="c-nav__logo u-inline-block u-bg-black u-circle u-text-clip u-bg-center u-bg-cover" href="/" style="margin-top:1rem;" data-type="page-transition">
+            Lawn Party Films
         </a>
 
         <ul class="c-nav__list u-flexbox">
