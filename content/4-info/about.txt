@@ -18,16 +18,11 @@ Brief: Devon Mussett is a filmmaker in Vancouver, BC. We focus on the creation o
 
 ----
 
-Creator1:
-
-
-Devon Mussett is a director and producer who founded Lawn Party Films in 2013. After emerging from Capilano University's Film program in 2013 he began directing and producing music videos and commercials for rising local artists and entrepreneurs in his city. Devon is also the resident cinematographer at <a href="http://bitchpopproductions.com/">Bitchpop Productions</a>, a Vancouver-based female-driven production house.
-
-
+Creator1: Devon Mussett is a director and producer who founded Lawn Party Films in 2013. After emerging from Capilano University's Film program in 2013 he began directing and producing music videos and commercials for rising local artists and entrepreneurs in his city. Devon is also the resident cinematographer at <a href="http://bitchpopproductions.com/">Bitchpop Productions</a>, a Vancouver-based female-driven production house. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mollis ligula et mattis ultrices. Morbi euismod velit ut ligula venenatis, nec imperdiet elit fermentum. Sed dignissim ultrices ex sed tempor. Suspendisse ante dolor, maximus et consequat in, ultricies vel sapien. Proin iaculis sed ex sed lobortis. Etiam a velit posuere, imperdiet elit maximus, ultricies tellus. Suspendisse eget finibus leo, quis consequat enim. In hac habitasse platea dictumst. Quisque placerat gravida mi, eu vestibulum neque laoreet vel. Aenean malesuada sodales dolor vel ullamcorper. Curabitur erat nisi, fringilla a urna eget, ultrices dignissim leo. Ut efficitur mattis ultrices. Cras mattis enim quis suscipit fermentum. Pellentesque posuere quam nec libero feugiat, sed sodales nulla imperdiet.
 
 ----
 
-Creator2:
+Creator2: 
 
 (image: blake.jpg)
 
@@ -40,7 +35,7 @@ Born and raised in Vancouver, Blake is a working cinematographer and director wi
 
 ----
 
-Creator3:
+Creator3: 
 
 (image: david.jpg)
 
@@ -50,3 +45,19 @@ Creator3:
 David Goldberg is a Cinematographer and Director currently Based in Vancouver. David has studied and made commercial and narrative content in New York and Copenhagen. David has worked with a variety of clients, including Universal Music, Island Def Jam Records. ATO Records, Weather Proof Clothing, and Thaddeus O’Niel Clothing.
 
 (link: http://www.simplemattersfilms.com/ text: David Goldberg »)
+
+----
+
+Coverimage: devon.jpg
+
+----
+
+Column1: I am content
+
+----
+
+Column2: Devon Mussett is a director and producer who founded Lawn Party Films in 2013. After emerging from Capilano University's Film program in 2013 he began directing and producing music videos and commercials for rising local artists and entrepreneurs in his city. Devon is also the resident cinematographer at <a href="http://bitchpopproductions.com/">Bitchpop Productions</a>, a Vancouver-based female-driven production house. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mollis ligula et mattis ultrices. Morbi euismod velit ut ligula venenatis, nec imperdiet elit fermentum. Sed dignissim ultrices ex sed tempor. Suspendisse ante dolor, maximus et consequat in, ultricies vel sapien. Proin iaculis sed ex sed lobortis. Etiam a velit posuere, imperdiet elit maximus, ultricies tellus. Suspendisse eget finibus leo, quis consequat enim. In hac habitasse platea dictumst. Quisque placerat gravida mi, eu vestibulum neque laoreet vel. Aenean malesuada sodales dolor vel ullamcorper. Curabitur erat nisi, fringilla a urna eget, ultrices dignissim leo. Ut efficitur mattis ultrices. Cras mattis enim quis suscipit fermentum. Pellentesque posuere quam nec libero feugiat, sed sodales nulla imperdiet.
+
+----
+
+Column3: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mollis ligula et mattis ultrices. Morbi euismod velit ut ligula venenatis, nec imperdiet elit fermentum. Sed dignissim ultrices ex sed tempor. Suspendisse ante dolor, maximus et consequat in, ultricies vel sapien. Proin iaculis sed ex sed lobortis. Etiam a velit posuere, imperdiet elit maximus, ultricies tellus. Suspendisse eget finibus leo, quis consequat enim. In hac habitasse platea dictumst. Quisque placerat gravida mi, eu vestibulum neque laoreet vel. Aenean malesuada sodales dolor vel ullamcorper. Curabitur erat nisi, fringilla a urna eget, ultrices dignissim leo. Ut efficitur mattis ultrices. Cras mattis enim quis suscipit fermentum. Pellentesque posuere quam nec libero feugiat, sed sodales nulla imperdiet.
