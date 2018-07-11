@@ -1,5 +1,5 @@
 .c-footer {
-    border-top: 1px solid $grey;
+    padding-top: 10vw !important;
 }
 
 .c-footer__list {
@@ -8,8 +8,17 @@
     @include break(grande) {
         float: left;
 
-        padding-right: map-get($size-map, md);
+        padding-right: 5vw;
 
-        line-height: $line-height--base*1.5;
+        line-height: $line-height--base;
+    }
+}
+
+.c-footer__post {
+    clear: both;
+
+    @include break(venti) {
+        float: right;
+        clear: right;
     }
 }

@@ -11,7 +11,6 @@
 }
 
 .c-video-grid__item {
-
     flex: 1 1 auto;
     min-width: (100% / 2);
     max-width: (100% / 1);
@@ -19,11 +18,6 @@
     @include break(grande) {
         min-width: (100% / 2);
         max-width: (100% / 2);
-    }
-
-    @include break(venti) {
-        min-width: (100% / 3);
-        max-width: (100% / 3);
     }
 
     @include break(tetra) {
@@ -48,29 +42,35 @@
 
         display: block;
 
-        background: rgba($black, 0);
+        background: rgba($black, 0.25);
+        pointer-events: none;
     }
 
     &:hover {
         &::before {
-            background: rgba($black, 0.40);
+            background: rgba($black, 0);
         }
 
         .c-video-grid__text {
             opacity: 1;
-            transform: translate(0, 0);
+            transform: translate(0, -10%);
         }
     }
 }
 
 .c-video-grid__text {
-    padding: 7rem 0;
-
-    opacity: 0;
-
-    transform: translate(0, 50%);
+    padding: 15rem 2rem 2rem;
+    opacity: 0.75;
 
     > *:not(:last-child) {
         margin-bottom: map-get($size-map, xs);
+    }
+
+    @include break(tetra) {
+        padding-top: 20rem;
+    }
+
+    @include break(supersize) {
+        padding-bottom: 5rem;
     }
 }

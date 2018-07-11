@@ -7,22 +7,6 @@
     box-sizing: border-box;
 }
 
-body {
-    overflow: hidden;
-    overflow-y: scroll;
-
-    background: $black;
-
-    color: $white;
-    font-family: $font-family--base;
-    font-weight: $font-weight--base;
-    font-size: $font-size--base;
-    line-height: $line-height--base;
-
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
 html,
 body,
 div,
@@ -126,6 +110,34 @@ main {
     display: block;
 }
 
+html,
+body {
+    background-color: $black;
+    color: $white;
+}
+
+body {
+    overflow: hidden;
+    overflow-y: scroll;
+
+    font-family: $font-family--base;
+    font-weight: $font-weight--base;
+    font-size: $font-size--base;
+    line-height: $line-height--base;
+
+    @include break(grande) {
+        line-height: $line-height--base;
+    }
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+main {
+    max-width: 160rem;
+    margin: 0 auto;
+}
+
 img,
 svg,
 image {
@@ -154,7 +166,6 @@ hr {
 iframe,
 input,
 select,
-button,
 textarea {
     width: 100%;
 }
@@ -185,4 +196,13 @@ button,
 
 [hidden] {
     display: none !important;
+}
+
+.js-lazy[data-src] {
+    opacity: 0;
+}
+
+.js-lazy:not([data-src]) {
+    opacity: 1;
+    transition: opacity 1s;
 }

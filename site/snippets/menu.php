@@ -1,18 +1,29 @@
-<nav class="c-nav u-position u-top-0 u-left-0 u-right-0 u-width-full u-align-center">
-    <div class="c-contain">
+<nav class="c-nav u-width-full">
+    <div class="c-contain u-flexbox--grande-up u-align-middle u-tracked-slightly">
 
-        <a class="" href="/" style="margin-top:1rem;" data-type="page-transition">
-            DEVON MUSSETT Filmmaker
-        </a>
+        <div class="c-nav__title">
+
+            <a class="" href="/">
+                <span class="u-uppercase">Devon Mussett</span>
+                <span class="u-uppercase u-half-transparent">Filmmaker</span>
+            </a>
+
+        </div>
 
         <ul class="c-nav__list u-flexbox">
+
             <?php foreach($pages->visible() as $p): ?>
-            <li class="c-nav__list-item u-flex-expand <?php ecco($p->isOpen(), 'u-linethrough') ?>" id="nav<?php echo $p->title()->html() ?>">
-                <a class="u-flexbox u-align-middle u-justify-middle" href="<?php echo $p->url() ?>" data-type="page-transition">
+            <li class="c-nav__list-item u-flex-expand u-uppercase <?php ecco($p->isOpen(), 'u-linethrough') ?>" id="nav<?php echo $p->title()->html() ?>">
+
+                <a class="u-flexbox u-align-middle u-justify-middle"
+                href="<?php echo $p->url() ?>"
+                data-type="page-transition">
                     <?php echo $p->title()->html() ?>
                 </a>
+
             </li>
             <?php endforeach ?>
+
         </ul>
 
     </div>

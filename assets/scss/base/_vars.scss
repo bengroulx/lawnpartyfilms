@@ -6,24 +6,20 @@ $configure--base-unit: 1rem;
 $configure--base-ratio: 1.125;
 
 // typefaces
-$font-family--base: "Futura LT", "Futura", "Trebuchet MS", -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", sans-serif;
+$font-family--base: "Montserrat", -apple-system, BlinkMacSystemFont, "Roboto", "Helvetica Neue", sans-serif;
 $font-weight--base: 300;
-$font-size--base: 1rem;
-$line-height--base: ($configure--base-ratio*1.4rem);
+$font-size--base: 0.9rem;
+$line-height--base: ($configure--base-ratio * 1.75rem);
 
 // colours
 $grey: #999;
 $white: #fff;
-$black: #222;
+$black: #000;
 $green: #568023;
 
 // sizes
 $tap-size: 44px;
 $small-tap-size: 32px;
-
-// style attributes
-
-
 
 // transition options
 $transition-map: (
@@ -93,7 +89,7 @@ $z-map: (
         }
     }
     @else if $point == supersize {
-        @media (min-width: 100em) {
+        @media (min-width: 125em) {
             @content;
         }
     }

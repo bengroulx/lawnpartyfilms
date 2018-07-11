@@ -3,6 +3,9 @@
 @import 'base/general';
 @import 'base/typography';
 
+// ANIMATIONS
+@import 'animations/fade-in';
+
 // COMPONENTS
 @import 'components/button';
 @import 'components/contain';
@@ -12,6 +15,7 @@
 @import 'components/nav';
 @import 'components/modal';
 @import 'components/play';
+@import 'components/ratio';
 @import 'components/section';
 @import 'components/text-content';
 
@@ -23,6 +27,3 @@
 @import 'utilities/flex';
 @import 'utilities/layout';
 @import 'utilities/text';
-
-// INTERACTIONS
-@import 'interactions/magnific';

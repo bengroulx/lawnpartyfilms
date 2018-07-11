@@ -10,9 +10,7 @@
 
         &:hover,
         &:focus {
-            border-bottom: 4px solid $green;
-
-            color: $green;
+            border-bottom-style: dashed;
         }
     }
 

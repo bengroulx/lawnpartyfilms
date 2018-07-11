@@ -25,6 +25,12 @@
     float: right;
 }
 
+@include break(venti) {
+    .u-float-end--venti-up {
+        float: right;
+    }
+}
+
 
 // Center In Parent
 // ---
