@@ -15,7 +15,7 @@ More info about Kirby can be found at <https://getkirby.com/docs> and
 
 ## Previewing
 1. [Clone this project](https://help.github.com/articles/cloning-a-repository/)
-to your local machine.
+to your local machine. 
 2. Via the command line: `cd` into the project.
 3. Start a server: `php -S localhost:8000` (Use port of your choice).
 4. Go to `localhost:8000` (or specified port) in your browser.
