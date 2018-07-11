@@ -1,0 +1,26 @@
+# Custom Ignores
+/assets/js/jquery.js
+/assets/js/jquery.slider.js
+/assets/js/duplicate.lazy.js
+
+# Kirby Files
+/kirby/**
+/panel/**
+/site/config/**
+/site/fields/**
+/site/accounts/**
+
+# Build Files
+/build/**
+/coverage/**
+/docs/**
+/jsdoc/**
+/templates/**
+/tests/bench/**
+/tests/fixtures/**
+/tests/performance/**
+/tmp/**
+
+# Other Files
+test.js
+!.eslintrc.js
