@@ -1,37 +1,57 @@
 <?php snippet('head') ?>
-<?php snippet('header-custom') ?>
 
+<section class="c-section c--no-padding">
+    <div class="+c-contain" style="background-color:rgba(255,255,255,0.1);">
 
+        <?php if($page->VideoLinkYouTube()->isNotEmpty()): ?>
 
-<section class="c-section c--no-padding" role="main" style="height: 100vh;">
-    <div class="c-contain" style="height: 100vh;">
+            <div class="c-ratio c--16x9 u-context u-clip u-bg-center u-bg-cover u-width-full js-lazy">
 
-        <?php if($video = $page->Videolink()): ?>
-        <div class="c-ratio c--16x9 u-gradient u-clip u-bg-grey u-bg-center u-bg-cover u-width-full js-lazy" style="height: 100vh;" ><iframe style="object-fit: cover;position: absolute;width: 100%; height: 100%;" src="https://player.vimeo.com/video/<?php echo $video ?>"  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
-          <div class="u-position u-left-0 u-bottom-0 u-right-0" style="margin:1rem; z-index:10;">
-              <figcaption class="u-position u-bottom-0 u-left-0 u-mono u-regular u-small-text u-white" style="line-height:1;">
-                  Watch “<?php echo $page->title()->html() ?>”
-              </figcaption>
-              <div class="c-play u-context u-float-end u-white u-text-clip">
-                  Play This Video
-              </div>
+                <div id="js-demo-reel">
+                    <iframe class="a-fade-in" style="z-index:1001;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="autoplay; encrypted-media"
+                        src="https://youtube.com/embed/<?php echo $page->VideoLinkYouTube() ?>?rel=0&amp;showinfo=0&amp;autoplay=1&amp;mute=1&amp;hd=1&amp;&iv_load_policy=3&amp;controls=0">
+                    </iframe>
+                </div>
+
             </div>
 
-      <?php else: ?>
+        <?php elseif($page->VideolinkVimeo()->isNotEmpty()): ?>
 
-      <figure class="c-ratio c--16x9 u-gradient u-clip u-bg-grey u-bg-center u-bg-cover u-width-full js-lazy"
-      data-src="<?php echo $page->image()->url() ?>">
-      </figure>
+            <div class="c-ratio c--16x9 u-context u-clip u-bg-center u-bg-cover u-width-full js-lazy">
 
-      <?php endif ?>
+                <div id="js-demo-reel">
+                    <!-- Filled in with a video from the script below-->
+                </div>
 
+                <script>
+                  <?php readfile('assets/js/player-vimeo.js'); ?>
 
+                  var options = {
+                    id: <?php echo $page->VideolinkVimeo() ?>,
+                    color: '999',
+                    autoplay: true,
+                    muted: true,
+                    loop: true,
+                  };
 
+                  var player = new Vimeo.Player('js-demo-reel', options);
+                </script>
+            </div>
 
-  </div>
+        <?php else: ?>
+
+            <div class="c-ratio c--16x9 u-context u-clip u-bg-center u-bg-cover u-width-full js-lazy"
+              <?php if($page->coverImage()->isNotEmpty()): ?>
+                  data-src="content/<?= $page->diruri() ?>/<?php echo $page->coverImage()?>"
+              <?php else: ?>
+                  data-src="<?php echo $page->image()->url() ?>"
+              <?php endif ?>
+            >
+            </div>
+
+        <?php endif ?>
+
+    </div>
 </section>
-
-
-
 
 <?php snippet('footer') ?>

@@ -2,36 +2,28 @@ Title: Home
 
 ----
 
-Artist:
+Videolinkvimeo: 208042347
 
 ----
 
-Videolink: 266025343?title=0&byline=0&autoplay=1&loop=1
+Description: 
 
 ----
 
-Type: Short Film
-
-----
-
-Director: Devon Mussett
-
-----
-
-Producer: Devon Mussett
-
-----
-
-Cinematographer: Devon Mussett
-
-----
-
-Description:
-
-----
-
-Metatitle: Devon Mussett | Vancouver, BC
+Metatitle: Devon Mussett
 
 ----
 
 Metadesc: Devon Mussett is a filmmaker in Vancouver, BC.
+
+----
+
+Videolinkyoutube: 
+
+----
+
+Coverimage: lawn-party-films-music-video.jpg
+
+----
+
+Videourl: 208042347
