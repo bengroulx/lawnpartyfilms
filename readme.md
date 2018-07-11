@@ -31,7 +31,6 @@ Soon™
 ***
 
 ## Questions?
-
-[hello@house-house.design](mailto:hello@house-house.design)
-[@bengroulx](https://github.com/bengroulx)
-[@durfee](https://github.com/durfee).
+- [hello@house-house.design](mailto:hello@house-house.design)
+- [@bengroulx](https://github.com/bengroulx)
+- [@durfee](https://github.com/durfee).
