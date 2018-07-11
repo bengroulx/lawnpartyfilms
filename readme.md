@@ -12,8 +12,9 @@ the browser.
 **When moving files, check if the invisible .htaccess file has been copied to
 your server correctly**
 
-<https://getkirby.com/docs>
-<https://getkirby.com/support>
+### More Info:
+- <https://getkirby.com/docs>
+- <https://getkirby.com/support>
 
 
 ## Contributing
@@ -22,7 +23,7 @@ your server correctly**
 3. Add your code according to the [House House Code Styleguide](https://github.com/househouse/code-styleguide)
 3. Commit your changes: `git add *` … `git commit -m "Add some feature: [Notes]"`
 4. Push to the branch: `git push origin my-new-feature`
-5. Submit a pull request :D
+5. Submit a pull request, ping [@bengroulx](https://github.com/bengroulx) 😊
 
 ## License
 Soon™
