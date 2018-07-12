@@ -18,13 +18,9 @@
     </div>
 </section>
 
-<?php snippet('footer') ?>
-
-<div hidden id="template-<?php echo $page->template() ?>">
-    <style><?php readfile('assets/css/templates/photo.css'); ?></style>
+<div hidden id="t-<?php echo $page->template() ?>">
+    <script><?php readfile('assets/js/jquery.slider.js'); ?></script>
     <script>
-      <?php readfile('assets/js/jquery.slider.js'); ?>
-
       $(document).ready(function(){
         $('.js-slick').slick({
           dots: false,
@@ -57,3 +53,5 @@
       });
     </script>
 </div>
+
+<?php snippet('footer') ?>

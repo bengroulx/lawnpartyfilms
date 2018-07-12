@@ -1,13 +1,11 @@
 <?php snippet('head') ?>
 
-
 <header class="c-section c--large a-fade-in">
     <div class="c-contain">
         <h1 class="u-regular" style="margin-bottom:1rem;"><?php echo $page->title()->html() ?></h1>
         <h2 class="u-regular u-uppercase u-small-text u-uppercase u-tracked-slightly u-grey"><?php echo $page->artist()->html() ?></h2>
     </div>
 </header>
-
 
 <section class="c-section c--no-padding a-fade-in">
     <div class="+c-contain">
@@ -64,7 +62,6 @@
     </div>
 </section>
 
-
 <section class="c-section">
     <div class="c-contain">
 
@@ -110,7 +107,6 @@
     </div>
 </section>
 
-
 <section class="c-section c--no-padding">
     <div class="c-video-grid u-flexbox">
 
@@ -135,10 +131,8 @@
     </div>
 </section>
 
-
-<div hidden id="template-<?php echo $page->template() ?>">
-    <style><?php readfile('assets/css/templates/videos.css'); ?></style>
+<div hidden class="t-<?php echo $page->template() ?>">
+    <!-- This element is reserved for template-specific scripts and styles -->
 </div>
-
 
 <?php snippet('footer') ?>
