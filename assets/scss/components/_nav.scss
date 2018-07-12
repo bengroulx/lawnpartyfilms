@@ -2,11 +2,8 @@
     @include _clearfix;
 
     z-index: map-get($z-map, modal);
-
     padding: 5vh 0;
-
     line-height: 1.5;
-
     transition: map-get($transition-map, slow);
 }
 
@@ -20,7 +17,7 @@
 
         @include break(grande) {
             display: inline-block;
-      }
+        }
     }
 
     @include break(grande) {
@@ -55,17 +52,14 @@
 
     a {
         height: $tap-size;
-
         transition: map-get($transition-map, fast);
 
         @include break(grande) {
-            height: $tap-size*2;
-
+            height: $tap-size * 2;
             font-size: 0.9em;
 
             &:hover {
                 text-decoration: none;
-
                 transform: scale(1.1) rotate(-3deg);
             }
         }

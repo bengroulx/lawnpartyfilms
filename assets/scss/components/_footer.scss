@@ -7,9 +7,7 @@
 
     @include break(grande) {
         float: left;
-
         padding-right: 5vw;
-
         line-height: $line-height--base;
     }
 }

@@ -7,6 +7,7 @@
 }
 
 @include break(grande) {
+
     .u-flexbox--grande-up {
         display: flex;
         flex-direction: row;
@@ -16,7 +17,6 @@
 .u-flex-wrap {
     flex-wrap: wrap;
 }
-
 
 // Flex Layout
 // ---

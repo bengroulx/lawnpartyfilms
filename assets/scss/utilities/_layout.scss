@@ -13,7 +13,6 @@
     position: fixed;
 }
 
-
 // Center In Parent
 // ---
 
@@ -26,11 +25,11 @@
 }
 
 @include break(venti) {
+
     .u-float-end--venti-up {
         float: right;
     }
 }
-
 
 // Center In Parent
 // ---
@@ -43,16 +42,15 @@
     transform: translateX(-50%);
 }
 
-
 // Z Index Positioning
 // ---
 
 @each $layer-name, $layer-value in $z-map {
+
     .u-z-#{$layer-name} {
         z-index: $layer-value;
     }
 }
-
 
 // X & Y Index Positioning
 // ---
