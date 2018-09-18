@@ -6,7 +6,7 @@ Artist: Coming Soon
 
 ----
 
-Videolink: 
+Videolinkyoutube: 
 
 ----
 
@@ -35,3 +35,11 @@ Metatitle:
 ----
 
 Metadesc: 
+
+----
+
+Videolinkvimeo: 
+
+----
+
+Pictures: 

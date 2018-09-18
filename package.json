@@ -1,0 +1,28 @@
+{
+  "devDependencies": {
+    "autoprefixer": "^8.6.5",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.13.0",
+    "postcss-cli": "^5.0.1",
+    "prettier": "1.13.7",
+    "prettier-stylelint": "^0.4.2",
+    "stylelint": "^9.3.0",
+    "stylelint-config-idiomatic-order": "^5.0.0",
+    "stylelint-config-prettier": "^3.3.0",
+    "stylelint-config-standard": "^18.2.0",
+    "stylelint-order": "^0.8.1"
+  },
+  "dependencies": {},
+  "scripts": {
+    "lint-check": "stylelint-config-prettier-check",
+    "lint-scss": "stylelint 'assets/**/*.scss'",
+    "lint-css": "stylelint 'assets/**/*.css'",
+    "lint-js": "eslint .",
+    "fix-scss": "stylelint 'assets/**/*.scss' --fix",
+    "fix-css": "stylelint 'assets/**/*.css' --fix",
+    "server": "php -S localhost:8000",
+    "build": "postcss assets/css/*.css --use autoprefixer --replace",
+    "start": "yarn run build && yarn run lint-scss && yarn run server"
+  }
+}

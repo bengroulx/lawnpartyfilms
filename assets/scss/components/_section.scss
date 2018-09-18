@@ -12,10 +12,12 @@
     }
 
     &.c--large {
-        padding-top: map-get($size-map, xl);
+        padding-top: map-get($size-map, lg);
+        padding-bottom: map-get($size-map, lg);
 
         @include break(grande) {
             padding-top: map-get($size-map, xl);
+            padding-bottom: map-get($size-map, xl);
         }
     }
 }

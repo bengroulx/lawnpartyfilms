@@ -1,8 +1,8 @@
 <?php function sanitize_output($buffer) {$search = array('/\>[^\S ]+/s','/[^\S ]+\</s','/(\s)+/s');$replace = array('>','<','\\1'); $buffer = preg_replace($search, $replace, $buffer); return $buffer; } ob_start("sanitize_output"); ?>
 <!DOCTYPE html>
-<!--[if IE 7]> <html lang="en-ca" class="lt-ie9 lt-ie8"><![endif]-->
-<!--[if IE 8]> <html lang="en-ca" class="lt-ie9"><![endif]-->
-<!--[if gt IE 8]><!--><html lang="en-ca" class="no-js"><!--<![endif]-->
+<!--[if IE 7]> <html lang="en-ca" class="lt-ie9 lt-ie8"/><![endif]-->
+<!--[if IE 8]> <html lang="en-ca" class="lt-ie9"/><![endif]-->
+<!--[if gt IE 8]><!--><html lang="en-ca" class="no-js"/><!--<![endif]-->
 
 <head>
     <meta charset="utf-8"/>
@@ -10,21 +10,11 @@
     <meta name="MobileOptimized" content="320"/>
     <meta name="HandheldFriendly" content="True"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <title><?php echo $page->metatitle()->html() ?> | <?php echo $site->title()->html() ?></title>
-    <meta name="description" content="<?php echo $page->metadesc()->html() ?>"/>
-    <meta name="keywords" content="<?php echo $site->keywords()->html() ?>"/>
-    <meta name="author" content="<?php echo $site->title()->html() ?>"/>
 
-    <!--[if IEMobile]><meta http-equiv="cleartype" content="on"><![endif]-->
+    <!--[if IEMobile]><meta http-equiv="cleartype" content="on"/><![endif]-->
 
-    <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script><?php readfile('assets/js/jquery.lazy.min.js'); ?></script>
-  
-
-    <link rel="stylesheet" type="text/css" href="assets/slick/slick.css"/>
-
-    <link rel="stylesheet" type="text/css" href="assets/slick/slick-theme.css"/>
+    <script><?php readfile('assets/js/jquery.js'); ?></script>
+    <script><?php readfile('assets/js/jquery.lazy.js'); ?></script>
 
     <?php snippet('scss') ?>
 
@@ -40,24 +30,46 @@
     <link rel="manifest" href="/manifest.json" />
     <meta name="msapplication-TileColor" content="#000" />
     <meta name="msapplication-TileImage" content="<?php echo url('assets/icons/touch-icon-144.png') ?>" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="<?php echo $page->url() ?>" />
-    <meta property="og:title" content="<?php echo $page->metatitle()->bool() ?>" />
-    <meta property="og:author" content="https://facebook.com/LawnPartyFilms/" />
-    <meta property="og:site_name" content="Lawn Party Films" />
-    <meta property="og:description" content="<?php echo $page->metadesc()->html() ?>" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:url" content="<?php echo $page->url() ?>" />
-    <meta name="twitter:title" content="<?php echo $page->metatitle()->bool() ?> | <?php echo $site->title()->html() ?>" />
-    <meta name="twitter:creator" content="@devonmussett" />
-    <meta name="twitter:site" content="@devonmussett" />
-    <meta name="twitter:description" content="<?php echo $page->metadesc()->html() ?>" />
+
+    <title><?php echo $page->metatitle()->html() ?> | <?php echo $site->title()->html() ?></title>
+    <meta name="description" content="<?php echo $page->metadesc()->html() ?>"/>
+    <meta name="keywords" content="<?php echo $site->keywords()->html() ?>"/>
+    <meta name="author" content="<?php echo $site->title()->html() ?>"/>
+
+    <!-- Search Engine -->
+    <title><?php echo $page->metatitle()->html() ?> | <?php echo $site->title()->html() ?></title>
+    <meta name="description" content="<?php echo $page->metadesc()->html() ?>"/>
+    <meta name="keywords" content="<?php echo $site->keywords()->html() ?>"/>
+    <meta name="author" content="<?php echo $site->title()->html() ?>"/>
+    <meta name="image" content="XXXimage"/>
+    <!-- Schema.org for Google -->
+    <meta itemprop="name" content="<?php echo $page->metatitle()->html() ?>"/>
+    <meta itemprop="description" content="<?php echo $page->metadesc()->html() ?>"/>
+    <meta itemprop="image" content="XXXimage"/>
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:title" content="<?php echo $page->metatitle()->html() ?>"/>
+    <meta name="twitter:description" content="<?php echo $page->metadesc()->html() ?>"/>
+    <meta name="twitter:site" content="devonmussett"/>
+    <meta name="twitter:creator" content="devonmussett"/>
+    <meta name="twitter:image:src" content="XXXimage"/>
+    <meta name="twitter:player" content="XXXvideo"/>
+    <!-- Open Graph general (Facebook, Pinterest & Google+) -->
+    <meta name="og:title" content="<?php echo $page->metatitle()->html() ?>"/>
+    <meta name="og:description" content="<?php echo $page->metadesc()->html() ?>"/>
+    <meta name="og:image" content="XXXimage"/>
+    <meta name="og:url" content="<?php echo $page->url() ?>"/>
+    <meta name="og:locale" content="en_CA"/>
+    <meta name="og:video" content="XXXvideo"/>
+    <meta name="og:type" content="website"/>
 
 </head>
 
-<body class="t-<?php echo $page->template() ?>">
+<body class="t-<?php echo $page->template() ?>"/>
 
-    <!-- OPEN MAIN :: closed in footer.php -->
-    <main>
-        <div class="js-replace-content u-clip">
-            <?php snippet('menu') ?>
+<!-- OPEN MAIN :: closed in footer.php -->
+<main>
+
+    <div class="js-replace-content u-clip"/>
+
+        <?php snippet('menu') ?>

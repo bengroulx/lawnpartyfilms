@@ -5,35 +5,22 @@ pages:
     template: video
 
 fields:
-    pagetitle-1:
-        label: Page Information
+    pageTitle-1:
+        label: Page Content
         type: headline
     title:
         label: Title
-        type:  text
-    headerImage:
-        label: Header Image
-        type:  text
+        type: text
+        help: This is also the name that will appear in the URL, i.e. devonmussett.com/title-here
+
     pagetitle-2:
-        label: Page Content
-        type: headline
-    h1:
-        label: Page Headline
-        type:  text
-    h2:
-        label: Page Subheadline
-        type:  text
-    introduction:
-        label: Introduction
-        type:  textarea
-    pagetitle-3:
-        label: META Information
+        label: Search Engine Optimization
         type: headline
     metatitle:
-        label: META Title
+        label: SEO Title
         type:  text
-        icon:  header
+        help: This text will show up as the title in search engines and social media sites when shared.
     metadesc:
-        label: META Description
+        label: SEO Description
         type:  textarea
-        icon:  file-code-o
+        help: This text will show up as the description in search engines and social media sites when shared.

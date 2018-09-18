@@ -6,7 +6,7 @@ Artist: Short Film
 
 ----
 
-VideolinkB: 186370729
+Videolinkvimeo: 
 
 ----
 
@@ -22,7 +22,7 @@ Cinematographer: Blake Davey
 
 ----
 
-Description:
+Description: 
 
 ----
 
@@ -30,8 +30,20 @@ Metatitle: The Meltdown | Short Film
 
 ----
 
-Metadesc:
+Metadesc: 
 
 ----
 
 Type: Short Film
+
+----
+
+Videolinkyoutube: 
+
+----
+
+Coverimage: 14125107-630568320442256-1971539852838067236-o.png
+
+----
+
+Pictures: 

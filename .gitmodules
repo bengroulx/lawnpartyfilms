@@ -1,0 +1,3 @@
+[submodule "site/plugins/kirby-html-minifier"]
+	path = site/plugins/kirby-html-minifier
+	url = https://github.com/jenstornell/kirby-html-minifier

@@ -1,5 +1,3 @@
-@import '../base/vars';
-
 .c-video-grid {
     flex-flow: row wrap;
 
@@ -10,8 +8,24 @@
     }
 }
 
-.c-video-grid__item {
+.c-video-grid__text {
+    padding: 15rem 2rem 2rem;
+    opacity: 0.75;
 
+    > *:not(:last-child) {
+        margin-bottom: map-get($size-map, xs);
+    }
+
+    @include break(tetra) {
+        padding-top: 20rem;
+    }
+
+    @include break(supersize) {
+        padding-bottom: 5rem;
+    }
+}
+
+.c-video-grid__item {
     flex: 1 1 auto;
     min-width: (100% / 2);
     max-width: (100% / 1);
@@ -19,11 +33,6 @@
     @include break(grande) {
         min-width: (100% / 2);
         max-width: (100% / 2);
-    }
-
-    @include break(venti) {
-        min-width: (100% / 3);
-        max-width: (100% / 3);
     }
 
     @include break(tetra) {
@@ -38,39 +47,26 @@
 
     &::before {
         content: '';
-
         position: absolute;
         top: 0;
         right: 0;
         bottom: 0;
         left: 0;
         z-index: 1;
-
         display: block;
-
-        background: rgba($black, 0);
+        background: rgba($black, 0.25);
+        pointer-events: none;
     }
 
     &:hover {
+
         &::before {
-            background: rgba($black, 0.40);
+            background: rgba($black, 0);
         }
 
         .c-video-grid__text {
             opacity: 1;
-            transform: translate(0, 0);
+            transform: translate(0, -10%);
         }
-    }
-}
-
-.c-video-grid__text {
-    padding: 7rem 0;
-
-    opacity: 0;
-
-    transform: translate(0, 50%);
-
-    > *:not(:last-child) {
-        margin-bottom: map-get($size-map, xs);
     }
 }

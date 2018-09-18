@@ -6,7 +6,7 @@ Artist: Tom Macdonald
 
 ----
 
-VideolinkB: 183422266
+Videolinkvimeo: 
 
 ----
 
@@ -26,12 +26,24 @@ Cinematographer: Blake Davey
 
 ----
 
-Description:
+Description: 
 
 ----
 
-Metatitle:
+Metatitle: 
 
 ----
 
-Metadesc:
+Metadesc: 
+
+----
+
+Videolinkyoutube: 
+
+----
+
+Coverimage: rolling-stone-02-03-44-18.still003.png
+
+----
+
+Pictures: 
