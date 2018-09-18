@@ -65,7 +65,7 @@
 <section class="c-section">
     <div class="c-contain">
 
-        <div class="u-flexbox--grande-up" style="justify-content:space-between;">
+        <div class="u-flexbox--grande-up u-justify-between">
 
             <div class="c-text-content" style="padding-top:0.5rem; margin-right:5rem; margin-bottom:calc(10vh); white-space:nowrap;">
                 <div>

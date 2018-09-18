@@ -14,36 +14,48 @@
 
     span {
         display: block;
+    }
+
+    span + span {
+        font-size: 0.8em;
 
         @include break(grande) {
-            display: inline-block;
+          font-size: 0.9em;
         }
     }
 
     @include break(grande) {
-        flex: 1;
+        flex: 0 0 auto;
         padding: 0;
         text-align: left;
     }
 }
 
 .c-nav__list {
+    justify-content: center;
+    padding: 0 5vw;
+    font-size: 0.9em;
+
     @include break(grande) {
-        flex: 0;
+        font-size: 1em;
     }
 }
 
 .c-nav__list-item {
-    text-align: left;
+    margin-right: 2vw;
+    margin-left: 2vw;
+    white-space: nowrap;
 
     @include break(grande) {
+        flex: auto;
         min-width: $tap-size;
+        margin-right: 0;
         margin-left: 5vw;
         padding: 0;
     }
 
     &[id='navHome'] {
-        @include break(grande) {
+        @include break(venti) {
             display: block;
         }
 

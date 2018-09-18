@@ -1,4 +1,4 @@
-Title: Film
+Title: Selected Works
 
 ----
 
@@ -6,11 +6,11 @@ Metatitle: Film, Music Videos, & Web Series
 
 ----
 
-Metadesc:
+Metadesc: 
 
 ----
 
-Headerimage:
+Headerimage: 
 
 ----
 
@@ -18,7 +18,7 @@ H1: Production portfolio.
 
 ----
 
-Introduction:
+Introduction: 
 
 ----
 

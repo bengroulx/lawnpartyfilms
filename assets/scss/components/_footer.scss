@@ -3,13 +3,19 @@
 }
 
 .c-footer__list {
-    margin-bottom: map-get($size-map, sm);
-
     @include break(grande) {
         float: left;
-        padding-right: 5vw;
         line-height: $line-height--base;
     }
+
+    li {
+        display: inline-block;
+        padding-right: 3vw;
+    }
+}
+
+.c-footer__icon {
+    width: 2em;
 }
 
 .c-footer__post {

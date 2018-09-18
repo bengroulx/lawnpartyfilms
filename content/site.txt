@@ -1,4 +1,4 @@
-Title: Devon Mussett
+Title: Devon Mussett | Director & Cinematographer
 
 ----
 
@@ -6,7 +6,7 @@ Author: Devon Mussett
 
 ----
 
-Description: 
+Description: Devon Mussett is a film director and cinematographer based out of Vancouver, Canada.
 
 ----
 
@@ -15,3 +15,7 @@ Keywords: vancouver,vancouver film,film,production,music videos,short films,movi
 ----
 
 Copyright: Copyright © 2017–2018 Devon Mussett. All Rights Reserved.
+
+----
+
+Role: Director//Cinematographer
