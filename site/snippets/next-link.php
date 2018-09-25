@@ -1,6 +1,8 @@
 <?php if($page->hasNext()): ?>
 
-<a class="c-next-link u-block">
+<!-- TODO: Replace the href! -->
+
+<a class="c-next-link u-block" href="#">
 
     <svg class="c-next-link__arrow u-block" width="18" height="13" viewBox="0 0 18 13" xmlns="http://www.w3.org/2000/svg">
         <title>Arrow</title>
