@@ -49,7 +49,3 @@ Pictures:
 ----
 
 Coverimage: high-five-goodbye.png
-
-----
-
-Icon: arrow.svg

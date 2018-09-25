@@ -1,20 +1,22 @@
 .arrow {
-  width: 18,
-  height: 13,
-  viewBox: 0 0 18 13
+
+     position: relative;
+     left: 50%;
+     -webkit-transform: translateX(-50%);
+     -ms-transform: translateX(-50%);
+     transform: translateX(-50%);
+     viewBox: 0 0 18 13;
+     transition: map-get($transition-map, slow);
 }
 
-.next {
-  height: $tap-size;
-  transition: map-get($transition-map, fast);
+.next-list {
+    text-align: center;
+    font-size: 0.9em;
+    transition: map-get($transition-map, slow);
 
-  @include break(grande) {
-      height: $tap-size * 2;
-      font-size: 0.9em;
-
-      &:hover {
-          text-decoration: none;
-          transform: scale(1.1) rotate(-3deg);
-      }
-  }
+    @include break(grande) {
+        text-align: center;
+        font-size: 1em;
+        transition: map-get($transition-map, slow);
+    }
 }
