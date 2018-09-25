@@ -134,5 +134,5 @@
 <div hidden class="t-<?php echo $page->template() ?>">
     <!-- This element is reserved for template-specific scripts and styles -->
 </div>
-
+<?php snippet('next-link') ?>
 <?php snippet('footer') ?>
