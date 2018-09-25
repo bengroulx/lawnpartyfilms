@@ -1,22 +1,29 @@
-.arrow {
+// These styles are isolated to the `c-next-link` component.
+// ---
+// Use already-written code, such as _variables, utilities, and @includes. New
+// CSS should only be added as a last resort, if you are unable to use anything
+// else in the project.
 
-     position: relative;
-     left: 50%;
-     -webkit-transform: translateX(-50%);
-     -ms-transform: translateX(-50%);
-     transform: translateX(-50%);
-     viewBox: 0 0 18 13;
-     transition: map-get($transition-map, slow);
+
+.c-next-link {
+    // styles for the entire container
+
+    width: 10rem; // change to adjust size of the entire block
+    padding-right: 0; // changing the padding will push the block off the edge
 }
 
-.next-list {
-    text-align: center;
-    font-size: 0.9em;
-    transition: map-get($transition-map, slow);
+.c-next-link__arrow {
+    // styles for the arrow only
+
+    max-width: none; // override any previous max-width that is applied.
+    width: 100%; // will fill the parent container.
+    height: auto; // retains the same width/height proportions as it scales.
 
     @include break(grande) {
-        text-align: center;
-        font-size: 1em;
-        transition: map-get($transition-map, slow);
+        // styles for larger breakpoints
     }
+}
+
+.c-next-link__text {
+    // styles for the text only
 }
