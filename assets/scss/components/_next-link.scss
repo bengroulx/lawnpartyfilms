@@ -7,7 +7,8 @@
 
 .c-next-link {
     // styles for the entire container
-
+    position: absolute;
+    z-index: 1;
     width: 15rem; // change to adjust size of the entire block
     padding-right: 0; // changing the padding will push the block off the edge
     &:hover {
@@ -18,20 +19,32 @@
 
 .c-next-link__arrow {
     // styles for the arrow only
-
+    position: relative;
+    z-index: 10;
     max-width: none; // override any previous max-width that is applied.
-    width: 75%; // will fill the parent container.
+    width: 50%; // will fill the parent container.
     height: auto; // retains the same width/height proportions as it scales.
+
 
     @include break(grande) {
         // styles for larger breakpoints
         flex: auto;
         min-width: $tap-size;
+        text-align: left;
         padding: 0;
     }
 }
 
 .c-next-link__text {
-    // styles for the text only
+      height: $tap-size;
+      transition: map-get($transition-map, fast);// styles for the text only
+
+    @include break(grande) {
+        // styles for larger breakpoints
+        flex: auto;
+        min-width: $tap-size;
+        text-align: right;
+        padding: 0;
+    }
 
 }
