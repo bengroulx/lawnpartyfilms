@@ -25,6 +25,9 @@
 
     @include break(grande) {
         // styles for larger breakpoints
+        flex: auto;
+        min-width: $tap-size;
+        padding: 0;
     }
 }
 
