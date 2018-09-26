@@ -109,7 +109,7 @@
 
 
 <section class="c-section">
-    <div class="c-contain">
+    <div class="c-contain u-flexbox u-justify-middle">
         <?php snippet('next-link') ?>
     </div>
 </section>
