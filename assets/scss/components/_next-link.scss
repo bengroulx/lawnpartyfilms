@@ -10,7 +10,8 @@
 
     z-index: map-get($z-map, basic);
     width: 15rem; // change to adjust size of the entire block
-    padding-right: 0; // changing the padding will push the block off the edge
+    padding-right: 0;
+     // changing the padding will push the block off the edge
     &:hover {
         text-decoration: none;
         transform: scale(1.1) rotate(-3deg);
@@ -22,15 +23,14 @@
 
     z-index: map-get($z-map, stack);
     max-width: none; // override any previous max-width that is applied.
-    width: 50%; // will fill the parent container.
+    width: 25%; // will fill the parent container.
     height: auto; // retains the same width/height proportions as it scales.
 
 
     @include break(grande) {
         // styles for larger breakpoints
-        flex: auto;
+        color: red;
         min-width: $tap-size;
-        text-align: left;
         padding: 0;
     }
 }
@@ -38,13 +38,12 @@
 .c-next-link__text {
       z-index: map-get($z-map, stack);
       height: $tap-size;
-      transition: map-get($transition-map, fast);// styles for the text only
+      // styles for the text only
 
     @include break(grande) {
         // styles for larger breakpoints
-        flex: auto;
+
         min-width: $tap-size;
-        text-align: right;
         padding: 0;
     }
 
