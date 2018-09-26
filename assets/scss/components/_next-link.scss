@@ -8,7 +8,7 @@
 .c-next-link {
     // styles for the entire container
 
-    width: 10rem; // change to adjust size of the entire block
+    width: 15rem; // change to adjust size of the entire block
     padding-right: 0; // changing the padding will push the block off the edge
     &:hover {
         text-decoration: none;
@@ -20,7 +20,7 @@
     // styles for the arrow only
 
     max-width: none; // override any previous max-width that is applied.
-    width: 100%; // will fill the parent container.
+    width: 75%; // will fill the parent container.
     height: auto; // retains the same width/height proportions as it scales.
 
     @include break(grande) {
@@ -30,4 +30,5 @@
 
 .c-next-link__text {
     // styles for the text only
+
 }
