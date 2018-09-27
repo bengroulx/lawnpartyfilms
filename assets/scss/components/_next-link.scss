@@ -1,27 +1,39 @@
+// Component: Next Link
+// ---
+//
+// [1] Ensure the component is always at least the minimum tap-size for mobile
+// [2] Override inherited leading to make text more readable
+// [3] Don’t let the component get too wide on large screens! (20rem is just
+//     wide enough to fit the current longest video title)
+// [4] Ensure there is enough wiggle room for the animation at [6]
+// [5] In order to have the icon fill it’s container’s height, we need to let
+//     the icon widden to its natural size
+// [6] Apply a transition+transformation when the entire component is hovered on
+
 .c-next-link {
-    min-height: $tap-size;
-    line-height: 1.5;
+    min-height: $tap-size; // [1]
+    line-height: 1.5; // [2]
 
     @include break(venti) {
-        max-width: 20rem;
-        padding: 1rem 0;
+        max-width: 20rem; // [3]
+        padding: 1rem 0; // [4]
         text-align: center;
     }
 }
 
 .c-next-link__arrow {
-    width: auto;
-    min-height: $tap-size;
-    transition: all 200ms ease-out;
+    width: auto; // [5]
+    min-height: $tap-size; // [5]
+    transition: all 200ms ease-out; // [6]
 
     @include break(venti) {
         margin-bottom: 3rem;
-        opacity: 0.3;
-        transform: scale(1.25);
+        opacity: 0.3; // [6]
+        transform: scale(1.25); // [6]
 
         .c-next-link:hover & {
-            opacity: 1;
-            transform: scale(1.5) rotate(-3deg);
+            opacity: 1; // [6]
+            transform: scale(1.5) rotate(-3deg); // [6]
         }
     }
 
