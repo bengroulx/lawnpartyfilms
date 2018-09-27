@@ -1,9 +1,3 @@
-// These styles are isolated to the `c-next-link` component.
-// ---
-// Use already-written code, such as _variables, utilities, and @includes. New
-// CSS should only be added as a last resort, if you are unable to use anything
-// else in the project.
-
 .c-next-link {
     min-height: $tap-size;
     line-height: 1.5;
@@ -12,7 +6,6 @@
         max-width: 20rem;
         padding: 1rem 0;
         text-align: center;
-
     }
 }
 
