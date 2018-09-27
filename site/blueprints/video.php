@@ -40,18 +40,6 @@ fields:
         label: Media Type
         type: text
         width: 1/4
-    director:
-        label: Directed By
-        type: text
-        width: 1/4
-    producer:
-        label: Produced By
-        type: text
-        width: 1/4
-    cinematographer:
-        label: Cinematography By
-        type: text
-        width: 1/4
     pictures:
         label: Stills & Behind-the-Scenes Gallery
         type: gallery

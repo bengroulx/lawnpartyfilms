@@ -72,18 +72,6 @@
                     <h3 class="u-regular u-uppercase u-small-text u-tracked-slightly u-half-transparent">Film Type</h3>
                     <p><?php echo $page->type() ?></p>
                 </div>
-                <div>
-                    <h3 class="u-regular u-uppercase u-small-text u-tracked-slightly u-half-transparent">Directed By</h3>
-                    <p><?php echo $page->director() ?></p>
-                </div>
-                <div>
-                    <h3 class="u-regular u-uppercase u-small-text u-tracked-slightly u-half-transparent">Produced By</h3>
-                    <p><?php echo $page->producer() ?></p>
-                </div>
-                <div>
-                    <h3 class="u-regular u-uppercase u-small-text u-tracked-slightly u-half-transparent">Cinematography By</h3>
-                    <p><?php echo $page->cinematographer() ?></p>
-                </div>
             </div>
 
             <div style="max-width:640px;">
