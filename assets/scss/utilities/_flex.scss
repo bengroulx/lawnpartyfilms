@@ -4,13 +4,24 @@
 .u-flexbox {
     display: flex;
     flex-direction: row;
+
+    @include break(grande) {
+        &--grande-up {
+            display: flex;
+            flex-direction: row;
+        }
+    }
 }
 
-@include break(grande) {
+.u-flexbox-column {
+    display: flex;
+    flex-direction: column;
 
-    .u-flexbox--grande-up {
-        display: flex;
-        flex-direction: row;
+    @include break(venti) {
+        &--venti-up {
+          display: flex;
+            flex-direction: column;
+        }
     }
 }
 
@@ -52,4 +63,39 @@
 
 .u-flex-shrink {
     flex: 0 1 auto;
+}
+
+// Flex Order
+// ---
+
+.u-flex-order-1 {
+    order: 1;
+
+    @include break(grande) {
+        &--grande-up {
+            order: 1;
+        }
+    }
+
+    @include break(venti) {
+        &--venti-up {
+            order: 1;
+        }
+    }
+}
+
+.u-flex-order-2 {
+    order: 2;
+
+    @include break(grande) {
+        &--grande-up {
+            order: 2;
+        }
+    }
+
+    @include break(venti) {
+        &--venti-up {
+            order: 2;
+        }
+    }
 }
