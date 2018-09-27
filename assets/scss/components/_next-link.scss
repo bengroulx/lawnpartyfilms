@@ -4,47 +4,43 @@
 // CSS should only be added as a last resort, if you are unable to use anything
 // else in the project.
 
-
 .c-next-link {
-    // styles for the entire container
+    min-height: $tap-size;
+    line-height: 1.5;
 
-    z-index: map-get($z-map, basic);
-    width: 15rem; // change to adjust size of the entire block
-    padding-right: 0;
-     // changing the padding will push the block off the edge
-    &:hover {
-        text-decoration: none;
-        transform: scale(1.1) rotate(-3deg);
+    @include break(venti) {
+        max-width: 20rem;
+        padding: 1rem 0;
+        text-align: center;
+
     }
 }
 
 .c-next-link__arrow {
-    // styles for the arrow only
+    width: auto;
+    min-height: $tap-size;
+    transition: all 200ms ease-out;
 
-    z-index: map-get($z-map, stack);
-    max-width: none; // override any previous max-width that is applied.
-    width: 25%; // will fill the parent container.
-    height: auto; // retains the same width/height proportions as it scales.
+    @include break(venti) {
+        margin-bottom: 3rem;
+        opacity: 0.3;
+        transform: scale(1.25);
 
+        .c-next-link:hover & {
+            opacity: 1;
+            transform: scale(1.5) rotate(-3deg);
+        }
+    }
 
-    @include break(grande) {
-        // styles for larger breakpoints
-        color: red;
-        min-width: $tap-size;
-        padding: 0;
+    @include break(tetra) {
+        margin-bottom: 4rem;
     }
 }
 
 .c-next-link__text {
-      z-index: map-get($z-map, stack);
-      height: $tap-size;
-      // styles for the text only
+    margin-right: 1rem;
 
-    @include break(grande) {
-        // styles for larger breakpoints
-
-        min-width: $tap-size;
-        padding: 0;
+    @include break(venti) {
+        margin-right: 0;
     }
-
 }
