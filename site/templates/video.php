@@ -107,6 +107,24 @@
     </div>
 </section>
 
+
+<section class="c-section">
+    <div class="c-contain u-flexbox u-justify-middle">
+        <?php snippet('next-link') ?>
+    </div>
+</section>
+
+
+<div hidden class="t-<?php echo $page->template() ?>">
+    <!-- This element is reserved for template-specific scripts and styles -->
+</div>
+
+
+<?php snippet('footer') ?>
+
+
+
+<!--
 <section class="c-section c--no-padding">
     <div class="c-video-grid u-flexbox">
 
@@ -130,9 +148,4 @@
 
     </div>
 </section>
-
-<div hidden class="t-<?php echo $page->template() ?>">
-    <!-- This element is reserved for template-specific scripts and styles -->
-</div>
-
-<?php snippet('footer') ?>
+-->

@@ -1,0 +1,39 @@
+.c-next-link {
+    min-height: $tap-size;
+    line-height: 1.5;
+
+    @include break(venti) {
+        max-width: 20rem;
+        padding: 1rem 0;
+        text-align: center;
+    }
+}
+
+.c-next-link__arrow {
+    width: auto;
+    min-height: $tap-size;
+    transition: all 200ms ease-out;
+
+    @include break(venti) {
+        margin-bottom: 3rem;
+        opacity: 0.3;
+        transform: scale(1.25);
+
+        .c-next-link:hover & {
+            opacity: 1;
+            transform: scale(1.5) rotate(-3deg);
+        }
+    }
+
+    @include break(tetra) {
+        margin-bottom: 4rem;
+    }
+}
+
+.c-next-link__text {
+    margin-right: 1rem;
+
+    @include break(venti) {
+        margin-right: 0;
+    }
+}

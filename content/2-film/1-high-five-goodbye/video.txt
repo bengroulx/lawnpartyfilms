@@ -10,7 +10,7 @@ Videolinkyoutube: X7765DcYqnQ
 
 ----
 
-Videolinkvimeo: 
+Videolinkvimeo:
 
 ----
 
@@ -38,11 +38,11 @@ Metatitle: High Five Goodbye | Short Film
 
 ----
 
-Metadesc: 
+Metadesc:
 
 ----
 
-Pictures: 
+Pictures:
 
 - high-five-goodbye-title-card.png
 
