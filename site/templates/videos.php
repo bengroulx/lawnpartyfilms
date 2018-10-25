@@ -1,7 +1,7 @@
 <?php snippet('head') ?>
 
 <section class="c-section c--no-padding">
-    <div class="+c-contain">
+    <div class="c-contain">
 
       <div class="c-video-grid u-flexbox a-fade-in">
 
