@@ -15,7 +15,12 @@ fields:
         label: Artist / Created For / Subtitle
         type: text
         help: The subtitle for the page, usually a name or a project type.
-
+        width: 1/2
+    type:
+        label: Media Type
+        type: text
+        width: 1/2
+        help: The type of media category, such as music video, feature film, etc.
     pageTitle-2:
         label: Video Info
         type: headline
@@ -36,10 +41,6 @@ fields:
     description:
         label: Description
         type: markdown
-    type:
-        label: Media Type
-        type: text
-        width: 1/4
     pictures:
         label: Stills & Behind-the-Scenes Gallery
         type: gallery
