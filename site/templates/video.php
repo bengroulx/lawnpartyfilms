@@ -8,15 +8,15 @@
 </header>
 
 <section class="c-section c--no-padding a-fade-in">
-    <div class="+c-contain">
+    <div class="c-contain">
 
         <?php if($page->VideoLinkYouTube()->isNotEmpty()): ?>
 
-            <div class="c-ratio c--16x9 u-context u-clip u-bg-center u-bg-cover u-width-full js-lazy">
+            <div class="c-ratio c--16x9 u-context u-clip u-bg-center u-bg-cover u-width-full js-lazy" style="background-color:rgba(255,255,255,0.1);">
 
                 <div id="js-film-reel">
                     <iframe class="a-fade-in" style="z-index:1001;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="autoplay; encrypted-media"
-                        src="https://youtube.com/embed/<?php echo $page->VideoLinkYouTube() ?>?rel=0&amp;showinfo=0&amp;autoplay=1&amp;mute=1&amp;hd=1&amp;&iv_load_policy=3&amp;controls=0">
+                        src="https://youtube.com/embed/<?php echo $page->VideoLinkYouTube() ?>?rel=0&amp;showinfo=0&amp;hd=1&amp;&iv_load_policy=3&amp;controls=0">
                     </iframe>
                 </div>
 
@@ -24,7 +24,7 @@
 
         <?php elseif($page->VideolinkVimeo()->isNotEmpty()): ?>
 
-            <div class="c-ratio c--16x9 u-context u-clip u-bg-center u-bg-cover u-width-full js-lazy">
+            <div class="c-ratio c--16x9 u-context u-clip u-bg-center u-bg-cover u-width-full js-lazy" style="background-color:rgba(255,255,255,0.1);">
 
                 <div id="js-film-reel">
                     <!-- Filled in with a video from the script below-->
@@ -36,8 +36,6 @@
                   var options = {
                     id: <?php echo $page->VideolinkVimeo() ?>,
                     color: '999',
-                    autoplay: true,
-                    muted: true,
                     loop: true,
                   };
 
@@ -85,7 +83,7 @@
             <?php foreach($page->pictures()->yaml() as $image): ?>
                 <?php if($img = $page->image($image)): ?>
                     <li>
-                        <img src="<?= $img->url() ?>" alt="<?= $page->title()->html() ?>" style="width:100%; margin-top:25vh;" />
+                        <img src="<?= $img->url() ?>" alt="<?= $page->title()->html() ?>, a <?= $page->type()->html() ?> by Devon Mussett" style="width:100%; margin-top:15vh;" />
                     </li>
                 <?php endif ?>
             <?php endforeach ?>
