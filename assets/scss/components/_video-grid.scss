@@ -6,43 +6,27 @@
     *::after {
         transition: map-get($transition-map, slow);
     }
-}
 
-.c-video-grid__text {
-    padding: 15rem 2rem 2rem;
-    opacity: 0.75;
-
-    > *:not(:last-child) {
-        margin-bottom: map-get($size-map, xs);
-    }
-
-    @include break(tetra) {
-        padding-top: 20rem;
-    }
-
-    @include break(supersize) {
-        padding-bottom: 5rem;
+    @include break(grande) {
+        margin: 0 -0.5rem;
     }
 }
 
 .c-video-grid__item {
     flex: 1 1 auto;
-    min-width: (100% / 2);
+    min-width: (100% / 1);
     max-width: (100% / 1);
+    border-bottom: 5vw solid $black;
 
     @include break(grande) {
         min-width: (100% / 2);
         max-width: (100% / 2);
+        border: 0.5rem solid $black;
     }
 
     @include break(tetra) {
         min-width: (100% / 3);
         max-width: (100% / 3);
-    }
-
-    @include break(supersize) {
-        min-width: (100% / 4);
-        max-width: (100% / 4);
     }
 
     &::before {
@@ -68,5 +52,14 @@
             opacity: 1;
             transform: translate(0, -10%);
         }
+    }
+}
+
+.c-video-grid__text {
+    padding: 50% 2rem 2rem;
+    opacity: 0.75;
+
+    > *:not(:last-child) {
+        margin-bottom: map-get($size-map, xs);
     }
 }
