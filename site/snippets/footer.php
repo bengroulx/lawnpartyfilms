@@ -2,7 +2,7 @@
 <footer class="c-footer c-section">
     <div class="c-contain">
 
-        <ul class="c-footer__list" style="margin-bottom:0.5rem;">
+        <ul class="c-footer__list" style="margin-bottom:1rem;">
               <li>
                   <a href="https://vimeo.com/user18727376">
                       <svg class="c-footer__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
@@ -32,11 +32,15 @@
         </ul>
 
         <div class="c-footer__post">
-            <p class="u-uppercase u-tracked-slightly u-small-text u-half-transparent c-text-content" style="margin-top:-0.5rem;">
-                Copyright © 2017&nbsp;–&nbsp;2018 Devon&nbsp;Mussett<br />
-                <a href="<?php echo $site->url() ?>/privacy">Privacy</a>
+            <p class="c-text-content u-small-text u-half-transparent">
                 &emsp;
-                <a href="https://house-house.design">Credits</a>
+                Copyright © 2017&nbsp;–&nbsp;2018 Devon&nbsp;Mussett.
+                &emsp;
+                <span style="white-space:nowrap;">
+                    <a href="<?php echo $site->url() ?>/privacy">Privacy</a>
+                    &emsp;
+                    <a href="https://house-house.design">Credits</a>
+                </span>
             </p>
         </div>
 
