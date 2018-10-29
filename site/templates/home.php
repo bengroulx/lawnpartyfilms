@@ -1,7 +1,9 @@
 <?php snippet('head') ?>
 
 <section class="c-section c--no-padding">
-    <div class="+c-contain" style="background-color:rgba(255,255,255,0.1);">
+    <div class="c-contain">
+
+      <div style="background:linear-gradient(#000 15%, rgba(255,255,255,0.1) 15%, rgba(255,255,255,0.1) 85%, #000 85%);" class="t-home__demo-reel">
 
         <?php if($page->VideoLinkYouTube()->isNotEmpty()): ?>
 
@@ -51,11 +53,17 @@
 
         <?php endif ?>
 
+      </div>
+
     </div>
 </section>
 
 <div hidden class="t-<?php echo $page->template() ?>">
-    <!-- This element is reserved for template-specific scripts and styles -->
+    <style media="screen">
+        .t-home__demo-reel::after {
+
+        }
+    </style>
 </div>
 
 <?php snippet('footer') ?>
