@@ -65,7 +65,7 @@
 
         <div class="u-flexbox--grande-up u-justify-between">
 
-            <div class="c-text-content" style="padding-top:0.5rem; margin-right:5rem; margin-bottom:calc(10vh); white-space:nowrap;">
+            <div class="c-text-content" style="padding-top:0.5rem; margin-right:5rem; margin-bottom:4rem; white-space:nowrap;">
                 <div>
                     <h3 class="u-regular u-uppercase u-small-text u-tracked-slightly u-half-transparent">Film Type</h3>
                     <p><?php echo $page->type() ?></p>
@@ -83,7 +83,7 @@
             <?php foreach($page->pictures()->yaml() as $image): ?>
                 <?php if($img = $page->image($image)): ?>
                     <li>
-                        <img src="<?= $img->url() ?>" alt="<?= $page->title()->html() ?>, a <?= $page->type()->html() ?> by Devon Mussett" style="width:100%; margin-top:15vh;" />
+                        <img class="u-block" src="<?= $img->url() ?>" alt="<?= $page->title()->html() ?>, a <?= $page->type()->html() ?> by Devon Mussett" style="width:100%; margin-top:1rem;" />
                     </li>
                 <?php endif ?>
             <?php endforeach ?>
