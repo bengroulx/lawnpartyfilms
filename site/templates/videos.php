@@ -5,7 +5,7 @@
 
       <div class="c-video-grid u-flexbox a-fade-in">
 
-          <?php foreach($page->children() as $subpage): ?>
+          <?php foreach($page->children()->visible() as $subpage): ?>
               <a class="c-video-grid__item u-context u-clip u-bg-cover u-bg-center u-white u-align-left u-flexbox js-lazy"
                 href="<?php echo $subpage->url() ?>"
 
