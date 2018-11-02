@@ -1,9 +1,9 @@
 <?php snippet('head') ?>
 
-<section class="c-section c--no-padding">
+<section class="c-section" style="margin-bottom:-4rem;">
     <div class="c-contain">
 
-      <div style="background:linear-gradient(#000 15%, rgba(255,255,255,0.1) 15%, rgba(255,255,255,0.1) 85%, #000 85%);" class="t-home__demo-reel">
+      <div class="t-home__demo-reel">
 
         <?php if($page->VideoLinkYouTube()->isNotEmpty()): ?>
 
@@ -11,7 +11,7 @@
 
                 <div id="js-demo-reel">
                     <iframe class="a-fade-in" style="z-index:1001;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="autoplay; encrypted-media"
-                        src="https://youtube.com/embed/<?php echo $page->VideoLinkYouTube() ?>?rel=0&amp;showinfo=0&amp;autoplay=1&amp;mute=1&amp;hd=1&amp;&iv_load_policy=3&amp;controls=0">
+                        src="https://youtube.com/embed/<?php echo $page->VideoLinkYouTube() ?>?rel=0&amp;background=1">
                     </iframe>
                 </div>
 
@@ -59,9 +59,9 @@
 </section>
 
 <div hidden class="t-<?php echo $page->template() ?>">
-    <style media="screen">
-        .t-home__demo-reel::after {
-
+    <style>
+        .t-home__demo-reel {
+            background:linear-gradient(#000 12.5%, rgba(255,255,255,0.1) 12.5%, rgba(255,255,255,0.1) 87.5%, #000 87.5%);
         }
     </style>
 </div>

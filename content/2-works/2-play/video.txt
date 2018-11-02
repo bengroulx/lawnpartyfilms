@@ -44,10 +44,43 @@ Videolinkvimeo: 287189377
 
 Pictures: 
 
-- screen-shot-2016-02-28-at-1.23.29-am.png
+- vimeo-3.jpg
 - screen-shot-2016-02-28-at-1.32.08-am.png
-- screen-shot-2016-02-28-at-1.37.48-am.png
+- screen-shot-2018-10-22-at-7.01.45-pm.jpg
+- screen-shot-2016-02-28-at-1.39.17-am.jpg
 
 ----
 
-Coverimage: 
+Coverimage: vimeo-2.jpg
+
+----
+
+Credits1a: Cinematography by
+
+----
+
+Credits2a: 
+
+----
+
+Credits3a: 
+
+----
+
+Credits4a: 
+
+----
+
+Credits1b: Devon Mussett
+
+----
+
+Credits2b: 
+
+----
+
+Credits3b: 
+
+----
+
+Credits4b: 

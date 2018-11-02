@@ -5,7 +5,7 @@ pages: false
 
 fields:
     pageTitle-1:
-        label: Page Content
+        label: About This Video
         type: headline
     title:
         label: Title
@@ -21,9 +21,10 @@ fields:
         type: text
         width: 1/2
         help: The type of media category, such as music video, feature film, etc.
-    pageTitle-2:
-        label: Video Info
-        type: headline
+    coverImage:
+        label: Cover Image
+        type: image
+        help: Upload an image to the Files section of this page, then choose it from the dropdowns here.
     VideolinkYouTube:
         label: Video • YouTube Hosted
         type: text
@@ -34,18 +35,52 @@ fields:
         type: text
         help: Paste the combination of numbers/letters that appears in your Vimeo video link, i.e. https://vimeo.com/208042347
         width: 1/2
-    coverImage:
-        label: Cover Image
-        type: image
-        help: Upload an image to the Files section of this page, then choose it from the dropdowns here.
+
+    pageTitle-3:
+        label: Credits
+        type: headline
+    credits1a:
+        label: Credits 1
+        type: text
+        width: 1/4
+    credits2a:
+        label: Credits 2
+        type: text
+        width: 1/4
+    credits3a:
+        label: Credits 3
+        type: text
+        width: 1/4
+    credits4a:
+        label: Credits 4
+        type: text
+        width: 1/4
+    credits1b:
+        type: text
+        width: 1/4
+    credits2b:
+        type: text
+        width: 1/4
+    credits3b:
+        type: text
+        width: 1/4
+    credits4b:
+        type: text
+        width: 1/4
+
+
+    pageTitle-4:
+        label: Content
+        type: headline
     description:
-        label: Description
+        label: Additional content
         type: markdown
     pictures:
         label: Stills & Behind-the-Scenes Gallery
         type: gallery
 
-    pageTitle-3:
+
+    pageTitle-5:
         label: Search Engine Optimization
         type: headline
     metatitle:

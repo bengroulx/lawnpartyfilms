@@ -1,5 +1,5 @@
 .c-footer {
-    padding-top: 10vw !important;
+    padding-top: 10vh !important;
     text-align: center;
 
     @include break(grande) {
@@ -21,6 +21,12 @@
 
 .c-footer__icon {
     width: 2em;
+    opacity: 0.5;
+    transition: all 200ms;
+
+    &:hover {
+      opacity: 1;
+    }
 }
 
 .c-footer__post {

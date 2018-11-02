@@ -48,16 +48,19 @@ David Goldberg is a Cinematographer and Director currently Based in Vancouver. D
 
 ----
 
-Coverimage: devon.jpg
+Coverimage: devon-mussett-director-cinematographer.jpg
 
 ----
 
-Column1: I am content
+Column1: 
 
 ----
 
-Column2: Devon Mussett is a director and producer who founded Lawn Party Films in 2013. After emerging from Capilano University's Film program in 2013 he began directing and producing music videos and commercials for rising local artists and entrepreneurs in his city. Devon is also the resident cinematographer at <a href="http://bitchpopproductions.com/">Bitchpop Productions</a>, a Vancouver-based female-driven production house. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mollis ligula et mattis ultrices. Morbi euismod velit ut ligula venenatis, nec imperdiet elit fermentum. Sed dignissim ultrices ex sed tempor. Suspendisse ante dolor, maximus et consequat in, ultricies vel sapien. Proin iaculis sed ex sed lobortis. Etiam a velit posuere, imperdiet elit maximus, ultricies tellus. Suspendisse eget finibus leo, quis consequat enim. In hac habitasse platea dictumst. Quisque placerat gravida mi, eu vestibulum neque laoreet vel. Aenean malesuada sodales dolor vel ullamcorper. Curabitur erat nisi, fringilla a urna eget, ultrices dignissim leo. Ut efficitur mattis ultrices. Cras mattis enim quis suscipit fermentum. Pellentesque posuere quam nec libero feugiat, sed sodales nulla imperdiet.
+Column2: **Devon Mussett** is a Canadian director currently based out of Vancouver, British Columbia. He studied Film Production at Capilano University. Devon's passion for filmmaking has taken him abroad to Thailand, Cuba, the United States, and Montréal. His work has  been screened at Whistler Film Festival and LA Cinefest. He has also had his work featured on Tidal, VEVO, HipHop Canada, CW SEED, and Noisey.
 
 ----
 
-Column3: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mollis ligula et mattis ultrices. Morbi euismod velit ut ligula venenatis, nec imperdiet elit fermentum. Sed dignissim ultrices ex sed tempor. Suspendisse ante dolor, maximus et consequat in, ultricies vel sapien. Proin iaculis sed ex sed lobortis. Etiam a velit posuere, imperdiet elit maximus, ultricies tellus. Suspendisse eget finibus leo, quis consequat enim. In hac habitasse platea dictumst. Quisque placerat gravida mi, eu vestibulum neque laoreet vel. Aenean malesuada sodales dolor vel ullamcorper. Curabitur erat nisi, fringilla a urna eget, ultrices dignissim leo. Ut efficitur mattis ultrices. Cras mattis enim quis suscipit fermentum. Pellentesque posuere quam nec libero feugiat, sed sodales nulla imperdiet.
+Column3: 
+
+Email/ (link: mailto:devonmussett@gmail.com text: devonmussett@gmail.com)
+Phone/ (link: tel:16048130496 text: 1+ 604-813-0496)

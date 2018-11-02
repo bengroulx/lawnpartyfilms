@@ -16,18 +16,18 @@
                     </div>
 
                     <div class="u-half-transparent a-fade-in">
-                        <?php echo $page->column1()->markdown()->widont() ?>
+                        <?php echo $page->column1()->kirbytext()->widont() ?>
                     </div>
 
                 </figure>
             </div>
 
             <div class="c-text-content a-fade-in">
-                <?php echo $page->column2()->markdown()->widont() ?>
+                <?php echo $page->column2()->kirbytext()->widont() ?>
             </div>
 
             <div class="c-text-content a-fade-in">
-                <?php echo $page->column3()->markdown()->widont() ?>
+                <?php echo $page->column3()->kirbytext()->widont() ?>
             </div>
 
         </div>

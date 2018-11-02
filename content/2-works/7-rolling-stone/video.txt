@@ -42,13 +42,44 @@ Videolinkyoutube:
 
 ----
 
-Coverimage: rolling-stone-02-03-44-18.still003.png
+Coverimage: rolling-stone-02-03-44-18.still003.jpg
 
 ----
 
 Pictures: 
 
-- rolling-stone-02-03-44-18.still003.png
 - rolling-stone.00_12_10_20.still006.jpg
 - rolling-stone.01_15_30_21.still010.jpg
 - rolling-stone.03_21_54_21.still021.jpg
+
+----
+
+Credits1a: Directed by
+
+----
+
+Credits2a: 
+
+----
+
+Credits3a: 
+
+----
+
+Credits4a: 
+
+----
+
+Credits1b: Devon Mussett
+
+----
+
+Credits2b: 
+
+----
+
+Credits3b: 
+
+----
+
+Credits4b: 

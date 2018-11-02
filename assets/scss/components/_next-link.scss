@@ -15,8 +15,8 @@
     line-height: 1.5; // [2]
 
     @include break(venti) {
-        max-width: 20rem; // [3]
-        padding: 1rem 0; // [4]
+        max-width: 15rem; // [3]
+        padding: 1rem; // [4]
         text-align: center;
     }
 }
@@ -25,20 +25,16 @@
     width: auto; // [5]
     min-height: $tap-size; // [5]
     transition: all 200ms ease-out; // [6]
+    transform: scale(0.9); // [6]
 
     @include break(venti) {
-        margin-bottom: 3rem;
-        opacity: 0.3; // [6]
-        transform: scale(1.25); // [6]
+        opacity: 0.5; // [6]
+        margin: 0 1rem;
 
         .c-next-link:hover & {
             opacity: 1; // [6]
-            transform: scale(1.5) rotate(-3deg); // [6]
+            transform: scale(1.25) rotate(-3deg); // [6]
         }
-    }
-
-    @include break(tetra) {
-        margin-bottom: 4rem;
     }
 }
 
