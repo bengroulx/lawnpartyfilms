@@ -1,0 +1,86 @@
+Pagetitle-1: 
+
+----
+
+Title: On Fire
+
+----
+
+Artist: Jade Monet
+
+----
+
+Type: Music Video
+
+----
+
+Pagetitle-2: 
+
+----
+
+Videolinkyoutube: 
+
+----
+
+Videolinkvimeo: 287196717
+
+----
+
+Coverimage: 
+
+----
+
+Description: 
+
+----
+
+Pictures: 
+
+- dsc02213.jpg
+- jade-2.jpg
+- dsc02220.jpg
+- jade.jpg
+
+----
+
+Pagetitle-3: 
+
+----
+
+Metatitle: 
+
+----
+
+Metadesc: 
+
+----
+
+Credits1a: Music Video
+
+----
+
+Credits2a: Directed By
+
+----
+
+Credits3a: 
+
+----
+
+Credits4a: 
+
+----
+
+Credits1b: Jade Monet - On Fire
+
+----
+
+Credits2b: Devon Mussett
+
+----
+
+Credits3b: 
+
+----
+
+Credits4b: 

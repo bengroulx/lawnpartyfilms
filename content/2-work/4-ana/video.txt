@@ -1,0 +1,85 @@
+Pagetitle-1: 
+
+----
+
+Title: #ThisIsAna
+
+----
+
+Artist: Athena Russell & Sasha Duncan
+
+----
+
+Type: Web Series
+
+----
+
+Pagetitle-2: 
+
+----
+
+Videolinkyoutube: WT5iuPAYTE
+
+----
+
+Videolinkvimeo: 
+
+----
+
+Coverimage: meg-workout.jpg
+
+----
+
+Description: 
+
+----
+
+Pictures: 
+
+- meg-aadila-5jpg.jpg
+- lee-meg-car.jpg
+- lee-meg-kiss.jpg
+
+----
+
+Pagetitle-3: 
+
+----
+
+Metatitle: 
+
+----
+
+Metadesc: 
+
+----
+
+Credits1a: Web Series
+
+----
+
+Credits2a: Cinematography by
+
+----
+
+Credits3a: 
+
+----
+
+Credits4a: 
+
+----
+
+Credits1b: Athena Russell & Sacha Duncan
+
+----
+
+Credits2b: Devon Mussett
+
+----
+
+Credits3b: 
+
+----
+
+Credits4b: 

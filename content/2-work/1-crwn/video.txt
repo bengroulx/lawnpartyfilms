@@ -1,0 +1,89 @@
+Pagetitle-1: 
+
+----
+
+Title: CRWN
+
+----
+
+Artist: Declan.WAV
+
+----
+
+Type: Music Video
+
+----
+
+Pagetitle-2: 
+
+----
+
+Videolinkyoutube: MQqGJaLtiPE
+
+----
+
+Videolinkvimeo: 
+
+----
+
+Coverimage: declan.wav-crwn.jpg
+
+----
+
+Description: 
+
+----
+
+Pictures: 
+
+- declan-wav-crwn-music-video-still-7.jpg
+- declan-wav-crwn-music-video-still-4.jpg
+- declan-wav-crwn-music-video-still-2.jpg
+
+----
+
+Pagetitle-3: 
+
+----
+
+Metatitle: Declan.WAV - CRWN
+
+----
+
+Metadesc: 
+
+----
+
+Credits1a: Music Video
+
+----
+
+Credits2a: Directed by
+
+----
+
+Credits3a: 
+
+----
+
+Credits4a: 
+
+----
+
+Credits1b: Declan.WAV - CRWN
+
+----
+
+Credits2b: Devon Mussett
+
+----
+
+Credits3b: 
+
+----
+
+Credits4b: 
+
+----
+
+Aspectratio: 16x9
