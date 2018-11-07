@@ -2,6 +2,8 @@
 
 title: Video
 pages: false
+files:
+    size: 2000000
 
 fields:
     pageTitle-1:
@@ -25,17 +27,25 @@ fields:
         label: Cover Image
         type: image
         help: Upload an image to the Files section of this page, then choose it from the dropdowns here.
+    aspectRatio:
+        label: Aspect Ratio
+        type: radio
+        columns: 3
+        default: 16x9
+        options:
+            16x9: 16:9 (Standard HD video)
+            2x1: 2.35:1 (Widescreen Cinema)
+            3x1: 2.75:1 (Ultra Widescreen)
     VideolinkYouTube:
         label: Video • YouTube Hosted
         type: text
-        help: Use the bit of letters/numbers afer the ?v from the YouTube video URL, i.e. https://youtube.com/watch?v=qU0TVrnmuFU
+        help: Use the bit of letters/numbers afer the ?v from the YouTube video URL, i.e. https://youtube.com/watch?v=qU0TVrnmuFU.
         width: 1/2
     VideolinkVimeo:
         label: Video • Vimeo Hosted
         type: text
         help: Paste the combination of numbers/letters that appears in your Vimeo video link, i.e. https://vimeo.com/208042347
         width: 1/2
-
     pageTitle-3:
         label: Credits
         type: headline
@@ -67,8 +77,6 @@ fields:
     credits4b:
         type: text
         width: 1/4
-
-
     pageTitle-4:
         label: Content
         type: headline
@@ -78,8 +86,7 @@ fields:
     pictures:
         label: Stills & Behind-the-Scenes Gallery
         type: gallery
-
-
+        aspectRatio: 16:9
     pageTitle-5:
         label: Search Engine Optimization
         type: headline

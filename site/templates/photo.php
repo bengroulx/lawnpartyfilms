@@ -1,4 +1,4 @@
-<?php snippet('head') ?>
+<?php snippet('GlobalHead') ?>
 
 <section class="c-section c--no-padding" role="main">
     <div class="+c-contain">
@@ -54,4 +54,4 @@
     </script>
 </div>
 
-<?php snippet('footer') ?>
+<?php snippet('GlobalFooter') ?>

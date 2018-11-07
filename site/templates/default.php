@@ -1,6 +1,14 @@
-<?php snippet('head') ?>
+<?php snippet('GlobalHead') ?>
 
-<?php snippet('header-title') ?>
+<header class="c-section c--large">
+    <div class="c-contain">
+
+        <h1 class="u-regular">
+            <?php echo $page->title()->html() ?>
+        </h1>
+
+    </div>
+</header>
 
 <section class="c-section" role="main">
     <div class="c-contain c-text-content">
@@ -16,4 +24,4 @@
     <!-- This element is reserved for template-specific scripts and styles -->
 </div>
 
-<?php snippet('footer') ?>
+<?php snippet('GlobalFooter') ?>

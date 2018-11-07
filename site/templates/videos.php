@@ -1,4 +1,4 @@
-<?php snippet('head') ?>
+<?php snippet('GlobalHead') ?>
 
 <section class="c-section c--no-padding">
     <div class="c-contain">
@@ -10,9 +10,9 @@
                 href="<?php echo $subpage->url() ?>"
 
                 <?php if($subpage->coverImage()->isNotEmpty()): ?>
-                    data-src="content/<?= $subpage->diruri() ?>/<?php echo $subpage->coverImage()?>"
+                    data-src="content/<?= $subpage->diruri() ?>/<?php echo $subpage->coverImage() ?>"
                 <?php else: ?>
-                    data-src="<?php echo $subpage->image()->url() ?>"
+                    data-src="<?php echo $subpage->image()->resize(500)->url() ?>"
                 <?php endif ?>
               >
 
@@ -33,4 +33,4 @@
     <!-- This element is reserved for template-specific scripts and styles -->
 </div>
 
-<?php snippet('footer') ?>
+<?php snippet('GlobalFooter') ?>

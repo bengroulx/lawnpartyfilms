@@ -1,4 +1,4 @@
-<?php snippet('head') ?>
+<?php snippet('GlobalHead') ?>
 
 <section class="c-section c--no-padding" role="main">
     <div class="c-contain">
@@ -39,4 +39,4 @@
     <!-- This element is reserved for template-specific scripts and styles -->
 </div>
 
-<?php snippet('footer') ?>
+<?php snippet('GlobalFooter') ?>

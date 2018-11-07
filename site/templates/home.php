@@ -1,6 +1,6 @@
-<?php snippet('head') ?>
+<?php snippet('GlobalHead') ?>
 
-<section class="c-section" style="margin-bottom:-4rem;">
+<section class="c-section c--no-padding">
     <div class="c-contain">
 
       <div class="t-home__demo-reel">
@@ -66,4 +66,4 @@
     </style>
 </div>
 
-<?php snippet('footer') ?>
+<?php snippet('GlobalFooter') ?>

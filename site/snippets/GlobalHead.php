@@ -13,15 +13,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
     <!-- SEO -->
-    <title><?php echo $page->metatitle()->html() ?> | <?php echo $site->title()->html() ?></title>
+    <title><?php if($page->metatitle()->isNotEmpty()): ?><?php echo $page->metatitle()->html() ?> | Devon Mussett ▸ Director & Cinematographer<?php else: ?><?php echo $page->title()->html() ?> | Devon Mussett ▸ Director & Cinematographer<?php endif ?></title>
     <meta name="description" content="<?php echo $page->metadesc()->html() ?>"/>
     <meta name="keywords" content="<?php echo $site->keywords()->html() ?>"/>
     <meta name="author" content="<?php echo $site->title()->html() ?>"/>
-    <meta name="image" content="XXXimage"/>
 
     <!-- Schema.org for Google -->
     <meta itemprop="name" content="<?php echo $page->metatitle()->html() ?>"/>
-    <meta itemprop="image" content="XXXimage"/>
     <meta itemprop="description" content="<?php echo $page->metadesc()->html() ?>"/>
 
     <!-- Twitter -->
@@ -30,16 +28,12 @@
     <meta name="twitter:description" content="<?php echo $page->metadesc()->html() ?>"/>
     <meta name="twitter:site" content="devonmussett"/>
     <meta name="twitter:creator" content="devonmussett"/>
-    <meta name="twitter:image:src" content="XXXimage"/>
-    <meta name="twitter:player" content="XXXvideo"/>
 
     <!-- Open Graph (Facebook, Pinterest, LinkedIn, Google+ etc) -->
     <meta name="og:title" content="<?php echo $page->metatitle()->html() ?>"/>
     <meta name="og:description" content="<?php echo $page->metadesc()->html() ?>"/>
-    <meta name="og:image" content="XXXimage"/>
     <meta name="og:url" content="<?php echo $page->url() ?>"/>
     <meta name="og:locale" content="en_CA"/>
-    <meta name="og:video" content="XXXvideo"/>
     <meta name="og:type" content="website"/>
 
     <!--[if IEMobile]><meta http-equiv="cleartype" content="on"/><![endif]-->
@@ -72,4 +66,4 @@
 
     <div class="js-replace-content u-clip"/>
 
-        <?php snippet('menu') ?>
+        <?php snippet('GlobalNav') ?>
