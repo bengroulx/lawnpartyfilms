@@ -6,7 +6,7 @@ Title: Cupid’s Match
 
 ----
 
-Artist: CW SEED
+Artist: Commercial
 
 ----
 
@@ -83,3 +83,7 @@ Credits3b:
 ----
 
 Credits4b: 
+
+----
+
+Aspectratio: 16x9

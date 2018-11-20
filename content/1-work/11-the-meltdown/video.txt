@@ -2,7 +2,7 @@ Title: The Meltdown
 
 ----
 
-Artist: 
+Artist: Short Film
 
 ----
 
@@ -48,7 +48,6 @@ Coverimage: 14125107-630568320442256-1971539852838067236-o.png
 
 Pictures: 
 
-- screen-shot-2016-08-17-at-1.01.45-am.jpg
 - screen-shot-2016-08-25-at-2.39.20-am.jpg
 - screen-shot-2016-08-15-at-9.54.57-am.png
 

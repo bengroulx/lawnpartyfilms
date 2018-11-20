@@ -42,13 +42,13 @@ Videolinkyoutube:
 
 ----
 
-Coverimage: rolling-stone-02-03-44-18.still003.png
+Coverimage: rolling-stone.02_03_44_18.still003-2.jpg
 
 ----
 
 Pictures: 
 
-- rolling-stone.00_12_10_20.still006.jpg
+- rolling-stone.00_13_17_03.still008.jpg
 - rolling-stone.01_15_30_21.still010.jpg
 - rolling-stone.03_21_54_21.still021.jpg
 

@@ -26,7 +26,7 @@ Videolinkvimeo: 294230701
 
 ----
 
-Coverimage: 
+Coverimage: aadila-dosani.jpg
 
 ----
 
@@ -36,9 +36,9 @@ Description:
 
 Pictures: 
 
-- aadila-dosani.jpg
-- robb.jpg
+- meaghan-jerome.jpg
 - jason-aadila.jpg
+- robb.jpg
 
 ----
 
@@ -83,3 +83,7 @@ Credits3b:
 ----
 
 Credits4b: 
+
+----
+
+Aspectratio: 16x9
