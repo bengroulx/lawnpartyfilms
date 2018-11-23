@@ -8,7 +8,7 @@
             <?php foreach($page->pictures()->yaml() as $image): ?>
                 <?php if($img = $page->image($image)): ?>
                     <li>
-                        <img src="<?= $img->url() ?>" alt="<?= $page->title()->html() ?>" />
+                        <img class="a-fade-in" src="<?= $img->url() ?>" alt="<?= $page->title()->html() ?>" style="width:100%;max-width:none;" />
                     </li>
                 <?php endif ?>
             <?php endforeach ?>

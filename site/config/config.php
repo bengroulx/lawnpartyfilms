@@ -2,6 +2,7 @@
 
 // c::set('license', 'put your license key here');
 
+c::set('home','work');
 c::set('scssNestedCheck', true);
 c::set('debug', true);
 
