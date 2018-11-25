@@ -34,11 +34,7 @@
                 &emsp;
                 Copyright © 2017&nbsp;–&nbsp;2018 Devon&nbsp;Mussett.
                 &emsp;
-                <span style="white-space:nowrap;">
-                    <a href="<?php echo $site->url() ?>/privacy">Privacy</a>
-                    &emsp;
-                    <a href="https://house-house.design">Credits</a>
-                </span>
+                <a href="https://house-house.design">Site&nbsp;credits</a>
             </p>
         </div>
 
