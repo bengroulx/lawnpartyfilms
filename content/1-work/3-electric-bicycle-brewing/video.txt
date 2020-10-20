@@ -1,0 +1,95 @@
+Pagetitle-1: 
+
+----
+
+Title: Electric Bicycle Brewing
+
+----
+
+Artist: Commercial
+
+----
+
+Type: Commercial
+
+----
+
+Coverimage: still-6.jpg
+
+----
+
+Aspectratio: 16x9
+
+----
+
+Videolinkyoutube: 
+
+----
+
+Videolinkvimeo: 353161889
+
+----
+
+Pagetitle-3: 
+
+----
+
+Credits1a: Commercial
+
+----
+
+Credits2a: Directed By
+
+----
+
+Credits3a: Produced By
+
+----
+
+Credits4a: Cinematography By
+
+----
+
+Credits1b: Electric Bicycle Brewing
+
+----
+
+Credits2b: Devon Mussett
+
+----
+
+Credits3b: Leigh Matkovich
+
+----
+
+Credits4b: Kevin Rigney
+
+----
+
+Pagetitle-4: 
+
+----
+
+Description: 
+
+----
+
+Pictures: 
+
+- still-9.jpg
+- still-8.jpg
+- still-1.jpg
+- still-2.jpg
+- still-3.jpg
+
+----
+
+Pagetitle-5: 
+
+----
+
+Metatitle: 
+
+----
+
+Metadesc: 

@@ -1,45 +1,43 @@
 <?php if(!defined('KIRBY')) exit ?>
 
-title: About
+title: Info
 pages: false
 
 fields:
-    pagetitle-1:
-        label: Page Information
+    pageTitle-1:
+        label: Page Content
         type: headline
     title:
         label: Title
-        type:  text
+        type: text
+        help: This is also the name that will appear in the URL, i.e. devonmussett.com/title-here
+    coverImage:
+        label: Cover Image
+        type: image
+        help: Upload an image to the Files section of this page, then choose it from the dropdowns here.
+    column1:
+        label: Column 1
+        type: markdown
+        help: Content for the first column. (Left on desktop, top on mobile.)
+    column2:
+        label: Column 2
+        type: markdown
+        help: Content for the second column. (Middle on desktop, middle on mobile.)
+        width: 1/2
+    column3:
+        label: Column 3
+        type: markdown
+        help: Content for the third column. (Right on desktop, bottom on mobile.)
+        width: 1/2
 
-    pagetitle-2:
-        label: Page Content
-        type: headline
-    h1:
-        label: Page Headline
-        type:  text
-    brief:
-        label: Brief Introductory Blurb
-        type:  markdown
-        size:  large
-    creator1:
-        label: Creator 1
-        type:  markdown
-    creator2:
-        label: Creator 2
-        type:  markdown
-    creator3:
-        label: Creator 3
-        type:  markdown
-
-    pagetitle-3:
-        label: META Information
+    pageTitle-2:
+        label: Search Engine Optimization
         type: headline
     metatitle:
-        label: META Title
+        label: SEO Title
         type:  text
-        icon:  header
+        help: This text will show up as the title in search engines and social media sites when shared.
     metadesc:
-        label: META Description
-        type: text
-        size: large
-        icon: file-code-o
+        label: SEO Description
+        type:  textarea
+        help: This text will show up as the description in search engines and social media sites when shared.

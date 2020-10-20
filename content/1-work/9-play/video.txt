@@ -1,0 +1,90 @@
+Title: T LO - Play
+
+----
+
+Artist: Music Video
+
+----
+
+Videolinkyoutube: 
+
+----
+
+Type: Music Video
+
+----
+
+Director: Paul Shepherd
+
+----
+
+Producer: Devon Mussett
+
+----
+
+Cinematographer: Devon Mussett
+
+----
+
+Description: 
+
+----
+
+Metatitle: T LO | Play
+
+----
+
+Metadesc: 
+
+----
+
+Videolinkvimeo: 287189377
+
+----
+
+Pictures: 
+
+- vimeo-3.jpg
+- screen-shot-2016-02-28-at-1.32.08-am.png
+- screen-shot-2018-10-22-at-7.01.45-pm.jpg
+- screen-shot-2016-02-28-at-1.39.17-am.jpg
+
+----
+
+Coverimage: vimeo-2.jpg
+
+----
+
+Credits1a: Music Video
+
+----
+
+Credits2a: Directed By
+
+----
+
+Credits3a: Produced By
+
+----
+
+Credits4a: Cinematography By
+
+----
+
+Credits1b: T LO - Play
+
+----
+
+Credits2b: Paul Shepherd
+
+----
+
+Credits3b: Tyler Olsen
+
+----
+
+Credits4b: Devon Mussett
+
+----
+
+Aspectratio: 16x9

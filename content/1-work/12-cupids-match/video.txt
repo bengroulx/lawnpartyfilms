@@ -1,0 +1,89 @@
+Pagetitle-1: 
+
+----
+
+Title: Cupid’s Match
+
+----
+
+Artist: Commercial
+
+----
+
+Type: Trailer
+
+----
+
+Pagetitle-2: 
+
+----
+
+Videolinkyoutube: uuynUh8PHD4
+
+----
+
+Videolinkvimeo: 
+
+----
+
+Coverimage: screen-shot-2017-10-20-at-1.24.58-pm.png
+
+----
+
+Description: 
+
+----
+
+Pictures: 
+
+- screen-shot-2017-10-22-at-5.52.58-pm.png
+- screen-shot-2017-10-20-at-1.26.25-pm.png
+- screen-shot-2017-10-20-at-1.21.18-pm.png
+
+----
+
+Pagetitle-3: 
+
+----
+
+Metatitle: 
+
+----
+
+Metadesc: 
+
+----
+
+Credits1a: Concept Trailer
+
+----
+
+Credits2a: Directed By
+
+----
+
+Credits3a: Produced By
+
+----
+
+Credits4a: Cinematography By
+
+----
+
+Credits1b: CW Network
+
+----
+
+Credits2b: Megs Calleja
+
+----
+
+Credits3b: Athena Russell
+
+----
+
+Credits4b: Devon Mussett
+
+----
+
+Aspectratio: 16x9

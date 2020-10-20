@@ -1,0 +1,89 @@
+Pagetitle-1: 
+
+----
+
+Title: The Pitch
+
+----
+
+Artist: Short Film
+
+----
+
+Type: Short Film
+
+----
+
+Pagetitle-2: 
+
+----
+
+Videolinkyoutube: 
+
+----
+
+Videolinkvimeo: 294230701
+
+----
+
+Coverimage: jason-aadila.jpg
+
+----
+
+Description: 
+
+----
+
+Pictures: 
+
+- meaghan-jerome.jpg
+- robb.jpg
+- aadila-dosani.jpg
+
+----
+
+Pagetitle-3: 
+
+----
+
+Metatitle: The Pitch | Short Film
+
+----
+
+Metadesc: 
+
+----
+
+Credits1a: Short Film
+
+----
+
+Credits2a: Directed By
+
+----
+
+Credits3a: Produced By
+
+----
+
+Credits4a: Cinematography By
+
+----
+
+Credits1b: The Pitch
+
+----
+
+Credits2b: Devon Mussett
+
+----
+
+Credits3b: Athena Russell & Jason Hickey
+
+----
+
+Credits4b: Brock Newman
+
+----
+
+Aspectratio: 16x9

@@ -2,41 +2,61 @@
     @include _clearfix;
 
     z-index: map-get($z-map, modal);
-
+    padding: 5vh 0;
+    line-height: 1.5;
     transition: map-get($transition-map, slow);
 }
 
-.c-nav__logo {
-    @include break(grande) {
-        float: left;
+.c-nav__title {
+    display: block;
+    padding-bottom: map-get($size-map, xs);
+    text-align: center;
+
+    span {
+        display: block;
     }
 
-    width: 4rem;
-    height: 4rem;
-    margin-top: map-get($size-map, small);
+    span + span {
+        font-size: 0.8em;
 
-    background-image: url('../images/lawn-party-films.gif');
+        @include break(grande) {
+          font-size: 0.9em;
+        }
+    }
 
-    &:hover {
-        background-image: url('../images/lawn-party-films--hover.gif');
+    @include break(grande) {
+        flex: 0 0 auto;
+        padding: 0;
+        text-align: left;
     }
 }
 
 .c-nav__list {
-    @include _clearfix;
+    justify-content: center;
+    padding: 0 5vw;
+    font-size: 0.9em;
+
     @include break(grande) {
-        float: right;
+        font-size: 1em;
+        padding: 0;
     }
 }
 
 .c-nav__list-item {
+    margin-right: 4vw;
+    margin-left: 4vw;
+    white-space: nowrap;
+
     @include break(grande) {
-        width: auto;
-        margin-left: 4vw;
+        flex: auto;
+        min-width: $tap-size;
+        margin-right: 0;
+        margin-left: 5vw;
+        padding: 0;
     }
 
     &[id='navHome'] {
-        @include break(grande) {
+        @include break(venti) {
             display: block;
         }
 
@@ -44,18 +64,17 @@
     }
 
     a {
+        height: $tap-size;
+        transition: map-get($transition-map, fast);
+
         @include break(grande) {
-            height: $tap-size*2;
+            height: $tap-size * 2;
+            font-size: 0.9em;
 
             &:hover {
-                box-shadow: inset 0 4rem 0 $green;
+                text-decoration: none;
+                transform: scale(1.1) rotate(-3deg);
             }
         }
-
-        height: $tap-size;
-
-        box-shadow: inset 0 0 0 $green;
-
-        transition: map-get($transition-map, slow);
     }
 }

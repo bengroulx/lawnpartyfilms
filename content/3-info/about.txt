@@ -1,0 +1,76 @@
+Title: Info
+
+----
+
+Metatitle: About Devon
+
+----
+
+Metadesc: Devon Mussett is a filmmaker in Vancouver, BC.
+
+----
+
+H1: 
+
+----
+
+Brief: Devon Mussett is a filmmaker in Vancouver, BC. We focus on the creation of stimulating products through a shared passion for visual storytelling.
+
+----
+
+Creator1: Devon Mussett is a director and producer who founded Lawn Party Films in 2013. After emerging from Capilano University's Film program in 2013 he began directing and producing music videos and commercials for rising local artists and entrepreneurs in his city. Devon is also the resident cinematographer at <a href="http://bitchpopproductions.com/">Bitchpop Productions</a>, a Vancouver-based female-driven production house. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mollis ligula et mattis ultrices. Morbi euismod velit ut ligula venenatis, nec imperdiet elit fermentum. Sed dignissim ultrices ex sed tempor. Suspendisse ante dolor, maximus et consequat in, ultricies vel sapien. Proin iaculis sed ex sed lobortis. Etiam a velit posuere, imperdiet elit maximus, ultricies tellus. Suspendisse eget finibus leo, quis consequat enim. In hac habitasse platea dictumst. Quisque placerat gravida mi, eu vestibulum neque laoreet vel. Aenean malesuada sodales dolor vel ullamcorper. Curabitur erat nisi, fringilla a urna eget, ultrices dignissim leo. Ut efficitur mattis ultrices. Cras mattis enim quis suscipit fermentum. Pellentesque posuere quam nec libero feugiat, sed sodales nulla imperdiet.
+
+----
+
+Creator2: 
+
+(image: blake.jpg)
+
+#### Blake Davey
+*Cinematographer/Director*
+
+Born and raised in Vancouver, Blake is a working cinematographer and director with a BFA in Film Production from the University of British Columbia (UBC). Blake has worked in the camera departments of projects that have been screened at VIFF and MWFF. Recently, Blake was awarded Best Cinematography, Audience Choice, and Best Film for his project Big Brother at the Persistence of Vision Film Festival hosted by UBC in 2015.
+
+(link: http://www.blakedavey.com/ text: Blake Davey »)
+
+----
+
+Creator3: 
+
+(image: david.jpg)
+
+#### David Goldberg
+*Cinematographer/Director*
+
+David Goldberg is a Cinematographer and Director currently Based in Vancouver. David has studied and made commercial and narrative content in New York and Copenhagen. David has worked with a variety of clients, including Universal Music, Island Def Jam Records. ATO Records, Weather Proof Clothing, and Thaddeus O’Niel Clothing.
+
+(link: http://www.simplemattersfilms.com/ text: David Goldberg »)
+
+----
+
+Coverimage: 26-2036-bts-i-fell-in-pelle-gustavs.jpg
+
+----
+
+Column1: 
+
+Email/ devonmussett@gmail.com
+Phone/ 1+ 604-813-0496
+
+----
+
+Column2: Devon Mussett is a Canadian director based out of Vancouver, British Columbia. He studied film production at the Capilano University.  His work has most recently been screened at Whistler Film Festival, LA Cinefest, Atlanta Comedy Film Festival and New York Short Film Festival.  He has also been featured on Noisey, Directors Notes, Complex, Hiphop Canada, CW Network,  and Elevator Magazine.
+
+----
+
+Column3: 
+
+(image: elevator-magazine_owler_20160227_123913_original.png)
+
+(image: untitled-1.png)
+
+(image: directorsnoteslogo.png)
+
+(image: download.png)
+
+(image: cw_seed_2015.png)

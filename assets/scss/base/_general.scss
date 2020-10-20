@@ -7,22 +7,6 @@
     box-sizing: border-box;
 }
 
-body {
-    overflow: hidden;
-    overflow-y: scroll;
-
-    background: $white;
-
-    color: $black;
-    font-family: $font-family--base;
-    font-weight: $font-weight--base;
-    font-size: $font-size--base;
-    line-height: $line-height--base;
-
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
 html,
 body,
 div,
@@ -107,7 +91,6 @@ button {
     margin: 0;
     padding: 0;
     border: 0;
-
     vertical-align: baseline;
 }
 
@@ -124,6 +107,32 @@ nav,
 section,
 main {
     display: block;
+}
+
+html,
+body {
+    background-color: $black;
+    color: $white;
+}
+
+body {
+    overflow: hidden;
+    overflow-y: scroll;
+    font-family: $font-family--base;
+    font-weight: $font-weight--base;
+    font-size: $font-size--base;
+    line-height: $line-height--base;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    @include break(grande) {
+        line-height: $line-height--base;
+    }
+}
+
+main {
+    max-width: 160rem;
+    margin: 0 auto;
 }
 
 img,
@@ -143,18 +152,15 @@ table {
 
 hr {
     clear: both;
-
     height: 2px;
     margin: 2em 0;
     border: 0;
-
-    background: linear-gradient(45deg, rgba($white, 0), rgba($black, 0.25), rgba($white, 0));
+    background: linear-gradient(45deg, rgba($black, 0), rgba($white, 0.25), rgba($black, 0));
 }
 
 iframe,
 input,
 select,
-button,
 textarea {
     width: 100%;
 }
@@ -166,7 +172,6 @@ textarea {
     min-height: $tap-size;
     padding: $configure--base-unit;
     border: 0;
-
     font-family: $font-family--base;
     font-size: $font-size--base;
 }
@@ -174,15 +179,21 @@ textarea {
 button,
 [type='button'] {
     border-radius: 0;
-    background: $black;
-
-    color: $white;
-
+    background: $white;
+    color: $black;
     cursor: pointer;
-
     appearance: none;
 }
 
 [hidden] {
     display: none !important;
+}
+
+.js-lazy[data-src] {
+    opacity: 0;
+}
+
+.js-lazy:not([data-src]) {
+    opacity: 1;
+    transition: opacity 1s;
 }

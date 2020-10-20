@@ -9,19 +9,15 @@
 }
 
 .u-bold {
-    font-weight: bold; // 1
+    font-weight: 700; // 1
 }
 
 .u-italic {
     font-style: italic; // 1
 }
 
-.u-mono {
-    font-family: 'menlo', monospace;
-}
-
 .u-small-text {
-    font-size: 0.75rem;
+    font-size: 0.7rem;
 }
 
 .u-linethrough {
@@ -48,7 +44,6 @@
     text-shadow: map-get($appearances-map, thick-shadow);
 }
 
-
 // Text Alignment
 // ---
 
@@ -63,7 +58,6 @@
 .u-align-right {
     text-align: right;
 }
-
 
 // Text Casing
 // ---
@@ -80,13 +74,11 @@
     text-transform: capitalize;
 }
 
-
 // Text Clipping
 // ---
 
 .u-text-clip {
     overflow: hidden;
-
     line-height: 0;
     white-space: nowrap;
     text-indent: 100%;

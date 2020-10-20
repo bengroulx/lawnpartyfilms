@@ -1,7 +1,15 @@
 <?php
 
-c::set('license', 'put your license key here');
-c::set('scssNestedCheck', true);
+// c::set('license', 'put your license key here');
+
+c::set('panel.install', true);
+
+c::set('home','work');
+
+c::set('scssNestedCheck', false);
+
+c::set('debug', false);
+
 
 /*
 ---------------------------------------

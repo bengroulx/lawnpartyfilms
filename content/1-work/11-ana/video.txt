@@ -1,0 +1,89 @@
+Pagetitle-1: 
+
+----
+
+Title: #ThisIsAna
+
+----
+
+Artist: Web Series
+
+----
+
+Type: Web Series
+
+----
+
+Pagetitle-2: 
+
+----
+
+Videolinkyoutube: _WT5iuPAYTE
+
+----
+
+Videolinkvimeo: 
+
+----
+
+Coverimage: meg-workout.jpg
+
+----
+
+Description: 
+
+----
+
+Pictures: 
+
+- meg-aadila-5jpg.jpg
+- lee-meg-car.jpg
+- lee-meg-kiss.jpg
+
+----
+
+Pagetitle-3: 
+
+----
+
+Metatitle: 
+
+----
+
+Metadesc: 
+
+----
+
+Credits1a: Web Series
+
+----
+
+Credits2a: Directed & Produced By
+
+----
+
+Credits3a: Cinematography By
+
+----
+
+Credits4a: 
+
+----
+
+Credits1b: #ThisisAna
+
+----
+
+Credits2b: Athena Russell & Sasha Duncan
+
+----
+
+Credits3b: Devon Mussett
+
+----
+
+Credits4b: 
+
+----
+
+Aspectratio: 16x9

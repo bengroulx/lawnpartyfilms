@@ -1,0 +1,94 @@
+Pagetitle-1: 
+
+----
+
+Title: Vancity Original®
+
+----
+
+Artist: Commercial
+
+----
+
+Type: Commercial
+
+----
+
+Coverimage: vancity-original-commercial-still-03.jpg
+
+----
+
+Aspectratio: 16x9
+
+----
+
+Videolinkyoutube: 
+
+----
+
+Videolinkvimeo: 344717522
+
+----
+
+Pagetitle-3: 
+
+----
+
+Credits1a: Commercial
+
+----
+
+Credits2a: Directed By
+
+----
+
+Credits3a: Produced By
+
+----
+
+Credits4a: 
+
+----
+
+Credits1b: Vancity Original Clothing
+
+----
+
+Credits2b: Devon Mussett
+
+----
+
+Credits3b: Justin Jung
+
+----
+
+Credits4b: 
+
+----
+
+Pagetitle-4: 
+
+----
+
+Description: Vancity Original® Summer 2019 clothing collection. Collaborating with Hudson’s Bay and Topshop.
+
+----
+
+Pictures: 
+
+- vancity-original-commercial-still-05.jpg
+- vancity-original-commercial-still-04.jpg
+- vancity-original-commercial-still-08.jpg
+- vancity-original-commercial-still-06.jpg
+
+----
+
+Pagetitle-5: 
+
+----
+
+Metatitle: Vancity Original® | Commercial
+
+----
+
+Metadesc: A commercial for the Vancity Original® Summer 2019 clothing collection. A collaboration with Hudson’s Bay and Topshop.

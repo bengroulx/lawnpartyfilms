@@ -1,19 +1,22 @@
 // GENERAL
-@import 'base/vars';
+@import 'base/variables';
 @import 'base/general';
 @import 'base/typography';
 
+// ANIMATIONS
+@import 'animations/fade-in';
+
 // COMPONENTS
-@import 'components/button';
 @import 'components/contain';
 @import 'components/footer';
 @import 'components/grid';
-@import 'components/loader';
 @import 'components/nav';
-@import 'components/modal';
-@import 'components/play';
+@import 'components/next-link';
+@import 'components/ratio';
 @import 'components/section';
+@import 'components/slick';
 @import 'components/text-content';
+@import 'components/video-grid';
 
 // UTILITIES
 @import 'utilities/appearances';
@@ -23,6 +26,3 @@
 @import 'utilities/flex';
 @import 'utilities/layout';
 @import 'utilities/text';
-
-// INTERACTIONS
-@import 'interactions/magnific';

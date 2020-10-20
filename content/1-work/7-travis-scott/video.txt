@@ -1,0 +1,92 @@
+Pagetitle-1: 
+
+----
+
+Title: TRAVIS SCOTT
+
+----
+
+Artist: Live Video
+
+----
+
+Type: Live Video
+
+----
+
+Coverimage: img_3320.jpg
+
+----
+
+Aspectratio: 16x9
+
+----
+
+Videolinkyoutube: 
+
+----
+
+Videolinkvimeo: 378970544
+
+----
+
+Pagetitle-3: 
+
+----
+
+Credits1a: Live Video
+
+----
+
+Credits2a: Directed By
+
+----
+
+Credits3a: Camera Operator
+
+----
+
+Credits4a: 
+
+----
+
+Credits1b: Travis Scott
+
+----
+
+Credits2b: Devon Mussett
+
+----
+
+Credits3b: Jeremy Cox
+
+----
+
+Credits4b: 
+
+----
+
+Pagetitle-4: 
+
+----
+
+Description: 
+
+----
+
+Pictures: 
+
+- >
+  screen-shot-2019-12-12-at-12.17.10-am.png
+
+----
+
+Pagetitle-5: 
+
+----
+
+Metatitle: TRAVIS SCOTT | Live Show
+
+----
+
+Metadesc: 

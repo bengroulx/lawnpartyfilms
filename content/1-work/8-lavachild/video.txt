@@ -1,0 +1,94 @@
+Pagetitle-1: 
+
+----
+
+Title: LAVACHILD - I Fell In
+
+----
+
+Artist: Music Video
+
+----
+
+Type: Music Video
+
+----
+
+Coverimage: i-fell-in-8.jpg
+
+----
+
+Videolinkyoutube: 
+
+----
+
+Videolinkvimeo: 298895479
+
+----
+
+Pagetitle-3: 
+
+----
+
+Credits1a: Music Video
+
+----
+
+Credits2a: Directed By
+
+----
+
+Credits3a: Cinematography By
+
+----
+
+Credits4a: Edited By
+
+----
+
+Credits1b: Lava Child - I Fell In
+
+----
+
+Credits2b: Devon Mussett
+
+----
+
+Credits3b: Brandon Y Lee
+
+----
+
+Credits4b: Emma Johnson
+
+----
+
+Pagetitle-4: 
+
+----
+
+Description: 
+
+----
+
+Pictures: 
+
+- i-fell-in-1.jpg
+- i-fell-in-4.jpg
+- screen-shot-2018-02-17-at-1.49.39-pm.png
+- screen-shot-2018-02-17-at-2.03.57-pm.png
+
+----
+
+Pagetitle-5: 
+
+----
+
+Metatitle: I FELL IN
+
+----
+
+Metadesc: 
+
+----
+
+Aspectratio: 16x9

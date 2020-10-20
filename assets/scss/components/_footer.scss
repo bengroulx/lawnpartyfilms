@@ -1,15 +1,39 @@
 .c-footer {
-    border-top: 1px solid $grey;
+    padding-top: 10vh !important;
+    text-align: center;
+
+    @include break(grande) {
+        line-height: $line-height--base;
+        text-align: left;
+    }
 }
 
 .c-footer__list {
-    margin-bottom: map-get($size-map, sm);
-
     @include break(grande) {
         float: left;
+    }
 
-        padding-right: map-get($size-map, md);
+    li {
+        display: inline-block;
+        padding-right: 3vw;
+    }
+}
 
-        line-height: $line-height--base*1.5;
+.c-footer__icon {
+    width: 2em;
+    opacity: 0.5;
+    transition: all 200ms;
+
+    &:hover {
+      opacity: 1;
+    }
+}
+
+.c-footer__post {
+    clear: both;
+
+    @include break(venti) {
+        float: right;
+        clear: right;
     }
 }
