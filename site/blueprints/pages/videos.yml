@@ -1,0 +1,23 @@
+title: Videos
+
+pages:
+  template: video
+
+columns:
+  main:
+    width: 2/3
+    sections:
+      drafts:
+        extends: sections/video
+        headline: Drafts
+        status: draft
+      listed:
+        extends: sections/video
+        headline: Published
+        layout: cards
+        status: listed
+  sidebar:
+    width: 1/3
+    sections:
+      seo:
+        extends: sections/seo

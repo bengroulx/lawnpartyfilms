@@ -12,17 +12,14 @@
 
         <ul class="c-nav__list u-flexbox">
 
-            <?php foreach($pages->visible() as $p): ?>
-            <li class="c-nav__list-item u-uppercase <?php ecco($p->isOpen(), 'u-linethrough') ?>"
-              id="nav<?php echo $p->title()->escape() ?>">
+            <?php foreach ($pages->listed() as $p) : ?>
+                <li class="c-nav__list-item u-uppercase <?php echo ($p->isOpen() && 'u-linethrough') ?>" id="nav<?php echo $p->title()->escape() ?>">
 
-                <a class="u-flexbox u-align-middle u-justify-middle"
-                href="<?php echo $p->url() ?>"
-                data-type="page-transition">
-                    <?php echo $p->title()->html() ?>
-                </a>
+                    <a class="u-flexbox u-align-middle u-justify-middle" href="<?php echo $p->url() ?>" data-type="page-transition">
+                        <?php echo $p->title()->html() ?>
+                    </a>
 
-            </li>
+                </li>
             <?php endforeach ?>
 
         </ul>

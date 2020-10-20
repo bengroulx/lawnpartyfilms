@@ -1,0 +1,14 @@
+type: fields
+label: Search Engine Optimization
+fields:
+  pageSEO:
+    type: headline
+    label: Search Engine Optimization
+  metatitle:
+    label: Meta Title
+    type: text
+    icon: header
+  metadesc:
+    label: Meta Description
+    type: textarea
+    icon: file-code-o

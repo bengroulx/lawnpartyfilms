@@ -1,0 +1,39 @@
+title: Site
+columns:
+  - width: 1/2
+    sections:
+      listed:
+        type: pages
+        headline: Published
+        create: disabled
+        status: listed
+      drafts:
+        type: pages
+        headline: Unlisted
+        create: disabled
+        status: unlisted
+  - width: 1/2
+      sections:
+        main:
+          type: fields 
+          fields:
+            title:
+              label: Site Title
+              type: text
+            author:
+              label: Author
+              type: text
+              width: 1/2
+            role:
+              label: Author Role
+              type: text
+              width: 1/2
+            description:
+              label: Description
+              type: text
+            keywords:
+              label: Keywords
+              type: tags
+            copyright:
+              label: Copyright
+              type: textarea

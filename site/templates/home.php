@@ -3,57 +3,50 @@
 <section class="c-section c--no-padding">
     <div class="c-contain">
 
-      <div class="t-home__demo-reel">
+        <div class="t-home__demo-reel">
 
-        <?php if($page->VideoLinkYouTube()->isNotEmpty()): ?>
+            <?php if ($page->VideoLinkYouTube()->isNotEmpty()) : ?>
 
-            <div class="c-ratio c--16x9 u-context u-clip u-bg-center u-bg-cover u-width-full js-lazy">
+                <div class="c-ratio c--16x9 u-context u-clip u-bg-center u-bg-cover u-width-full js-lazy">
 
-                <div id="js-demo-reel">
-                    <iframe class="a-fade-in" style="z-index:1001;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="autoplay; encrypted-media"
-                        src="https://youtube.com/embed/<?php echo $page->VideoLinkYouTube() ?>?rel=0&amp;background=1">
-                    </iframe>
+                    <div id="js-demo-reel">
+                        <iframe class="a-fade-in" style="z-index:1001;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen allow="autoplay; encrypted-media" src="https://youtube.com/embed/<?php echo $page->VideoLinkYouTube() ?>?rel=0&amp;background=1">
+                        </iframe>
+                    </div>
+
                 </div>
 
-            </div>
+            <?php elseif ($page->VideolinkVimeo()->isNotEmpty()) : ?>
 
-        <?php elseif($page->VideolinkVimeo()->isNotEmpty()): ?>
+                <div class="c-ratio c--16x9 u-context u-clip u-bg-center u-bg-cover u-width-full js-lazy">
 
-            <div class="c-ratio c--16x9 u-context u-clip u-bg-center u-bg-cover u-width-full js-lazy">
+                    <div id="js-demo-reel">
+                        <!-- Filled in with a video from the script below-->
+                    </div>
 
-                <div id="js-demo-reel">
-                    <!-- Filled in with a video from the script below-->
+                    <script>
+                        <?php readfile('assets/js/player-vimeo.js'); ?>
+
+                        var options = {
+                            id: <?php echo $page->VideolinkVimeo() ?>,
+                            color: '999',
+                            autoplay: true,
+                            muted: true,
+                            loop: true,
+                        };
+
+                        var player = new Vimeo.Player('js-demo-reel', options);
+                    </script>
                 </div>
 
-                <script>
-                  <?php readfile('assets/js/player-vimeo.js'); ?>
+            <?php else : ?>
 
-                  var options = {
-                    id: <?php echo $page->VideolinkVimeo() ?>,
-                    color: '999',
-                    autoplay: true,
-                    muted: true,
-                    loop: true,
-                  };
+                <div class="c-ratio c--16x9 u-context u-clip u-bg-center u-bg-cover u-width-full js-lazy" <?php if ($page->coverImage()->isNotEmpty()) : ?> data-src="content/<?= $page->diruri() ?>/<?php echo $page->coverImage() ?>" <?php else : ?> data-src="<?php echo $page->coverImage()->url() ?>" <?php endif ?>>
+                </div>
 
-                  var player = new Vimeo.Player('js-demo-reel', options);
-                </script>
-            </div>
+            <?php endif ?>
 
-        <?php else: ?>
-
-            <div class="c-ratio c--16x9 u-context u-clip u-bg-center u-bg-cover u-width-full js-lazy"
-              <?php if($page->coverImage()->isNotEmpty()): ?>
-                  data-src="content/<?= $page->diruri() ?>/<?php echo $page->coverImage()?>"
-              <?php else: ?>
-                  data-src="<?php echo $page->image()->url() ?>"
-              <?php endif ?>
-            >
-            </div>
-
-        <?php endif ?>
-
-      </div>
+        </div>
 
     </div>
 </section>
@@ -61,7 +54,7 @@
 <div hidden class="t-<?php echo $page->template() ?>">
     <style>
         .t-home__demo-reel {
-            background:linear-gradient(#000 12.5%, rgba(255,255,255,0.1) 12.5%, rgba(255,255,255,0.1) 87.5%, #000 87.5%);
+            background: linear-gradient(#000 12.5%, rgba(255, 255, 255, 0.1) 12.5%, rgba(255, 255, 255, 0.1) 87.5%, #000 87.5%);
         }
     </style>
 </div>

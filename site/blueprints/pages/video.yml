@@ -1,0 +1,111 @@
+title: Video
+
+status:
+  draft: Draft
+  listed: Published
+
+sections:
+  about:
+    type: fields
+    fields:
+      pageAbout:
+        type: headline
+        label: About This Video
+      coverImage:
+        type: files
+        multiple: false
+        template: image
+        image:
+          cover: true
+        layout: cards
+        min: 1
+        max: 1
+        label: Cover Image
+        help: Upload an image to the Files section of this page, then choose it from the dropdowns here.
+        width: 1/2
+      aspectRatio:
+        label: Aspect Ratio
+        type: radio
+        rows: 3
+        default: 16x9
+        options:
+          16x9: 16:9 (Standard HD video)
+          2x1: 2.35:1 (Widescreen Cinema)
+          3x1: 2.75:1 (Ultra Widescreen)
+        width: 1/2
+      artist:
+        label: Artist / Created For / Subtitle
+        type: text
+        help: The subtitle for the page, usually a name or a project type.
+        width: 1/2
+      type:
+        label: Media Type
+        type: text
+        width: 1/2
+        help: The type of media category, such as music video, feature film, etc.
+      VideolinkYouTube:
+        label: Video • YouTube Hosted
+        type: text
+        help: Use the bit of letters/numbers afer the ?v from the YouTube video URL, i.e. https://youtube.com/watch?v=qU0TVrnmuFU.
+        width: 1/2
+      VideolinkVimeo:
+        label: Video • Vimeo Hosted
+        type: text
+        help: Paste the combination of numbers/letters that appears in your Vimeo video link, i.e. https://vimeo.com/208042347
+        width: 1/2
+  credits:
+    type: fields
+    fields:
+      pageCredits:
+        type: headline
+        label: Credits
+      credits1a:
+        label: Credits 1
+        type: text
+        width: 1/4
+      credits2a:
+        label: Credits 2
+        type: text
+        width: 1/4
+      credits3a:
+        label: Credits 3
+        type: text
+        width: 1/4
+      credits4a:
+        label: Credits 4
+        type: text
+        width: 1/4
+      credits1b:
+        type: text
+        width: 1/4
+      credits2b:
+        type: text
+        width: 1/4
+      credits3b:
+        type: text
+        width: 1/4
+      credits4b:
+        type: text
+        width: 1/4
+  content:
+    type: fields
+    fields:
+      pageContent:
+        type: headline
+        label: Content
+      description:
+        label: Additional content
+        type: textarea
+        size: small
+      pictures:
+        label: Stills & Behind-the-Scenes Gallery
+        type: files
+        layout: cards
+        template: image
+        images:
+          cover: true
+          aspectRatio: { { page.aspectRatio } }
+  seo:
+    extends: sections/seo
+  coverImage:
+    extends: sections/coverImage

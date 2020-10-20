@@ -1,0 +1,46 @@
+title: Home
+pages: false
+
+options:
+  changeStatus: false
+
+columns:
+  - width: 2/3
+    sections:
+      info:
+        type: info
+        headline: Attention
+        text: Content is pulled from the work page. Please refer there for content.
+      main:
+        headline: Page Content
+        type: fields
+        fields:
+          title:
+            type: text
+            help: This is also the name that will appear in the URL, i.e. devonmussett.com/title-here
+          VideolinkYouTube:
+            label: Video • YouTube Hosted
+            type: text
+            help: Use the bit of letters/numbers afer the ?v from the YouTube video URL, i.e. https://youtube.com/watch?v=qU0TVrnmuFU
+          VideolinkVimeo:
+            label: Video • Vimeo Hosted
+            type: text
+            help: Paste the combination of numbers/letters that appears in your Vimeo video link, i.e. https://vimeo.com/208042347
+      videos:
+        extends: sections/video
+        headline: Videos
+        layout: cards
+        status: listed
+  - width: 1/3
+    sections:
+      coverImage:
+        type: files
+        template: image
+        multiple: false
+        image:
+          cover: true
+        label: Cover Image
+        help: Upload an image to the Files section of this page, then choose it from the dropdowns here.
+      seo:
+        extends: sections/seo
+        headline: Search Engine Optimization

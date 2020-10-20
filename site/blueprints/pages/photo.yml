@@ -1,0 +1,22 @@
+title: Photo
+pages: false
+
+sections:
+  content:
+    headline: Page Content
+    type: fields
+    fields:
+      pictures:
+        type: files
+        label: Gallery
+        layout: cards
+        template: image
+        info: "{{ file.dimensions }}"
+        image:
+          ratio: 5/4
+          cover: true
+        min: 1
+        size: medium
+  seo:
+    extends: sections/seo
+    headline: Search Engine Optimization

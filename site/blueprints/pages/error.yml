@@ -1,0 +1,17 @@
+title: Error
+sections:
+  content:
+    fields:
+      title:
+        label: Title
+        type: text
+      h1:
+        label: Headline
+        type: text
+      text:
+        label: Text
+        type: textarea
+        size: large
+  seo:
+    extends: sections/seo
+    headline: Search Engine Optimization

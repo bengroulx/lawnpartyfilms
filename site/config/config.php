@@ -1,21 +1,12 @@
 <?php
 
-// c::set('license', 'put your license key here');
-
-c::set('panel.install', true);
-
-c::set('home','work');
-
-c::set('scssNestedCheck', false);
-
-c::set('debug', false);
-
-
-/*
----------------------------------------
-Kirby Configuration
----------------------------------------
-By default you don't have to configure anything to
-make Kirby work. For more fine-grained configuration
-of the system, please check out http://getkirby.com/docs/advanced/options
-*/
+/**
+ * The config file is optional. It accepts a return array with config options
+ * Note: Never include more than one return statement, all options go within this single return array
+ * In this example, we set debugging to true, so that errors are displayed onscreen. 
+ * This setting must be set to false in production.
+ * All config options: https://getkirby.com/docs/reference/system/options
+ */
+return [
+  'debug' => true,
+];

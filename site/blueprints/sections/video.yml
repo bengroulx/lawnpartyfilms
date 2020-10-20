@@ -1,0 +1,8 @@
+type: pages
+headline: Videos
+template: video
+empty: No videos yet
+image:
+  ratio: 3/2
+  cover: true
+info: "{{ page.artist }}"

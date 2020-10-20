@@ -1,0 +1,16 @@
+title: Default
+
+sections:
+  main:
+    type: fields
+    fields:
+      h1:
+        label: Page Headline
+        type: text
+      text:
+        label: Page Content
+        type: textarea
+        size: large
+  seo:
+    extends: sections/seo
+    headline: Search Engine Optimization
