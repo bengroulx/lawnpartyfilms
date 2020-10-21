@@ -1,4 +1,4 @@
-<?php if($page->hasPrevVisible()): ?>
+<?php if ($page->hasPrevListed()) : ?>
     <a style="transform:scaleX(-1);" class="c-next-link u-flexbox u-flexbox-column--venti-up u-align-middle u-justify-middle u-width-full" href="<?= $page->prev()->url() ?>">
 
         <svg class="c-next-link__arrow u-flex-shrink u-align-middle u-flex-order-2 u-flex-order-1--venti-up" width="18" height="13" viewBox="0 0 18 13" xmlns="http://www.w3.org/2000/svg">
@@ -10,7 +10,7 @@
 <?php endif ?>
 
 
-<?php if($page->hasNextVisible()): ?>
+<?php if ($page->hasNextListed()) : ?>
     <a class="c-next-link u-flexbox u-flexbox-column--venti-up u-align-middle u-justify-middle u-width-full" href="<?= $page->next()->url() ?>">
 
         <svg class="c-next-link__arrow u-flex-shrink u-align-middle u-flex-order-2 u-flex-order-1--venti-up" width="18" height="13" viewBox="0 0 18 13" xmlns="http://www.w3.org/2000/svg">
